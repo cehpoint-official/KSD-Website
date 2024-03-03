@@ -87,7 +87,8 @@ const Navbar = () => {
                                 </div>
                                 <div className='lg:hidden block text-center'>
                                     <button onClick={toggleContactPage} className=' hover:text-pink-500 focus:text-gray-50 focus:outline-none font-medium rounded-lg text-3xl'>
-                                        <i className="bi bi-list"></i>
+                                        {/* <i className="bi bi-list"></i> */}
+                                        <i class={!isContactOpen ? " bi  bi-list " : " bi-x-lg hover:text-pink-600"}></i>
                                     </button>
                                 </div>
                             </div>
@@ -183,7 +184,7 @@ const Navbar = () => {
                         <img src={NavComImg2} className='w-44 h-24 ms-auto' alt="" />
                         <img src={NavComImg3} className='w-44 h-24 ms-auto' alt="" />
                     </div>
-                    <div className='me-36'>
+                    <div className='sm:me-36 me-10'>
                         <p className='mt-5 font-bold'>COMPANY</p>
                         <p className='text-sm my-4'>About Us</p>
                         <p className='text-sm my-4'>FAQs</p>
