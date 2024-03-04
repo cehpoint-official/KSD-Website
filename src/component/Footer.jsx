@@ -5,7 +5,7 @@ import FooterImg from "../asset/nav-logo.png"
 const Footer = () => {
     return <>
         <div className=" bg-black">
-            <div className='grid grid-cols-12 text-white mx-8 pt-20 pb-24 gap-8'>
+            <div className='grid grid-cols-12 text-white mx-8 pt-20 pb-10 gap-8'>
                 <div className='col-span-12 pb-10 md:col-span-6 lg:col-span-3 border-b md:border-b-0 lg:border-b-0'>
                     <img className='pe-4  lg:h-14 h-10' src={FooterImg} alt="" />
                     <p className='my-8'>We work with a passion of taking challenges and creating new ones in advertising sector.</p>
@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='text-center bg-black text-white border-t text-xl  p-5'>
+        <div className='text-center bg-black text-gray-500 border-t text-lg  p-5'>
             Copyright © 2024 – All Rights Reserved. Made by Rajput Ishwar
         </div>
     </>

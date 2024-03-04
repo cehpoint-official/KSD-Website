@@ -61,7 +61,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='z-50 overflow-hidden '>
+            <div className={`z-50 overflow-hidden`}>
                 <div className=''>
                     <div className='w-full bg-black text-white px-10 py-3'>
                         <div className=''>
@@ -197,7 +197,7 @@ const Navbar = () => {
             </div>
 
             <div className={`z-10 ${isContactOpen ? '' : 'hidden'}  w-full text-white  absolute lg:hidden `}>
-                <div className='flex-col flex w-72   ms-auto me-11 rounded-xl bg-gray-900 '>
+                <div onMouseLeave={e => setIsContactOpen(false)} className='flex-col flex w-72   ms-auto me-11 rounded-xl bg-gray-900 '>
                     <button onClick={toggleServicesPage} className='group hover:bg-slate-800 py-2 focus:border-2 focus:border-pink-500'>
                         <a className='text-xl font-semibold group-hover:text-pink-600'>Services</a>
                     </button>

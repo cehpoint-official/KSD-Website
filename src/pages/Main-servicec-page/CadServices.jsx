@@ -127,7 +127,7 @@ const CadServices = () => {
             </div>
           </div>
         </div>
-        <div class='col-span-12 md:col-span-6 lg:col-span-4'>
+        <div class='col-span-12 md:col-span-6  lg:col-span-4 border-2 border-yellow-500 ...'>
           <img src={Img7} alt="" className="w-full" />
           <div class='text-start '>
             <div className='border-slate-500 bg-white  text-black p-5'>
