@@ -1,17 +1,18 @@
 import React from 'react';
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+// import HomeOne from './pages/HomeOne';
+// import CodeTest from './pages/CodeTest';
+// import Text from './pages/Text';
+// import CadServices from './pages/Main-servicec-page/CadServices';
+// import Prototype from './pages/Main-servicec-page/Prototype';
+// import Manufacturing from './pages/Main-servicec-page/Manufacturing';
 import HomeOne from './pages/HomeOne';
-import CodeTest from './pages/CodeTest';
-import Text from './pages/Text';
-import CadServices from './pages/Main-servicec-page/CadServices';
-import Prototype from './pages/Main-servicec-page/Prototype';
-import Manufacturing from './pages/Main-servicec-page/Manufacturing';
 
 const App = () => {
   return (
 
     <div>
-      <Prototype />
+      <HomeOne />
     </div>
 
     // <BrowserRouter>
