@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 import NavbarImg from "../asset/nav-logo.png";
 import Img1 from "../asset/services-img/nav-ser-img-1.png";
 import Img2 from "../asset/services-img/nav-ser-img-2.png";
@@ -80,7 +80,10 @@ const Navbar = () => {
                                             className="hover:text-pink-500 transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4  rounded-sm font-semibold"
                                             href="#"
                                         > Services</p>
-                                        <div className='absolute hidden group-hover:block mx-8 left-0 top-[4.7rem] cursor-default  text-start'>
+                                        <motion.div
+                                            whileHover={{ scale: 1.05 }}
+                                            transition={{ type: "spring", stiffness: 200, damping: 15 }}
+                                            className='absolute hidden group-hover:block mx-8 left-0 top-[4.7rem] cursor-default  text-start'>
                                             <div className=' bg-gray-900 gap-10 p-10'>
                                                 <div className='grid grid-cols-12 bg-gray-900 p-10 lg:p-0 mx-10 gap-5'>
                                                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
@@ -129,12 +132,15 @@ const Navbar = () => {
 
 
                                             </div>
-                                        </div>
+                                        </motion.div>
                                     </button>
                                     <button className='group '>
                                         <p className="hover:text-pink-500 transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4 rounded-sm font-semibold" href="#">Industries</p>
 
-                                        <div className='absolute hidden group-hover:block right-16 top-[4.7rem] cursor-default text-start '>
+                                        <motion.div
+                                            whileHover={{ scale: 1.05 }}
+                                            transition={{ type: "spring", stiffness: 200, damping: 15 }}
+                                            className='absolute hidden group-hover:block right-16 top-[4.7rem] cursor-default text-start '>
 
                                             <div className='sm:flex bg-gray-900 mx-10 gap-10 p-10'>
                                                 <div className='flex-col flex justify-center items-center'>
@@ -160,18 +166,21 @@ const Navbar = () => {
                                                 </div>
 
                                             </div>
-                                        </div>
+                                        </motion.div>
 
                                     </button>
 
-                                    <button className='group'>
+                                    <motion.button className='group'>
                                         <p
-                                            className="hover:text-pink-500 transition ease-in-out delay-150 hover:scale-125 duration-200 pb-7 px-4 rounded-sm font-semibold"
+
+                                            className="hover:text-pink-500 transition ease-in-out delay-10 hover:scale-125 duration-200 pb-7 px-4 rounded-sm font-semibold"
                                         >
                                             Company
                                         </p>
-                                        <div
-                                            className='absolute hidden group-hover:block right-16 top-[4.7rem] cursor-default'
+                                        <motion.div
+                                            whileHover={{ scale: 1.05 }}
+                                            transition={{ type: "spring", stiffness: 200, damping: 15 }}
+                                            className='absolute  hidden group-hover:block right-16 top-[4.7rem] cursor-default'
                                         >
                                             <div className='flex bg-gray-900 gap-10 p-10'>
                                                 <div>
@@ -187,16 +196,16 @@ const Navbar = () => {
                                                     <p className='text-sm my-4'>Request a Quote</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </button>
+                                        </motion.div>
+                                    </motion.button>
 
                                     <button className='bg-pink-500 hover:bg-pink-600 focus:ring-2 focus:ring-pink-300 text-white font-semibold rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800'>
                                         Contact
                                     </button>
                                 </div>
                                 <div className='lg:hidden block text-center'>
-                                    <button onClick={toggleContactPage} className=' hover:text-pink-500 focus:text-gray-50 focus:outline-none font-medium rounded-lg text-3xl'>
-                                        {/* <i className="bi bi-list"></i> */}
+                                    <button
+                                        onClick={toggleContactPage} className=' hover:text-pink-500 focus:text-gray-50 focus:outline-none font-medium rounded-lg text-3xl'>
                                         <i class={!isContactOpen ? " bi  bi-list " : " bi-x-lg hover:text-pink-600"}></i>
                                     </button>
                                 </div>

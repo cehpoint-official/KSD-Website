@@ -2,6 +2,7 @@ import React from 'react'
 import Img1 from "../asset/server-img-1.png"
 import Img2 from "../asset/server-img-2.png"
 import Img3 from "../asset/server-img-3.png"
+import { motion } from 'framer-motion';
 
 const Services = () => {
     return <>
@@ -13,8 +14,11 @@ const Services = () => {
                 </p>
             </div>
             <div class='grid grid-cols-12 gap-8 m-10'>
-                <div class='col-span-12 md:col-span-6 lg:col-span-4'>
-                    <img src={Img1} alt="" className="w-full" />
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 200, damping: 10 }}
+                    class='col-span-12 md:col-span-6 lg:col-span-4 group'>
+                    <img src={Img1} alt="" className="w-full group-hover:blur-[2px]" />
                     <div class='text-start'>
                         <div className='border-slate-500 bg-white p-5'>
                             <p className='font-bold'>3D CAD/CAM</p>
@@ -26,9 +30,12 @@ const Services = () => {
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class='col-span-12 md:col-span-6 lg:col-span-4'>
-                    <img src={Img2} alt="" className="w-full" />
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 200, damping: 10 }}
+                    class='col-span-12 md:col-span-6 lg:col-span-4 group'>
+                    <img src={Img2} alt="" className="w-full group-hover:blur-[2px]" />
                     <div class='text-start'>
                         <div className='border-slate-500 bg-white p-5'>
                             <p className='font-bold'>Prototype</p>
@@ -40,9 +47,12 @@ const Services = () => {
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class='col-span-12 md:col-span-6 lg:col-span-4'>
-                    <img src={Img3} alt="" className="w-full" />
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 200, damping: 10 }}
+                    class='col-span-12 md:col-span-6 lg:col-span-4 group'>
+                    <img src={Img3} alt="" className="w-full group-hover:blur-[2px]" />
                     <div class='text-start'>
                         <div className='border-slate-500 bg-white p-5'>
                             <p className='font-bold'>Manufacturing</p>
@@ -54,7 +64,7 @@ const Services = () => {
                             </p>
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
             </div>
 

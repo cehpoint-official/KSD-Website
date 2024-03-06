@@ -1,8 +1,17 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 import Img1 from "../asset/achi-img1.png"
 import Img2 from "../asset/achi-img2.png"
 import Img3 from "../asset/achi-img3.png"
 import Img4 from "../asset/achi-img3.png"
+import Work1 from "../asset/work-img/Rectangle-1.png"
+import Work2 from "../asset/work-img/Rectangle-2.png"
+import Work3 from "../asset/work-img/Rectangle-3.png"
+import Work4 from "../asset/work-img/Rectangle-4.png"
+import Work5 from "../asset/work-img/Rectangle-5.png"
+import Work6 from "../asset/work-img/Rectangle-6.png"
+
+
 
 const Work = () => {
     return <>
@@ -22,93 +31,167 @@ const Work = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {/* 1st row */}
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img className="w-full h-52 object-cover" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYUMeV3nm8sJpHfPpTjl_Y5Y8J3YHQYlj1zIJjeGzn3Q0LXQwQ" alt="" />
-                </div>
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img className="w-full h-52 object-cover" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBNt0kP3kIvEqRc91WD2HVpb4d3pnhAPmAAzHllQ9L_fYzPdny" alt="" />
-                </div>
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img className="w-full h-52 object-cover" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQlmvUy7X37N_Tg4uu3h5lfk25Pmn5zIstSlu4SqDQaGTm6b9bO" alt="" />
-                </div>
-
-                {/* 2nd row */}
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img className="w-full h-52 object-cover" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsf3TkytVqFsQj5ziIqY2ZfiPg3P4E8l15rZvaP7n7j3FvOiW1" alt="" />
-                </div>
-                <div className="col-span-1 md:col-span-1 lg:col-span-1 relative">
-                    <img className="w-full h-52 object-cover" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQCOoqz7t8ncEK1hJ8qlodzQx5LKa7E5IFKVgxrCpVBn_Ow4QkQ" alt="" />
-                    <div className='absolute top-[3rem] left-16 w-2/3 text-white'>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 group relative">
+                    <img className="w-full z-1 h-52 object-cover group-hover:blur-[2px] " src={Work1} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
                         <p className='font-bold'>INDUSTRY 1</p>
                         <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
                         <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
-                    </div>
-                </div>
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img className="w-full h-52 object-cover" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkDqr2aryM4hJrLCw3Zic_qvXTVAl_wt6Ru93J1Rw6X4QzGW0r" alt="" />
-                </div>
-            </div>
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 group relative">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Work2} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 relative group">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Work3} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
 
+                {/* 2nd row */}
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 group relative">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Work4} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 group lg:col-span-1 relative">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Work5} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 1.10 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 relative group">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Work6} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 1.10 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
+            </div>
 
             <p className='text-gray-600 text-xl font-semibold my-6 mt-16'><i>ACHIEVEMENTS  ---</i></p>
             <div className='text-4xl  mb-8 text-black font-bold pb-2'>Our ACHIEVEMENTS
             </div>
         </div>
-        <div className="grid grid-cols-12 gap-4 lg:mx-24 mg:mx-16 mx-8">
-            <div className="p-3 lg:col-span-3 md:col-span-4 col-span-6 bg-white rounded-md shadow-md w-full">
-                <div>
-                    <div className="text-lg font-bold mt-5 text-gray-800">Total Projects</div>
-                    <div className="text-3xl font-bold text-blue-500">50+</div>
-
-                    <div className='text-end w-full flex justify-end'>
-                        <img
-                            className="w-24 h-24"
-                            src={Img1}
-                            alt=""
-                        />
+        <div className="grid grid-cols-12 gap-4 lg:mx-16 mg:mx-16 mx-8">
+            <motion.div
+                className="p-3 lg:col-span-3 group md:col-span-4 sm:col-span-6 col-span-12 hover:bg-gray-300 bg-gray-100 rounded-md shadow-md w-full"
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
+                <div className='flex justify-between items-center'>
+                    <div>
+                        <p className="text-lg font-bold text-gray-800">Total Projects</p>
+                        <p className="text-3xl font-bold text-blue-500">50+</p>
                     </div>
+                    <img
+                        className="w-[40%] h-20"
+                        src={Img1}
+                        alt=""
+                    />
                 </div>
-            </div>
-            <div className="p-3 lg:col-span-3 md:col-span-4 col-span-6 bg-white rounded-md shadow-md w-full">
-                <div>
-                    <div className="text-lg font-bold mt-5 text-gray-800">Total Products</div>
-                    <div className="text-3xl font-bold text-blue-500">20+</div>
-
-                    <div className='text-end w-full flex justify-end'>
-                        <img
-                            className="w-24 h-24"
-                            src={Img2}
-                            alt=""
-                        />
+            </motion.div>
+            <motion.div
+                className="p-3 lg:col-span-3 group md:col-span-4 sm:col-span-6 col-span-12 hover:bg-gray-300 bg-gray-100 rounded-md shadow-md w-full"
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
+                <div className='flex justify-between items-center'>
+                    <div>
+                        <p className="text-lg font-bold text-gray-800">Total Products</p>
+                        <p className="text-3xl font-bold text-blue-500">30+</p>
                     </div>
+                    <img
+                        className="w-[40%] h-20"
+                        src={Img3}
+                        alt=""
+                    />
                 </div>
-            </div>
-            <div className="p-3 lg:col-span-3 md:col-span-4 col-span-6 bg-white rounded-md shadow-md w-full">
-                <div>
-                    <div className="text-lg font-bold mt-5 text-gray-800">Satisfied Clients</div>
-                    <div className="text-3xl font-bold text-blue-500">70+</div>
-
-                    <div className='text-end w-full flex justify-end'>
-                        <img
-                            className="w-24 h-24"
-                            src={Img3} alt=""
-                        />
+            </motion.div>
+            <motion.div
+                className="p-3 lg:col-span-3 group md:col-span-4 sm:col-span-6 col-span-12 hover:bg-gray-300 bg-gray-100 rounded-md shadow-md w-full"
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
+                <div className='flex justify-between items-center'>
+                    <div>
+                        <p className="text-lg font-bold text-gray-800">Satisfied Clients</p>
+                        <p className="text-3xl font-bold text-blue-500">70+</p>
                     </div>
+                    <img
+                        className="w-[40%] h-20"
+                        src={Img2}
+                        alt=""
+                    />
                 </div>
-            </div>
-            <div className="p-3 lg:col-span-3 md:col-span-4 col-span-6 bg-white rounded-md shadow-md w-full">
-                <div>
-                    <div className="text-lg font-bold mt-5 text-gray-800">Team Support</div>
-                    <div className="text-3xl font-bold text-blue-500">30+</div>
-
-                    <div className='text-end w-full flex justify-end'>
-                        <img
-                            className="w-24 h-24"
-                            src={Img4} alt=""
-                        />
+            </motion.div>
+            <motion.div
+                className="p-3 lg:col-span-3 group md:col-span-4 sm:col-span-6 col-span-12 hover:bg-gray-300 bg-gray-100 rounded-md shadow-md w-full"
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+            >
+                <div className='flex justify-between items-center'>
+                    <div>
+                        <p className="text-lg font-bold text-gray-800">Team Support</p>
+                        <p className="text-3xl font-bold text-blue-500">20+</p>
                     </div>
+                    <img
+                        className="w-[40%] h-20"
+                        src={Img4}
+                        alt=""
+                    />
                 </div>
-            </div>
+            </motion.div>
         </div>
 
     </>

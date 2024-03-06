@@ -1,4 +1,11 @@
 import React from 'react'
+import { motion } from 'framer-motion';
+import Img1 from "../asset/industries-img/Rectangle-1.png"
+import Img2 from "../asset/industries-img/Rectangle-2.png"
+import Img3 from "../asset/industries-img/Rectangle-3.png"
+import Img4 from "../asset/industries-img/Rectangle-4.png"
+import Img5 from "../asset/industries-img/Rectangle-5.png"
+import Img6 from "../asset/industries-img/Rectangle-6.png"
 
 const Industries = () => {
     return <>
@@ -18,31 +25,92 @@ const Industries = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {/* 1st row */}
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQjsKg3YdS9DXDRh7iC7YcKEmzZD79pHDEvCKzQo87Lyuo47Ach" alt="" className="w-full h-52 object-cover" />
-                </div>
-                <div className="col-span-1 md:col-span-1 lg:col-span-1 relative">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS44wf92OTUSqbPCGgGQTDrsyfqyuMeUEycAp1z-23nBm0xAwyY" alt="" className="w-full h-52 object-cover" />
-                    <div className='absolute top-[3rem] left-16 w-2/3 text-white '>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 group relative">
+                    <img className="w-full z-1 h-52 object-cover group-hover:blur-[2px] " src={Img1} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
                         <p className='font-bold'>INDUSTRY 1</p>
                         <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
-                        <button className='text-sm border-2  text-white px-4 py-1 rounded-lg'>More Details</button>
-                    </div>
-                </div>
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcReHGvqayuTpHw6W_E0u3N4QGlbu6DpQBZhMhTgQQGscla4VVyH" alt="" className="w-full h-52 object-cover" />
-                </div>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 group relative">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img2} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 relative group">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img3} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
 
                 {/* 2nd row */}
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsf3TkytVqFsQj5ziIqY2ZfiPg3P4E8l15rZvaP7n7j3FvOiW1" alt="" className="w-full h-52 object-cover" />
-                </div>
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSxZEpTHvAkHjWOus0FWL2XJ5trQY6GVDt3eM0iWUW7piJlqazf" alt="" className="w-full h-52 object-cover" />
-                </div>
-                <div className="col-span-1 md:col-span-1 lg:col-span-1">
-                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRJWKI8IXPbDDZo05hgVyl5HgJzDTaMCzUxj3SdWYX7FadK7xf2" alt="" className="w-full h-52 object-cover" />
-                </div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 group relative">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img4} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 group lg:col-span-1 relative">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img5} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 1.10 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
+                <motion.div
+                    whileHover={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    className="col-span-1 md:col-span-1 lg:col-span-1 relative group">
+                    <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img6} alt="" />
+                    <motion.div
+                        whileHover={{ scale: 1.10 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                        <p className='font-bold'>INDUSTRY 1</p>
+                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
+                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                    </motion.div>
+                </motion.div>
             </div>
         </div>
     </>
