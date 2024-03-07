@@ -27,7 +27,7 @@ const Industries = () => {
                 {/* 1st row */}
                 <motion.div
                     whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
                     className="col-span-1 md:col-span-1 lg:col-span-1 group relative">
                     <img className="w-full z-1 h-52 object-cover group-hover:blur-[2px] " src={Img1} alt="" />
                     <motion.div
@@ -41,7 +41,7 @@ const Industries = () => {
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
                     className="col-span-1 md:col-span-1 lg:col-span-1 group relative">
                     <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img2} alt="" />
                     <motion.div
@@ -55,7 +55,7 @@ const Industries = () => {
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
                     className="col-span-1 md:col-span-1 lg:col-span-1 relative group">
                     <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img3} alt="" />
                     <motion.div
@@ -71,7 +71,7 @@ const Industries = () => {
                 {/* 2nd row */}
                 <motion.div
                     whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
                     className="col-span-1 md:col-span-1 lg:col-span-1 group relative">
                     <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img4} alt="" />
                     <motion.div
@@ -85,7 +85,7 @@ const Industries = () => {
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
                     className="col-span-1 md:col-span-1 group lg:col-span-1 relative">
                     <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img5} alt="" />
                     <motion.div
@@ -99,7 +99,7 @@ const Industries = () => {
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
                     className="col-span-1 md:col-span-1 lg:col-span-1 relative group">
                     <img className="w-full h-52 object-cover group-hover:blur-[2px]" src={Img6} alt="" />
                     <motion.div

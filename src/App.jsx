@@ -1,12 +1,14 @@
 import React from 'react';
 
 import HomeOne from './pages/HomeOne';
+import Text from './pages/Text';
 
 const App = () => {
   return (
 
     <div>
       <HomeOne />
+      {/* <Text /> */}
     </div>
 
     // <BrowserRouter>

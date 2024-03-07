@@ -17,20 +17,20 @@ const HomeOne = () => {
         <Navbar />
 
         <motion.div
-            initial={{ opacity: 0.3 }}
-            whileInView={{ opacity: 1 }} // animation target state
-            transition={{ duration: 3 }} // increased duration for the transition
-            viewport={{ once: true }}
+            // initial={{ opacity: 0.3 }}
+            // whileInView={{ opacity: 1 }} // animation target state
+            // transition={{ duration: 3 }} // increased duration for the transition
+            // viewport={{ once: true }}
             className='bg-black text-white md:py-0 py-16 px-10 text-center md:h-screen flex flex-col items-center justify-center'>
             <motion.div
                 initial={{ x: -1000 }}
                 animate={{ x: 0 }}
-                transition={{ duration: 1.5, delay: 1 }}
+                transition={{ duration: 1, delay: 1 }}
                 className='font-semibold text-4xl mx-auto'>A new approach to work</motion.div>
             <motion.div
                 initial={{ x: 1000 }}
                 animate={{ x: 0 }}
-                transition={{ duration: 1.5, delay: 2 }}
+                transition={{ duration: 1, delay: 2 }}
                 className='text-gray-400 text-base font-light mt-6 mx-auto'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 <br />
