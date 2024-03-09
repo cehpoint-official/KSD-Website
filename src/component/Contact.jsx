@@ -22,7 +22,7 @@ const Contact = () => {
                     <div>16/A, Romadan House City Tower</div>
                     <div>New York, United States</div>
 
-                    <img src={Img1} alt="" className='mt-10' />
+                    <img src={Img1} alt="" className='mt-10 -z-0' />
 
                 </div>
 

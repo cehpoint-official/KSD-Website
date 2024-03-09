@@ -11,6 +11,7 @@ import NavImg3 from "../asset/industries-img/nav-img-3.png";
 import NavComImg1 from "../asset/company-img/com-img-1.png";
 import NavComImg2 from "../asset/company-img/com-img-2.png";
 import NavComImg3 from "../asset/company-img/com-img-3.png";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -62,19 +63,24 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={`z-50 overflow-hidden`}>
+            <div className={` overflow-hidden`}>
                 <div className=''>
                     <div className='w-full bg-black text-white px-10 '>
                         <div className=' py-2'>
                             <div className='flex items-center justify-between'>
-                                <img className='pe-4 lg:h-14 md:h-12 h-10' src={NavbarImg} alt="" />
+                                <Link to="/">
+                                    <img className='pe-4 lg:h-14 md:h-12 h-10' src={NavbarImg} alt="" />
+                                </Link>
                                 <div className='text-lg hidden lg:block space-x-4'>
-                                    <button >
-                                        <p
-                                            className="hover:text-pink-500 transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4  rounded-sm font-semibold"
-                                            href="#"
-                                        > Home</p>
-                                    </button>
+
+                                    <Link to="/" >
+                                        <button >
+                                            <p
+                                                className="hover:text-pink-500 transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4  rounded-sm font-semibold"
+                                                href="#"
+                                            > Home</p>
+                                        </button>
+                                    </Link>
                                     <button className='group '>
                                         <p
                                             className="hover:text-pink-500 transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4  rounded-sm font-semibold"
@@ -83,7 +89,7 @@ const Navbar = () => {
                                         <motion.div
                                             whileHover={{ scale: 1.05 }}
                                             transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                                            className='absolute hidden group-hover:block mx-8 left-0 top-[4.7rem] cursor-default  text-start'>
+                                            className='z-10 absolute hidden group-hover:block mx-8 left-0 top-[4.7rem] cursor-default  text-start'>
                                             <div className=' bg-gray-900 gap-10 p-10'>
                                                 <div className='grid grid-cols-12 bg-gray-900 p-10 lg:p-0 mx-10 gap-5'>
                                                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
@@ -140,7 +146,7 @@ const Navbar = () => {
                                         <motion.div
                                             whileHover={{ scale: 1.05 }}
                                             transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                                            className='absolute hidden group-hover:block right-16 top-[4.7rem] cursor-default text-start '>
+                                            className='z-10 absolute hidden group-hover:block right-16 top-[4.7rem] cursor-default text-start '>
 
                                             <div className='sm:flex bg-gray-900 mx-10 gap-10 p-10'>
                                                 <div className='flex-col flex justify-center items-center'>
@@ -180,7 +186,7 @@ const Navbar = () => {
                                         <motion.div
                                             whileHover={{ scale: 1.05 }}
                                             transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                                            className='absolute  hidden group-hover:block right-16 top-[4.7rem] cursor-default'
+                                            className='z-10 absolute  hidden group-hover:block right-16 top-[4.7rem] cursor-default'
                                         >
                                             <div className='flex bg-gray-900 gap-10 p-10'>
                                                 <div>
@@ -198,10 +204,11 @@ const Navbar = () => {
                                             </div>
                                         </motion.div>
                                     </motion.button>
-
-                                    <button className='bg-pink-500 hover:bg-pink-600 focus:ring-2 focus:ring-pink-300 text-white font-semibold rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800'>
-                                        Contact
-                                    </button>
+                                    <Link to="/contactUs" >
+                                        <button className='bg-pink-500 hover:bg-pink-600 focus:ring-2 focus:ring-pink-300 text-white font-semibold rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800'>
+                                            Contact
+                                        </button>
+                                    </Link>
                                 </div>
                                 <div className='lg:hidden block text-center'>
                                     <button
@@ -226,7 +233,7 @@ const Navbar = () => {
                 animate={{ opacity: isServices ? 1 : 0 }}
                 transition={{ duration: 0.3 }}
                 className={`z-10 ${isServices ? '' : 'hidden'}  shadow-lg absolute text-white w-full mt-5 text-center md:text-start `}>
-                <div onMouseLeave={e => setIsServices(false)} className='grid grid-cols-12 bg-gray-900 p-10 lg:p-0 mx-10 gap-5'>
+                <div onMouseLeave={e => setIsServices(false)} className='grid grid-cols-12  bg-gray-900 p-10 lg:p-0 mx-10 gap-5'>
                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
                         <div className='md:flex-col flex md:block justify-center items-center'>
 
@@ -275,7 +282,8 @@ const Navbar = () => {
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: isIndustriesOpen ? 1 : 0 }}
-                transition={{ duration: 0.3 }} className={`z-10 ${isIndustriesOpen ? '' : 'hidden'} shadow-lg absolute text-white w-full mt-5 text-center md:text-start`}>
+                transition={{ duration: 0.3 }}
+                className={`z-10 ${isIndustriesOpen ? '' : 'hidden'} shadow-lg absolute text-white w-full mt-5 text-center md:text-start`}>
 
                 <div onMouseLeave={e => setIsIndustriesOpen(false)} className='grid grid-cols-12 bg-gray-900 p-10 lg:p-0 mx-10 gap-5'>
                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
