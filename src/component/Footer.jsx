@@ -1,37 +1,43 @@
 import React from 'react'
 import FooterImg from "../asset/nav-logo.png"
+import FacebookIcon from "../asset/facebook-icon.png"
+import LinkedinIcon from "../asset/linkedin-icon.png"
+import WhatsappIcon from "../asset/whatsapp-icon.png"
 
 
 const Footer = () => {
     return <>
         <div className=" bg-black">
-            <div className='grid grid-cols-12 text-white mx-8 pt-20 pb-10 gap-8'>
-                <div className='col-span-12 pb-10 md:col-span-6 lg:col-span-3 border-b md:border-b-0 lg:border-b-0'>
-                    <img className='pe-4  lg:h-14 h-10' src={FooterImg} alt="" />
-                    <p className='my-8'>We work with a passion of taking challenges and creating new ones in advertising sector.</p>
-                    <i className='bi text-xl bg-gray-400 text-gray-600 hover:bg-pink-500 hover:text-black rounded-full px-2 py-1 me-1 bi-facebook'></i>
-                    <i className='bi text-xl bg-gray-400 text-gray-600 hover:bg-pink-500 hover:text-black rounded-full px-2 py-1 m-1 bi-instagram'></i>
-                    <i className='bi text-xl bg-gray-400 text-gray-600 hover:bg-pink-500 hover:text-black rounded-full px-2 py-1 m-1 bi-google'></i>
-                    <i className='bi text-xl bg-gray-400 text-gray-600 hover:bg-pink-500 hover:text-black rounded-full px-2 py-1 m-1 bi-twitter'></i>
+            <div className='grid grid-cols-12 text-white mx-12 pt-20 pb-10 gap-8'>
+                <div className='col-span-12  pb-10 md:col-span-6 lg:col-span-4 border-b md:border-b-0 '>
+                    <p className=' text-3xl font-semibold'>Connect with us</p>
+                    {/* <img className='pe-4  lg:h-14 h-10' src={FooterImg} alt="" /> */}
+                    <div className='flex gap-3 mt-10'>
+                        <img className='h-10 cursor-pointer' src={WhatsappIcon} alt="" />
+                        <img className='h-10 cursor-pointer' src={LinkedinIcon} alt="" />
+                        <img className='h-10 cursor-pointer' src={FacebookIcon} alt="" />
+                    </div>
+                    <p className='text-xl mt-5'><i class="bi bi-envelope-at-fill"></i> contact@ksdtech.com</p>
+
                 </div>
 
-                <div className='col-span-12 md:col-span-3 lg:col-span-2  border-b md:border-b-0 lg:border-b-0'>
-                    <p className='text-3xl font-bold'>Links</p>
+                <div className='col-span-12  md:col-span-3 lg:col-span-2  border-b md:border-b-0 lg:border-b-0'>
+                    <p className='text-3xl font-semibold'>Links</p>
                     <p className='text-lg mt-6 lg:mt-10 my-3'>Home</p>
-                    <p className='text-lg my-3'>Service</p>
-                    <p className='text-lg my-3'>Blog</p>
                     <p className='text-lg my-3 mb-6'>Contact Us</p>
+                    <p className='text-lg my-3'>FAQ</p>
                 </div>
 
-                <div className='col-span-12 md:col-span-3 lg:col-span-3  border-b md:border-b-0 lg:border-b-0'>
-                    <p className='text-3xl font-bold'>Services</p>
-                    <p className='text-lg mt-6 lg:mt-10 my-3'>Contact & Faq</p>
-                    <p className='text-lg my-3'>Track Your Order</p>
-                    <p className='text-lg my-3'>Shipping</p>
-                    <p className='text-lg my-3 mb-6'>Trade Program</p>
+                <div className='col-span-12  md:col-span-3 lg:col-span-3  border-b md:border-b-0 lg:border-b-0'>
+                    <p className='text-3xl font-semibold'>Services</p>
+                    <p className='text-lg mt-6 lg:mt-10 my-3'>3D CAD/ CAM</p>
+                    <p className='text-lg my-3'>Prototype</p>
+                    <p className='text-lg my-3'>Manufacturing</p>
+                    <p className='text-lg my-3'>CAM</p>
+                    <p className='text-lg my-3 mb-6'>Class a surfacing</p>
                 </div>
-                <div className='col-span-12 md:col-span-6 lg:col-span-4 '>
-                    <p className='text-3xl font-bold'>Industries</p>
+                <div className='col-span-12  md:col-span-6 lg:col-span-3 '>
+                    <p className='text-3xl font-semibold'>Industries</p>
 
                     <p className='my-1 text-lg mt-6 lg:mt-10'>Automotive</p>
                     <p className='my-1 text-lg'>Consumer Goods</p>
@@ -51,7 +57,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='text-center bg-black text-gray-500 border-t text-lg  p-5'>
-            Copyright © 2024 – All Rights Reserved. Made by Rajput Ishwar
+            Copyright @2024 by UX/UI Team
         </div>
     </>
 }

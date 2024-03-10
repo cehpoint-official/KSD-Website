@@ -12,6 +12,7 @@ import Img10 from "../../asset/main-services-page/cmd-service/img-10.png"
 import Img11 from "../../asset/main-services-page/cmd-service/img-11.png"
 import Navbar from '../../component/Navbar'
 import Footer from '../../component/Footer'
+import { Link } from 'react-router-dom'
 
 const CadServices = () => {
   return <div>
@@ -49,7 +50,7 @@ const CadServices = () => {
       </div>
     </div>
 
-    <div className='text-white py-10 px-8 '>
+    <div className='text-white py-10 px-8 md:mx-8 mx-4 '>
 
 
       <div class='grid grid-cols-12 gap-8  '>
@@ -61,8 +62,10 @@ const CadServices = () => {
               <p className='my-3'>
                 CAD/CAM stands for Computer-Aided Design and Computer-Aided Manufacturing. It's a technology that integrates the design and manufacturing processes, allowing for efficient and accurate product development.
               </p>
-              <p className='font-semibold text-lg text-gray-600'>Reverse Engineering
-              </p>
+              <Link to="/cad/reverseEng">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>Reverse Engineering
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-20'></div>
             </div>
           </div>
@@ -75,9 +78,11 @@ const CadServices = () => {
               <p className='my-3'>
                 preliminary version of a product or system that is built to test a concept, process, or design. The main purpose of creating a prototype is to evaluate and validate ideas, functionalities, and design aspects before full-scale
               </p>
-              <p className='font-semibold text-lg text-gray-600'>
-                Quality Control & 3D Inspection
-              </p>
+              <Link to="/cad/qualityControl">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
+                  Quality Control & 3D Inspection
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-36'></div>
             </div>
           </div>
@@ -127,7 +132,7 @@ const CadServices = () => {
             </div>
           </div>
         </div>
-        <div class='col-span-12 md:col-span-6  lg:col-span-4 border-2 border-yellow-500 ...'>
+        <div class='col-span-12 md:col-span-6  lg:col-span-4  ...'>
           <img src={Img7} alt="" className="w-full" />
           <div class='text-start '>
             <div className='border-slate-500 bg-white  text-black p-5'>
@@ -146,7 +151,7 @@ const CadServices = () => {
 
     </div>
 
-    <div className='py-10 px-8 '>
+    <div className='py-10 px-8 mx-8'>
       <div class="grid grid-cols-12 gap-6 ">
         <div class="lg:col-start-3 lg:col-span-4 md:col-span-6 col-span-12 ...">
           <img src={Img8} alt="" className="w-full" />
@@ -181,7 +186,7 @@ const CadServices = () => {
       </div>
     </div>
 
-    <div className='bg-black py-16 px-8 '>
+    <div className='bg-black py-16 px-12 '>
       <div className='text-center flex-col flex items-center '>
         <div className='text-2xl font-bold text-white'>
           CAM SERVICES

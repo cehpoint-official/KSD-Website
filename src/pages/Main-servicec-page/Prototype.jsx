@@ -32,7 +32,6 @@ const Prototype = () => {
 
             </div>
 
-
             <div className='text-center flex-col flex items-center mt-10'>
                 <div className='text-2xl font-bold'>
                     OUR CAD SERVICES
@@ -96,10 +95,6 @@ const Prototype = () => {
 
 
         <div className='py-10 px-8 '>
-
-
-
-
             <div class="grid grid-cols-12 gap-6 mt-6">
                 <div class="lg:col-start-3 lg:col-span-4 md:col-span-6 col-span-12 ...">
                     <img src={Img5} alt="" className="w-full" />
