@@ -95,9 +95,11 @@ const CadServices = () => {
               <p className='my-3'>
                 Manufacturing 3D scanning plays a significant role in various aspects of the production process, offering capabilities for quality control, reverse engineering, and the optimization of manufacturing workflows.
               </p>
-              <p className='font-semibold text-lg text-gray-600'>
-                Surface Modelling & Solid Modelling
-              </p>
+              <Link to="/cad/surfaceMod">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
+                  Surface Modelling & Solid Modelling
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-36'></div>
             </div>
           </div>
@@ -110,9 +112,11 @@ const CadServices = () => {
               <p className='my-3'>
                 CAM, or Computer-Aided Manufacturing, is a technology that uses computer software and machinery to automate and control manufacturing processes.
               </p>
-              <p className='font-semibold text-lg text-gray-600'>
-                Gd & T
-              </p>
+              <Link to="/cad/gDandT">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
+                  Gd & T
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-14 mb-6'></div>
             </div>
           </div>
@@ -125,9 +129,11 @@ const CadServices = () => {
               <p className='my-3'>
                 Class A surfacing refers to the creation of high-quality, aesthetically pleasing, and precisely engineered 3D surfaces in computer-aided design (CAD).
               </p>
-              <p className='font-semibold text-lg text-gray-600 '>
-                Class A Surfacing
-              </p>
+              <Link to="/cad/classSurface">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600 '>
+                  Class A Surfacing
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-14 mb-6'></div>
             </div>
           </div>
@@ -140,9 +146,11 @@ const CadServices = () => {
               <p className='my-3'>
                 Reverse engineering is the process of deconstructing and analyzing a product, system, or component to understand its structure, functionality, and design principles.
               </p>
-              <p className='font-semibold text-lg text-gray-600'>
-                Product Design Service
-              </p>
+              <Link to="/cad/productDesign">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
+                  Product Design Service
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-14'></div>
             </div>
           </div>
@@ -161,9 +169,11 @@ const CadServices = () => {
               <p className='my-3'>
                 CAM, or Computer-Aided Manufacturing, is a technology that uses computer software and machinery to automate and control manufacturing processes.
               </p>
-              <p className='font-semibold text-lg text-gray-600'>
-                2D Drafting
-              </p>
+              <Link to="/cad/drafting">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
+                  2D Drafting
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-24'></div>
             </div>
           </div>
@@ -176,9 +186,11 @@ const CadServices = () => {
               <p className='my-3'>
                 Class A surfacing refers to the creation of high-quality, aesthetically pleasing, and precisely engineered 3D surfaces in computer-aided design (CAD).
               </p>
-              <p className='font-semibold text-lg text-gray-600'>
-                Conversion of 2D To 3D
-              </p>
+              <Link to="/cad/conversion">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
+                  Conversion of 2D To 3D
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-24'></div>
             </div>
           </div>
@@ -203,9 +215,11 @@ const CadServices = () => {
               <p className='my-3'>
                 CAM, or Computer-Aided Manufacturing, is a technology that uses computer software and machinery to automate and control manufacturing processes.
               </p>
-              <p className='font-semibold text-lg text-gray-600'>
-                CNC Machining
-              </p>
+              <Link to="/cad/cNCMachining">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
+                  CNC Machining
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-24'></div>
             </div>
           </div>
@@ -218,9 +232,11 @@ const CadServices = () => {
               <p className='my-3'>
                 Class A surfacing refers to the creation of high-quality, aesthetically pleasing, and precisely engineered 3D surfaces in computer-aided design (CAD). (CAD).
               </p>
-              <p className='font-semibold text-lg text-gray-600'>
-                VMC Machining
-              </p>
+              <Link to="/cad/vMCMachining">
+                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
+                  VMC Machining
+                </p>
+              </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-24'></div>
             </div>
           </div>
@@ -228,7 +244,6 @@ const CadServices = () => {
       </div>
 
     </div>
-
 
     <Footer />
 

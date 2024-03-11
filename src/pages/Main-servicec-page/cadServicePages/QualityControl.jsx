@@ -102,7 +102,7 @@ const QualityControl = () => {
 
             </div>
             <div className=" col-span-12 md:col-span-6 lg:col-span-6 bg-black">
-                <img src={Img2} alt="" className=" object-cover " />
+                <img src={Img2} alt="" className=" object-cover h-[30rem]" />
             </div>
         </div>
         <div className='bg-black text-white p-10 pt-24  '>
