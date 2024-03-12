@@ -40,13 +40,13 @@ const CNCMachining = () => {
             </div>
 
             <div className='grid grid-cols-12 gap-6 md:m-10  my-10'>
-                <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>High Precision and Improved Accuracy</p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
@@ -54,7 +54,7 @@ const CNCMachining = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
@@ -62,7 +62,7 @@ const CNCMachining = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
@@ -71,7 +71,7 @@ const CNCMachining = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
@@ -79,7 +79,7 @@ const CNCMachining = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
