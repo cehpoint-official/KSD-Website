@@ -39,7 +39,7 @@ const VMCMachining = () => {
                 <div className='bg-pink-600 w-48 mt-3 h-1'></div>
             </div>
 
-            <div className='grid grid-cols-12 gap-14 m-14'>
+            <div className='grid grid-cols-12  gap-6 md:m-10  my-10'>
                 <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
@@ -141,7 +141,7 @@ const VMCMachining = () => {
                         <div className='border-slate-500 bg-white  text-black p-5'>
                             <p className='font-semibold text-xl '> Aerospace</p>
                             <p className='my-3'>
-                                The accuracy needed to manufacture every component of an airplane is increased by CNC. This includes everything from the outer shell to the innermost parts. The highest levels of precision and accuracy must be used when manufacturing CNC-machined aerospace components since they are often mission-critical.
+                                The accuracy needed to manufacture every component of an airplane is increased by CNC. This includes everything from the outer   parts. The highest  when manufacturing CNC-machined aerospace components since they are often mission-critical.
                             </p>
 
                         </div>
@@ -153,7 +153,7 @@ const VMCMachining = () => {
                         <div className='border-slate-500 bg-white  text-black p-5'>
                             <p className='font-semibold text-xl'> Medical equipment</p>
                             <p className='my-3'>
-                                To meet patient needs, the medical industry primarily relies on specialized, accurate and high-quality products produced by CNC machinery. During the COVID-19 pandemic, when the need for medical products such as masks and respirators rose, this dependence on CNC machines increased.
+                                To meet patient needs, the medical industry primarily  accurate and high-quality products produced by CNC machinery.accuracy  the COVID-19 pandemic, when the need for medical products such as masks and rose, this dependence on CNC machines increased.
                             </p>
 
                         </div>

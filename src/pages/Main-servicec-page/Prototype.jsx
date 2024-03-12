@@ -7,6 +7,7 @@ import Img5 from "../../asset/main-services-page/Prototype/img-5.png"
 import Img6 from "../../asset/main-services-page/Prototype/img-6.png"
 import Navbar from '../../component/Navbar'
 import Footer from '../../component/Footer'
+import { Link } from 'react-router-dom'
 
 const Prototype = () => {
     return <div>
@@ -52,10 +53,12 @@ const Prototype = () => {
                             <p className='my-3'>
                                 CAD/CAM stands for Computer-Aided Design and Computer-Aided Manufacturing. It's a technology that integrates the design and manufacturing processes, allowing for efficient and accurate product development.
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
-                                SLA
-                            </p>
-                            <div className='border-b-2 border-gray-600 mt-1 w-8'></div>
+                            <Link to="/prototype/slaPage">
+                                <div className='font-semibold hover:text-pink-700 text-lg text-gray-600'>
+                                    SLA
+                                </div>
+                            </Link>
+                            <div className='border-b-2 border-gray-600  mt-1 w-8'></div>
                         </div>
                     </div>
                 </div>
@@ -67,9 +70,11 @@ const Prototype = () => {
                             <p className='my-3'>
                                 preliminary version of a product or system that is built to test a concept, process, or design. The main purpose of creating a prototype is to evaluate and validate ideas, functionalities, and design aspects before full-scale
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
-                                FDM
-                            </p>
+                            <Link to="/prototype/fdmPage">
+                                <div className='font-semibold hover:text-pink-700 text-lg text-gray-600'>
+                                    FDM
+                                </div>
+                            </Link>
                             <div className='border-b-2 border-gray-600 mt-1 w-10'></div>
                         </div>
                     </div>
@@ -82,9 +87,11 @@ const Prototype = () => {
                             <p className='my-3'>
                                 Class A surfacing refers to the creation of high-quality, aesthetically pleasing, and aesthetically pleasing refers precisely engineered 3D  concept, process, or design. surfaces in computer-aided design (CAD). (CAD).
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
-                                Poly Jet
-                            </p>
+                            <Link to="/prototype/polyjet">
+                                <div className='font-semibold hover:text-pink-700 text-lg text-gray-600'>
+                                    Poly Jet
+                                </div>
+                            </Link>
                             <div className='border-b-2 border-gray-600 mt-1 w-16'></div>
                         </div>
                     </div>
@@ -104,9 +111,12 @@ const Prototype = () => {
                             <p className='my-3'>
                                 CAM, or Computer-Aided Manufacturing, is a technology that uses computer software and machinery to automate and control manufacturing processes.
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
+                            
+                            <Link to="/prototype/metal">
+                                <div className='font-semibold hover:text-pink-700 text-lg text-gray-600'>
                                 Metal Printing
-                            </p>
+                                </div>
+                            </Link>
                             <div className='border-b-2 border-gray-600 mt-1 w-28'></div>
                         </div>
                     </div>
@@ -119,9 +129,11 @@ const Prototype = () => {
                             <p className='my-3'>
                                 Class A surfacing refers to the creation of high-quality, aesthetically pleasing, and precisely engineered 3D surfaces in computer-aided design (CAD).
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
-                                SLS
-                            </p>
+                            <Link to="/prototype/slsPage">
+                                <div className='font-semibold hover:text-pink-700 text-lg text-gray-600'>
+                                    SLS
+                                </div>
+                            </Link>
                             <div className='border-b-2 border-gray-600 mt-1 w-8'></div>
                         </div>
                     </div>

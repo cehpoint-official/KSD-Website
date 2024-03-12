@@ -20,6 +20,11 @@ import Drafting from './pages/Main-servicec-page/cadServicePages/Drafting';
 import Conversion from './pages/Main-servicec-page/cadServicePages/Conversion';
 import CNCMachining from './pages/Main-servicec-page/cadServicePages/CNCMachining';
 import VMCMachining from './pages/Main-servicec-page/cadServicePages/VMCMachining';
+import SLAPage from './pages/Main-servicec-page/prototypeSubPages/SLAPage';
+import SLSPage from './pages/Main-servicec-page/prototypeSubPages/SLSPage';
+import FDMPage from './pages/Main-servicec-page/prototypeSubPages/FDMPage';
+import PolyJetPage from './pages/Main-servicec-page/prototypeSubPages/PolyJetPage';
+import MetalPrintPage from './pages/Main-servicec-page/prototypeSubPages/MetalPrintPage';
 
 const App = () => {
   return (
@@ -35,7 +40,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<HomeOne />} />
-        <Route path="/prototype" element={<Prototype />} />
+
         <Route path="/manufacturing" element={<Manufacturing />} />
 
         {/* CadServices Page All Routes */}
@@ -48,12 +53,21 @@ const App = () => {
         <Route path="/cad/productDesign" element={<ProductDesign />} />
         <Route path="/cad/drafting" element={<Drafting />} />
         <Route path="/cad/conversion" element={<Conversion />} />
-        <Route path="/cad/cNCMachining" element={<CNCMachining />} / >
-        <Route path="/cad/vMCMachining" element={<VMCMachining />} / >
+        <Route path="/cad/cNCMachining" element={<CNCMachining />} />
+        <Route path="/cad/vMCMachining" element={<VMCMachining />} />
 
-          {/* Company Page */ }
+        {/* Prototype Page All Routes */}
+        <Route path="/prototype" element={<Prototype />} />
+        <Route path="/prototype/slaPage" element={<SLAPage />} />
+        <Route path="/prototype/fdmPage" element={<FDMPage />} />
+        <Route path="/prototype/polyjet" element={<PolyJetPage />} />
+        <Route path="/prototype/metal" element={<MetalPrintPage />} />
+        <Route path="/prototype/slsPage" element={<SLSPage />} />
 
-          < Route path="/contactUs" element={<ContactUs />} />
+
+        {/* Company Page */}
+
+        < Route path="/contactUs" element={<ContactUs />} />
         <Route path="/company/quote" element={<Quote />} />
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
