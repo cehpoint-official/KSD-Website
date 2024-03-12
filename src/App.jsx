@@ -1,14 +1,11 @@
 import React from 'react';
 
 import HomeOne from './pages/HomeOne';
-import Text from './pages/Text';
-import Demo from './component/Demo';
 import ContactUs from './pages/Main-servicec-page/ContactUs';
 import Prototype from './pages/Main-servicec-page/Prototype';
 import CadServices from './pages/Main-servicec-page/CadServices';
 import Manufacturing from './pages/Main-servicec-page/Manufacturing';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import CodeTest from './pages/CodeTest';
 import ReverseEng from './pages/Main-servicec-page/cadServicePages/ReverseEng';
 import QualityControl from './pages/Main-servicec-page/cadServicePages/QualityControl';
 import Quote from './pages/companyPages/Quote';
