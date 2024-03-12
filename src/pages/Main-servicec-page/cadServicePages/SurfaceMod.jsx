@@ -24,7 +24,7 @@ const SurfaceMod = () => {
                     <div className=" text-base font-light pt-6">
                         Surfacing is a process of fitting surface entity in a cloud of points ensuring specified geometric tolerances.
                     </div>
-                    <button className='hover:border-pink-700  border-pink-500 border-2 hover:text-pink-300 text-pink-500 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
+                    <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
                     </button>
                 </div>
@@ -39,7 +39,7 @@ const SurfaceMod = () => {
                 <div className='bg-pink-600 w-48 mt-3 h-1'></div>
             </div>
 
-            <div className='grid grid-cols-12 gap-8 m-14'>
+            <div className='grid grid-cols-12 gap-14 m-14'>
                 <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
@@ -123,12 +123,12 @@ const SurfaceMod = () => {
 
             <div class="grid grid-cols-12 gap-6 mt-20">
                 <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
-                    <img src={Img3} alt="" className="w-full" />
+                    <img src={Img7} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
                             <p className='font-semibold text-xl'>plane surfaces</p>
                             <p className='my-3'>
-                                Scantech has been deeply engaged in the field of automobile manufacturing industry and provides sophisticated inspection solutions for OEMs during the whole cycle time.Scantech has been deeply engaged in the field of automobile manufacturing industry and provides sophisticated inspection solutions for OEMs during the whole cycle time.
+                                Scantech has been deeply engaged in the field of automobile manufacturing industry and provides sophisticated inspection solutions for OEMs during the whole cycle time.Scantech has field of automobile manufacturing industry and provides sophisticated inspection solutions for OEMs during the whole cycle time.
                             </p>
 
                         </div>
@@ -140,7 +140,7 @@ const SurfaceMod = () => {
                         <div className='border-slate-500 bg-white  text-black p-5'>
                             <p className='font-semibold text-xl'>Ruled surfaces</p>
                             <p className='my-3'>
-                                A safe journey begins with precise inspection of transports. We provide unparalleled smooth 3D scanning for metrology inspection. By delivering accurate measurement results, our 3D scanning technology can ensure the safe operation of rail transport and ship.
+                                A safe journey begins with precise inspection of transports.been deeply engaged in the  We provide unparalleled smooth 3D scanning for metrology inspection. By delivering accurate measurement results, our 3D scanning technology can ensure the safe operation of rail transport and ship.
                             </p>
 
                         </div>
@@ -163,7 +163,7 @@ const SurfaceMod = () => {
 
         <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
             <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
-                <img src={Img6} alt="" className="w-full" />
+                <img src={Img4} alt="" className="w-full" />
                 <div class='text-start '>
                     <div className='border-slate-500 bg-white  text-black p-5'>
                         <p className='font-semibold text-xl'> parametric cubic surfaces</p>

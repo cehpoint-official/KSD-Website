@@ -25,7 +25,7 @@ const Manufacturing = () => {
                     <div className=" text-base font-light pt-6">
                         Manufacturing is taking raw materials and turning them into products you can use in your everyday life. Manufacturing plays a part in everything from the clothes you wear to the car you drive to the food you eat. It's an exciting field that involves taking raw materials, combining them together with other materials, and then transforming them into finished products. It's the backbone of many industries, and it's something that has been around for centuries.
                     </div>
-                    <button className='hover:border-pink-700 focus:border-pink-300 border-pink-500 border-2 hover:text-pink-300 text-pink-500 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
+                    <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
                     </button>
                 </div>

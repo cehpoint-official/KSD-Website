@@ -23,7 +23,7 @@ const ClassSurface = () => {
                     <div className=" text-base font-light pt-6">
                         In automotive design, a class A surface is any of a set of free form surfaces of high efficiency and quality. The minimum math requirement for Class A Surface is that the transition across the edge is a continuous curvature.
                     </div>
-                    <button className='hover:border-pink-700  border-pink-500 border-2 hover:text-pink-300 text-pink-500 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
+                    <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
                     </button>
                 </div>
@@ -38,7 +38,7 @@ const ClassSurface = () => {
                 <div className='bg-pink-600 w-48 mt-3 h-1'></div>
             </div>
 
-            <div className='grid grid-cols-12 gap-8 m-14'>
+            <div className='grid grid-cols-12 gap-14  m-14'>
                 <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
@@ -140,7 +140,7 @@ const ClassSurface = () => {
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
                             <p className='font-semibold text-xl'> Surface Creation</p>
-                            <p className='my-3'>
+                            <p className='my-3 py-2 pb-3'>
 
                                 A safe journey begins with precise inspection of transports. We provide unparalleled smooth 3D scanning for metrology inspection. By delivering accurate measurement results, our 3D scanning technology can ensure the safe operation of rail transport and ship.
                             </p>
@@ -149,10 +149,10 @@ const ClassSurface = () => {
                     </div>
                 </div>
                 <div class="lg:col-span-4 md:col-span-6 col-span-12 ...">
-                    <img src={Img3} alt="" className="w-full" />
+                    <img src={Img5} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl mt-2'> Editing and Manipulation</p>
+                            <p className='font-semibold text-xl'> Editing and Manipulation</p>
                             <p className='my-3'>
                                 Scantech is empowering the development of the energy industry with advanced 3D technology. We are committed to helping realize the goal of carbon neutrality, promote the upgrading of heavy machinery industry, and further improve intelligent manufacturing productivity.
                             </p>

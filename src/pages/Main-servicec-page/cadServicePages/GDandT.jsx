@@ -24,7 +24,7 @@ const GDandT = () => {
           <div className=" text-base font-light pt-6">
             3D Scanning parts is faster and more efficient than any other form of capturing measurements. Scanning captures all edge breaks, fillets, chamfers, and other aspects that may have been missed during the design process.
           </div>
-          <button className='hover:border-pink-700  border-pink-500 border-2 hover:text-pink-300 text-pink-500 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
+          <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
             Get a Quote
           </button>
         </div>
@@ -39,7 +39,7 @@ const GDandT = () => {
         <div className='bg-pink-600 w-28 mt-3 h-1'></div>
       </div>
 
-      <div className='grid grid-cols-12 gap-8 m-14'>
+      <div className='grid grid-cols-12 gap-14 m-14'>
         <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
           <div className='flex gap-3 items-center'>
             <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
@@ -135,7 +135,7 @@ const GDandT = () => {
           <div class='text-start '>
             <div className='border-slate-500 bg-white  text-black p-5'>
               <p className='font-semibold text-xl'>plane surfaces</p>
-              <p className='my-3'>
+              <p className='my-3 pb-2'>
                 Scantech has been deeply engaged in the field of automobile manufacturing industry and provides sophisticated inspection solutions for OEMs during the whole cycle time.  field of automobile manufacturing sophisticated industry and provides sophisticated inspection solutions for OEMs during the whole cycle .
               </p>
 

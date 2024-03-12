@@ -23,7 +23,7 @@ const QualityControl = () => {
                     <div className=" text-base font-light pt-6">
                         Inspection, a process to ensure that products are free from defects, is essential for manufacturing, especially for high-precision parts. The requirements for inspection are increasing as the manufacturing technology improves.
                     </div>
-                    <button className='hover:border-pink-700  border-pink-500 border-2 hover:text-pink-300 text-pink-500 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
+                    <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
                     </button>
                 </div>
@@ -38,7 +38,7 @@ const QualityControl = () => {
                 <div className='bg-pink-600 w-48 mt-3 h-1'></div>
             </div>
 
-            <div className='grid grid-cols-12 gap-8 m-14'>
+            <div className='grid grid-cols-12 gap-14 m-14'>
                 <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
@@ -121,7 +121,7 @@ const QualityControl = () => {
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
                             <p className='font-semibold text-xl'>One window Reverse Engineering Services encompassing</p>
-                            <p className='my-3'>
+                            <p className='my-3 pb-1'>
                                 Fine details and the basic resin for modeling and prototyping. Sharp edges and smooth finish. Great for small and complex projects. Comes in multiple colors.Sharp edges and smooth finish. Great for small and complex projects. Comes in multiple colors.
                             </p>
 

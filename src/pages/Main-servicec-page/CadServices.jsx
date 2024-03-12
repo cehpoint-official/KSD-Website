@@ -30,7 +30,7 @@ const CadServices = () => {
           <div className=" text-base font-light pt-6">
             CAD (Computer-Aided Design) and CAM (Computer-Aided Manufacturing) services play crucial roles in the product development and manufacturingprocesses. These services involve the use of specialized software to design and manufacture products in a more efficient and accurate manner. These services involve the use of specialized software to design and manufacture products in a more efficient and accurate manner.
           </div>
-          <button className='hover:border-pink-700 focus:border-pink-300 border-pink-500 border-2 hover:text-pink-300 text-pink-500 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
+          <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
             Get a Quote
           </button>
         </div>

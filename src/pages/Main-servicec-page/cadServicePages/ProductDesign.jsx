@@ -24,7 +24,7 @@ const ProductDesign = () => {
                     <div className=" text-base font-light pt-6">
                         product design is the process of creating digital 3D models of products using software. 3D product rendering is the use of computer programs to create computer-generated imagery (CGI). These images can be used for marketing campaigns
                     </div>
-                    <button className='hover:border-pink-700  border-pink-500 border-2 hover:text-pink-300 text-pink-500 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
+                    <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
                     </button>
                 </div>
@@ -39,7 +39,7 @@ const ProductDesign = () => {
                 <div className='bg-pink-600 w-48 mt-3 h-1'></div>
             </div>
 
-            <div className='grid grid-cols-12 gap-8 m-14'>
+            <div className='grid grid-cols-12 gap-14 m-14'>
                 <div className='lg:col-span-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
@@ -138,7 +138,7 @@ const ProductDesign = () => {
                         <div className='border-slate-500 bg-white  text-black p-5'>
                             <p className='font-semibold text-xl'> Retail and Ecommerce</p>
                             <p className='my-3'>
-                                3D images and configurators have induced affirmative changes in the retail and eCommerce sectors. 3D modeling software gives the products point-to-point measurements, and adding the required texture gives them a realistic outlook. Further enhancement by adjusting the color, shadow, etc. offers buyers a super-engaging shopping experience.
+                                3D images and configurators have induced affirmative changes in the retail and eCommerce sectors. 3D modeling software gives the products point-to-point measurements, and  gives them a realistic outlook. Further enhancement by adjusting the color, shadow, etc. offers buyers a super-engaging shopping experience.
 
                             </p>
 

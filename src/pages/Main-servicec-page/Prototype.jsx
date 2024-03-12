@@ -25,7 +25,7 @@ const Prototype = () => {
                         Prototype are the limited representation of any idea or design. These are miniature models which are created in the prototyping phase of development of any physical product. The prototyping is an experimental process which caters some and/or a part of all the requirements of the actual model, and the goal is to persist a somewhat idea of the finalized product. Prototypes are tangible
 
                     </div>
-                    <button className='hover:border-pink-700 focus:border-pink-300 border-pink-500 border-2 hover:text-pink-300 text-pink-500 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
+                    <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
                     </button>
                 </div>
