@@ -16,9 +16,7 @@ import Home from '../component/Home'
 const HomeOne = () => {
     return <>
         <Navbar />
-
         <Home />
-
         <Services />
         <Industries />
         <Manufacture />
