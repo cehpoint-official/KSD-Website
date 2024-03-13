@@ -5,7 +5,7 @@ import ImgMap from "../../asset/contact-map.png"
 import Footer from '../../component/Footer'
 const ContactUs = () => {
     return <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className='relative '>
             <img src={ImgBg} alt="" className='h-72 w-full   object-fill' />
             <div className='absolute top-[35%]  text-white px-10'>
@@ -118,7 +118,7 @@ const ContactUs = () => {
             </div>
         </div>
         <img src={ImgMap} alt="" className='object-fill' />
-        <Footer />
+        {/* <Footer /> */}
     </div>
 }
 

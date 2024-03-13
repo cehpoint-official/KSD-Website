@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 
 const Prototype = () => {
     return <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-8 '>
             <div className=" grid grid-cols-12  gap-4 py-10">
 
@@ -45,7 +45,9 @@ const Prototype = () => {
             </div>
 
             <div class="grid grid-cols-12 gap-6 mt-8">
-                <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
+                <div
+
+                    class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
                     <img src={Img2} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
@@ -111,10 +113,10 @@ const Prototype = () => {
                             <p className='my-3'>
                                 CAM, or Computer-Aided Manufacturing, is a technology that uses computer software and machinery to automate and control manufacturing processes.
                             </p>
-                            
+
                             <Link to="/prototype/metal">
                                 <div className='font-semibold hover:text-pink-700 text-lg text-gray-600'>
-                                Metal Printing
+                                    Metal Printing
                                 </div>
                             </Link>
                             <div className='border-b-2 border-gray-600 mt-1 w-28'></div>
@@ -140,7 +142,7 @@ const Prototype = () => {
                 </div>
             </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
     </div>
 }
 

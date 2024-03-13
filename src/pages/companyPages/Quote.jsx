@@ -3,7 +3,7 @@ import Navbar from '../../component/Navbar'
 
 const Quote = () => {
     return (<>
-        <Navbar />
+        {/* <Navbar /> */}
         <div>Quote Work pending...</div>
     </>)
 }

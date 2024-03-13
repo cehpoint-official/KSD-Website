@@ -22,19 +22,14 @@ import SLSPage from './pages/Main-servicec-page/prototypeSubPages/SLSPage';
 import FDMPage from './pages/Main-servicec-page/prototypeSubPages/FDMPage';
 import PolyJetPage from './pages/Main-servicec-page/prototypeSubPages/PolyJetPage';
 import MetalPrintPage from './pages/Main-servicec-page/prototypeSubPages/MetalPrintPage';
+import Navbar from './component/Navbar';
+import Footer from './component/Footer';
 
 const App = () => {
   return (
 
-    // <div>
-    //   <HomeOne />
-    //   {/* <ContactUs /> */}
-    // </div>
-
-    // <CodeTest />
-
     <BrowserRouter>
-
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomeOne />} />
 
@@ -68,6 +63,7 @@ const App = () => {
         <Route path="/company/quote" element={<Quote />} />
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };

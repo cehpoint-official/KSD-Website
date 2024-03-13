@@ -12,7 +12,7 @@ import Footer from '../../../component/Footer'
 
 const CNCMachining = () => {
     return <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-10 '>
             <div className=" grid grid-cols-12  gap-4 py-10">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
@@ -213,7 +213,7 @@ const CNCMachining = () => {
             </div>
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
     </div>
 }
 

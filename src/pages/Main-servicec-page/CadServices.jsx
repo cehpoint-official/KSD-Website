@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom'
 
 const CadServices = () => {
   return <div>
-    <Navbar />
+    {/* <Navbar /> */}
     <div className='bg-black text-white py-10 px-8 '>
       <div className=" grid grid-cols-12  gap-4 ">
 
@@ -169,10 +169,8 @@ const CadServices = () => {
               <p className='my-3'>
                 CAM, or Computer-Aided Manufacturing, is a technology that uses computer software and machinery to automate and control manufacturing processes.
               </p>
-              <Link to="/cad/drafting">
-                <p className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                  2D Drafting
-                </p>
+              <Link to="/cad/drafting" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
+                2D Drafting
               </Link>
               <div className='border-b-2 border-gray-600 mt-1 w-24'></div>
             </div>
@@ -245,7 +243,7 @@ const CadServices = () => {
 
     </div>
 
-    <Footer />
+    {/* <Footer /> */}
 
   </div>
 }
