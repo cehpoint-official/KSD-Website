@@ -14,7 +14,7 @@ const SLSPage = () => {
     return <div>
         {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-10 '>
-            <div className=" grid grid-cols-12  gap-4 py-10">
+            <div className=" grid grid-cols-12  gap-4 py-16">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
                     <img src={Img1} alt="" className=" object-fill " />
                 </div>
@@ -32,11 +32,11 @@ const SLSPage = () => {
             </div>
 
 
-            <div className='text-center flex-col flex items-center mt-10'>
+            <div className='text-center flex-col flex items-center mt-28'>
                 <div className='text-2xl font-bold '>
                     Why SLS printing?
                 </div>
-                <div className='bg-pink-600 w-48 mt-3 h-1'></div>
+                <div className='bg-pink-600 w-48 mt-3 h-[3px] rounded-xl'></div>
             </div>
 
             <div className='grid grid-cols-12  gap-6 md:m-10 my-10'>
@@ -98,7 +98,7 @@ const SLSPage = () => {
 
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
                 <div className="md:text-4xl text-3xl font-bold ">Why our SLS printing service?</div>
-                <div className='border-b-4 w-48 mt-3 border-pink-600'></div>
+                <div className='border-b-4 w-48 mt-3 border-pink-600 rounded-xl'></div>
 
                 <div className=" pt-6">
                     <p>
@@ -120,7 +120,7 @@ const SLSPage = () => {
                 <div className='text-2xl font-bold '>
                     Available materials for Metal printing
                 </div>
-                <div className='bg-pink-600 w-48 mt-3 h-1'></div>
+                <div className='bg-pink-600 w-48 mt-3 h-[3px] rounded-xl'></div>
 
             </div>
 
@@ -128,7 +128,7 @@ const SLSPage = () => {
                 <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
                     <img src={Img3} alt="" className="w-full " />
                     <div class='text-start '>
-                        <div className='border-slate-500 bg-white  text-black p-5'>
+                        <div className=' bg-white  text-black p-5'>
                             <p className='font-semibold text-xl'>Stainless steel</p>
                             <p className='my-3'>
                                 An alloy of iron, chromium, and nickel, stainless steel is known for its strength, corrosion resistance, and durability.The final finishing is outstanding and almost achieve the industry injection plastic quality. It is perfect for  parts or prototypes for functional testing
@@ -140,7 +140,7 @@ const SLSPage = () => {
                 <div class="lg:col-span-4 md:col-span-6 col-span-12 ...">
                     <img src={Img4} alt="" className="w-full" />
                     <div class='text-start '>
-                        <div className='border-slate-500 bg-white  text-black p-5'>
+                        <div className=' bg-white  text-black p-5'>
                             <p className='font-semibold text-xl'>Titanium </p>
                             <p className='my-3'>
                                 Somos resin is an fast printing material that produces high quality parts with great details. The final finishing is outstanding and almost achieve the industry injection plastic quality. It is perfect for building end-use parts or prototypes for functional testing

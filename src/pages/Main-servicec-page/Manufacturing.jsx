@@ -8,6 +8,7 @@ import Img6 from "../../asset/main-services-page/Manufacturing/img-6.png"
 import Img7 from "../../asset/main-services-page/Manufacturing/img-7.png"
 import Navbar from '../../component/Navbar'
 import Footer from '../../component/Footer'
+import { Link } from 'react-router-dom'
 
 const Manufacturing = () => {
     return <div>
@@ -33,11 +34,11 @@ const Manufacturing = () => {
             </div>
 
 
-            <div className='text-center flex-col flex items-center mt-10'>
+            <div className='text-center flex-col flex items-center mt-28'>
                 <div className='text-2xl font-bold'>
                     OUR MANUFACTURING SERVICES
                 </div>
-                <div className='md:pb-10 lg:pb-12 text-lg md:w-[60%] lg:w-[50%] text-gray-300 py-5'>
+                <div className='md:pb-10 lg:pb-12 text-lg md:w-[60%] lg:w-[50%] text-gray-300 py-8'>
                     <p>
                         KSD tand industry solutions go beyond working smarter. Our unique ability to connect the physical and digital worlds with data and integrated technology improves the way people live, eat and move.
                     </p>
@@ -53,9 +54,10 @@ const Manufacturing = () => {
                             <p className='my-3'>
                                 CAD/CAM stands for Computer-Aided Design and Computer-Aided Manufacturing. It's a technology that integrates the design and manufacturing processes, allowing for efficient and accurate product development.
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
+                            <Link to="/manufacturing/plastic" className='font-semibold hover:text-pink-600 text-lg text-gray-600'>
                                 Plastic injection Mould
-                            </p>
+                            </Link>
+
                             <div className='border-b-2 border-gray-600 mt-1 w-12'></div>
                         </div>
                     </div>
@@ -68,9 +70,10 @@ const Manufacturing = () => {
                             <p className='my-3'>
                                 preliminary version of a product or system that is built to test a concept, process, or design. The main purpose of creating a prototype is to evaluate and validate ideas, functionalities, and design aspects before full-scale
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
+
+                            <Link to="/manufacturing/rubber" className='font-semibold text-lg hover:text-pink-700 text-gray-600'>
                                 Rubber Mould
-                            </p>
+                            </Link>
                             <div className='border-b-2 border-gray-600 mt-1 w-14'></div>
                         </div>
                     </div>

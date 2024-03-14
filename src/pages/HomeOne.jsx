@@ -14,7 +14,7 @@ import Home from '../component/Home'
 
 
 const HomeOne = () => {
-    return <>
+    return <div>
         {/* <Navbar /> */}
         <Home />
         <Services />
@@ -26,7 +26,7 @@ const HomeOne = () => {
         <Contact />
         <QuePage />
         {/* <Footer /> */}
-    </>
+    </div>
 }
 
 export default HomeOne

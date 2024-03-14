@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Img1 from "../../../asset/main-services-page/cmd-service/Reverse-Eng/img-1.png"
 import Img2 from "../../../asset/main-services-page/cmd-service/Reverse-Eng/img-2.png"
 import Img3 from "../../../asset/main-services-page/cmd-service/Reverse-Eng/img-3.png"
@@ -10,10 +10,11 @@ import Navbar from '../../../component/Navbar'
 import Footer from '../../../component/Footer'
 
 const ReverseEng = () => {
+  
     return <div>
         {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-8 '>
-            <div className=" grid grid-cols-12  gap-4 py-10">
+            <div className=" grid grid-cols-12  gap-4 py-16">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
                     <img src={Img1} alt="" className=" object-fill " />
                 </div>
@@ -31,11 +32,11 @@ const ReverseEng = () => {
             </div>
 
 
-            <div className='text-center flex-col flex items-center mt-10'>
+            <div className='text-center flex-col flex items-center mt-28'>
                 <div className='text-2xl font-bold '>
                     Why Reverse Engineering?
                 </div>
-                <div className='bg-pink-600 w-48 mt-3 h-1'></div>
+                <div className='border-pink-600 w-48 mt-3 border-[1.5px] rounded-lg'></div>
             </div>
 
             <div className='grid grid-cols-12  gap-6 md:m-10  my-10'>
@@ -95,7 +96,7 @@ const ReverseEng = () => {
 
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
                 <div className="md:text-4xl text-3xl font-bold "> 3D Scan to CAD model</div>
-                <div className='border-b-4 w-48 mt-3 border-pink-600'></div>
+                <div className='border-2 rounded-xl w-48 mt-3 border-pink-600'></div>
 
                 <div className=" pt-6">
                     You want to reverse engineer a geometric shaped part? Simply export your mesh to Reverse Engineering, then start to create, combine, extract and adjust. As you’re in control of the entire process you get exactly the result you want.Reverse Engineering offers a range of functions to help you achieve the highest accuracy for free form surfaces. For instance: To convert your mesh, choose “Surface Approximation to Points” then the software guides you to your mold.Take your designs to the next dimension with our parametric 3D modeling services. We create 3D models for parts and assemblies that are not only visually stunning but also highly functional.
@@ -106,13 +107,13 @@ const ReverseEng = () => {
                 <img src={Img2} alt="" className=" object-cover h-[30rem]" />
             </div>
         </div>
-        <div className='bg-black text-white p-10 pt-24  '>
+        <div className='bg-black text-white p-10 pt-32  '>
 
             <div className='text-center flex-col flex items-center '>
                 <div className='text-2xl font-bold '>
                     From 3D scan data to CAD model
                 </div>
-                <div className='bg-pink-600 w-48 mt-3 h-1'></div>
+                <div className='border-pink-600 w-48 mt-3 border-2 rounded-xl'></div>
 
             </div>
 

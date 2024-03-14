@@ -10,7 +10,7 @@ const ContactUs = () => {
             <img src={ImgBg} alt="" className='h-72 w-full   object-fill' />
             <div className='absolute top-[35%]  text-white px-10'>
                 <p className='md:text-4xl text-3xl'>CONTACT US</p>
-                <div className='border-b-4 md:w-[13rem] w-[11rem] my-3 border-pink-500'></div>
+                <div className='border-b-2 md:w-[13rem] w-[11rem] my-3 border-pink-500'></div>
                 <p className='mt-2 md:text-2xl text-lg'>Complete this form and we will contact you shortly.</p>
             </div>
         </div>

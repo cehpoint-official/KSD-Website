@@ -24,6 +24,8 @@ import PolyJetPage from './pages/Main-servicec-page/prototypeSubPages/PolyJetPag
 import MetalPrintPage from './pages/Main-servicec-page/prototypeSubPages/MetalPrintPage';
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
+import Plastic from './pages/Main-servicec-page/manufacturingSubPages/Plastic';
+import Rubber from './pages/Main-servicec-page/manufacturingSubPages/Rubber';
 
 const App = () => {
   return (
@@ -33,7 +35,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomeOne />} />
 
-        <Route path="/manufacturing" element={<Manufacturing />} />
 
         {/* CadServices Page All Routes */}
         <Route path="/cadServise" element={<CadServices />} />
@@ -55,6 +56,12 @@ const App = () => {
         <Route path="/prototype/polyjet" element={<PolyJetPage />} />
         <Route path="/prototype/metal" element={<MetalPrintPage />} />
         <Route path="/prototype/slsPage" element={<SLSPage />} />
+
+        {/* Manufacturing Page */}
+        <Route path="/manufacturing" element={<Manufacturing />} />
+        <Route path="/manufacturing/plastic" element={<Plastic />} />
+        <Route path="/manufacturing/rubber" element={<Rubber />} />
+
 
 
         {/* Company Page */}

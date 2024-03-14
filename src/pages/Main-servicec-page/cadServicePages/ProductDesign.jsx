@@ -14,7 +14,7 @@ const ProductDesign = () => {
     return <div>
         {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-10 '>
-            <div className=" grid grid-cols-12  gap-4 py-10">
+            <div className=" grid grid-cols-12  gap-4 py-16">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
                     <img src={Img1} alt="" className=" object-fill " />
                 </div>
@@ -32,11 +32,11 @@ const ProductDesign = () => {
             </div>
 
 
-            <div className='text-center flex-col flex items-center mt-10'>
+            <div className='text-center flex-col flex items-center mt-28'>
                 <div className='text-2xl font-bold '>
                     Why Product Design?
                 </div>
-                <div className='bg-pink-600 w-48 mt-3 h-1'></div>
+                <div className='bg-pink-600 w-48 mt-3 h-[3px] rounded-xl'></div>
             </div>
 
             <div className='grid grid-cols-12  gap-6 md:m-10 my-10'>
@@ -97,7 +97,7 @@ const ProductDesign = () => {
 
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
                 <div className="md:text-4xl text-3xl font-bold "> Product Design Service</div>
-                <div className='border-b-4 w-48 mt-3 border-pink-600'></div>
+                <div className='border-b-4 w-48 mt-3 rounded-xl border-pink-600'></div>
 
                 <div className=" pt-6">
                     With 3D scanning, reverse engineering becomes a cinch: obtaining a precise CAD model of a product, part or clay model takes mere minutes, no matter their size. Data from complex, organic, intricate and free form shapes can all easily be captured on-the-spot nearly anywhere, by users of any experience level. Additionally, 3D scanning can help perform the root cause analysis and identify problems very quickly and painlessly. It becomes the perfect assistant to production engineers, since it can streamline and simplify the First Article Inspection (FIA) milestone.
@@ -115,7 +115,7 @@ const ProductDesign = () => {
                 <div className='text-2xl font-bold '>
                     IndustriesWhich Need 3D Product Design
                 </div>
-                <div className='bg-pink-600 w-48 mt-3 h-1'></div>
+                <div className='bg-pink-600 w-48 mt-3 h-[3px] rounded-xl'></div>
 
             </div>
 

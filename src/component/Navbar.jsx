@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { delay, motion } from "framer-motion";
 import NavbarImg from "../asset/nav-logo.png";
 import Img1 from "../asset/services-img/nav-ser-img-1.png";
@@ -11,9 +11,10 @@ import NavImg3 from "../asset/industries-img/nav-img-3.png";
 import NavComImg1 from "../asset/company-img/com-img-1.png";
 import NavComImg2 from "../asset/company-img/com-img-2.png";
 import NavComImg3 from "../asset/company-img/com-img-3.png";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
+    const { pathname } = useLocation()
     const [isOpen, setIsOpen] = useState(false);
     const [isServices, setIsServices] = useState(false);
     const [isContactOpen, setIsContactOpen] = useState(false);
@@ -59,7 +60,9 @@ const Navbar = () => {
         setIsIndustriesOpen(false);
     };
 
-
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [pathname])
 
     return (
         <>

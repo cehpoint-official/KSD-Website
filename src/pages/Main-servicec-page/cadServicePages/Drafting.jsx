@@ -13,7 +13,7 @@ const Drafting = () => {
     return <div>
         {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-8 '>
-            <div className=" grid grid-cols-12  gap-4 py-10">
+            <div className=" grid grid-cols-12  gap-4 py-16">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
                     <img src={Img1} alt="" className=" object-fill " />
                 </div>
@@ -36,7 +36,7 @@ const Drafting = () => {
                 <div className='text-2xl font-bold '>
                     Why 2d Drafting?
                 </div>
-                <div className='bg-pink-600 w-36 mt-3 h-1'></div>
+                <div className='bg-pink-600 w-36 mt-3 h-[3px] rounded-xl'></div>
             </div>
 
             <div className='grid grid-cols-12 gap-6 md:m-10  my-10'>
@@ -96,7 +96,7 @@ const Drafting = () => {
 
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
                 <div className="md:text-4xl text-3xl font-bold ">  Importance </div>
-                <div className='border-b-4 w-32 mt-3 border-pink-600'></div>
+                <div className='border-b-4 w-32 mt-3 border-pink-600 rounded-xl'></div>
 
                 <div className=" pt-6">
                     <p>
@@ -118,7 +118,7 @@ const Drafting = () => {
                 <div className='text-2xl font-bold '>
                     Services
                 </div>
-                <div className='bg-pink-600 w-36 mt-3 h-1'></div>
+                <div className='bg-pink-600 w-36 mt-3 h-[3px] rounded-xl'></div>
 
             </div>
 
