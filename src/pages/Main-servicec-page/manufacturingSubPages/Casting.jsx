@@ -1,11 +1,12 @@
 import React from 'react'
-import Img1 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-1.png"
-import Img2 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-2.png"
-import Img3 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-3.png"
-import Img4 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-4.png"
-import Img5 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-5.png"
-import Img6 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-6.png"
-import Img7 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-7.png"
+import Img1 from "../../../asset/main-services-page/Manufacturing/casting/img-1.png"
+import Img2 from "../../../asset/main-services-page/Manufacturing/casting/img-2.png"
+import Img3 from "../../../asset/main-services-page/Manufacturing/casting/img-3.png"
+import Img4 from "../../../asset/main-services-page/Manufacturing/casting/img-4.png"
+import Img5 from "../../../asset/main-services-page/Manufacturing/casting/img-5.png"
+import Img6 from "../../../asset/main-services-page/Manufacturing/casting/img-6.png"
+import Img7 from "../../../asset/main-services-page/Manufacturing/casting/img-7.png"
+// import Img8 from "../../../asset/main-services-page/Manufacturing/casting/img-8.png"
 import Navbar from '../../../component/Navbar'
 import Footer from '../../../component/Footer'
 
@@ -19,9 +20,9 @@ const Casting = () => {
                 </div>
 
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
-                    <div className="text-4xl font-bold">Quality Control & 3D Inspection</div>
+                    <div className="text-4xl font-bold">Casting & Froging tool</div>
                     <div className=" text-base font-light pt-6">
-                        Inspection, a process to ensure that products are free from defects, is essential for manufacturing, especially for high-precision parts. The requirements for inspection are increasing as the manufacturing technology improves.
+                        Casting and forging tool manufacturing is the process of creating specialized tools used in the production of metal components by casting or forging. These tools are critical to the manufacturing process, as they are used to shape, cut, or manipulate metal components into their final form.
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
@@ -32,8 +33,7 @@ const Casting = () => {
 
 
             <div className='text-center flex-col flex items-center mt-28'>
-                <div className='text-2xl font-bold '>
-                    Why Quality Control & 3D Inspection?
+                <div className='text-2xl font-bold '>Why Casting & Froging tool?
                 </div>
                 <div className='bg-pink-600 w-48 mt-3 h-[3px] rounded-xl'></div>
             </div>
@@ -42,14 +42,14 @@ const Casting = () => {
                 <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
-                        <p className='text-xl text-gray-400'>Applications in Various Industries </p>
+                        <p className='text-xl text-gray-400'> Reliability</p>
                     </div>
                 </div>
                 <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Integrity of Data Acquisition
+                            Structural Integrity
                         </p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Casting = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Efficiency, and Double Profits
+                            Material Cost Savings
                         </p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Casting = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            ensure consistent product quality,
+                            Increased Production Rate
                         </p>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ const Casting = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            equipment problems being identified
+                            Higher Tolerances
                         </p>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const Casting = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            better equipment
+                            Less Secondary Work
                         </p>
                     </div>
                 </div>
@@ -97,7 +97,10 @@ const Casting = () => {
                 <div className='border-b-4 w-60 mt-3 border-pink-600 rounded-xl'></div>
 
                 <div className=" pt-6">
-                    Inspection, a process to ensure that products are free from defects, is essential for manufacturing, especially for high-precision parts. The requirements for inspection are increasing as the manufacturing technology improves. Traditional methods are time-consuming and not efficient to inspect due to their limited uses and troublesome operations. It is hard for them to obtain complete data on complex parts, and they fail to measure ductile parts or parts with curved surfaces. The advent of 3D scanning technology has greatly alleviated these pain points.
+                    <p>ll forging tools are designed and manufactured in-house using 3D Design and Computer Aided Manufacturing. Years of experience allow us to design tools that generate better yields, thus less raw material is needed to make the part.</p>
+                    <p className='mt-3'>
+                        KSD cast and forge limited manufactures carbon steel and chrome vanadium hand tools & power tools
+                    </p>
                 </div>
 
             </div>
@@ -109,9 +112,9 @@ const Casting = () => {
 
             <div className='text-center flex-col flex items-center '>
                 <div className='text-2xl font-bold '>
-                    Application
+                    Available materials for froging
                 </div>
-                <div className='bg-pink-600 w-36 mt-3 h-[3px] rounded-xl'></div>
+                <div className='bg-pink-600 w-48 mt-3 h-[3px] rounded-xl'></div>
 
             </div>
 
@@ -120,9 +123,10 @@ const Casting = () => {
                     <img src={Img3} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl'>One window Reverse Engineering Services encompassing</p>
-                            <p className='my-3 pb-1'>
-                                Fine details and the basic resin for modeling and prototyping. Sharp edges and smooth finish. Great for small and complex projects. Comes in multiple colors.Sharp edges and smooth finish. Great for small and complex projects. Comes in multiple colors.
+                            <p className='font-semibold text-xl'>CARBON STEEL</p>
+                            <p className='my-3 '>
+                                Carbon steel forgings may contain many alloys such as chromium, titanium, nickel, tungsten, zirconium, cobalt, and more, but the carbon content determines the hardness. Forged carbon steel parts are more economical to produce than other forging metals for applications that don’t require high operating temperatures or high strength.
+
                             </p>
 
                         </div>
@@ -132,9 +136,10 @@ const Casting = () => {
                     <img src={Img4} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl'>3D Scanning and Photo grammetry </p>
+                            <p className='font-semibold text-xl'>ALLOY STEEL</p>
                             <p className='my-3'>
-                                Somos resin is an fast printing material that produces high quality  building  parts with great details. The final finishing is outstanding and almost high quality parts with great achieve the industry injection plastic quality. It is perfect for building end-use parts or prototypes for functional testing applications
+                                Different alloys are combined with steel to impart desired qualities in forged alloy steel parts. Alloys, including chromium, manganese, molybdenum, and nickel, increase strength, toughness, and wear resistance. Forging steel with other alloying elements creates components that have high resistance to corrosion and creep as well as .
+
                             </p>
 
                         </div>
@@ -144,9 +149,10 @@ const Casting = () => {
                     <img src={Img5} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl'>Surfacing</p>
+                            <p className='font-semibold text-xl'>MICROALLOY STEEL</p>
                             <p className='my-3'>
-                                Tough Resin simulates the feel and many of the important mechanical properties of ABS plastic. Consider using this material for works-like prototypes and assemblies, including designs with snap fit joints and living hinges. For further finishing, Tough resin can also be machined once printed.
+
+                                Microalloyed steel gets improved mechanical qualities by adding tiny amounts of alloying components that increase the desirable properties for a specific application while decreasing production costs. Forged microalloyed steel is used extensively in automotive applications.improved strength at high temperatures.
                             </p>
 
                         </div>
@@ -162,9 +168,11 @@ const Casting = () => {
                     <img src={Img6} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl'>Solid Modeling</p>
+                            <p className='font-semibold text-xl'> STAINLESS STEEL</p>
                             <p className='my-3'>
-                                A 20% wax-filled material for reliable casting with zero ash content and clean burnout.A 20% wax-filled material for reliable casting with zero ash content and clean burnout.
+
+                                Stainless steels are iron alloys that contain a minimum of 10.5% chromium. They are known for their exceptional corrosion resistance, durability, formability, recyclability, long lifespan, and ability to withstand extreme temperatures, making it suitable for a diverse range of applications.
+
                             </p>
 
                         </div>
@@ -174,11 +182,9 @@ const Casting = () => {
                     <img src={Img7} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl'> Core-Cavity generations what customers want and one window service is what KSD gives.</p>
+                            <p className='font-semibold text-xl'>TITANIUM</p>
                             <p className='my-3'>
-
-                                High-temperature resins are a type of polymer that can withstand elevated temperatures without significant degradation.
-
+                                Titanium alloys are more difficult to forge than others, requiring close control of the forging temperature to achieve optimal mechanical properties. Forged titanium components are preferred for applications.
                             </p>
 
                         </div>

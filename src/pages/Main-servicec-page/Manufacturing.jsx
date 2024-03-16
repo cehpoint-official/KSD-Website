@@ -86,9 +86,10 @@ const Manufacturing = () => {
                             <p className='my-3'>
                                 Manufacturing 3D scanning plays a significant role in various aspects of the production process, offering capabilities for quality control, reverse engineering, and the optimization of manufacturing workflows.
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
+                            <Link to="/manufacturing/casting" className='font-semibold text-lg hover:text-pink-600 text-gray-600'>
                                 Casting & Froging Tool
-                            </p>
+                            </Link>
+
                             <div className='border-b-2 border-gray-600 mt-1 w-16'></div>
                         </div>
                     </div>
@@ -100,9 +101,6 @@ const Manufacturing = () => {
 
         <div className='py-10 px-8 '>
 
-
-
-
             <div class="grid grid-cols-12 gap-6 mt-6">
                 <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
                     <img src={Img5} alt="" className="w-full" />
@@ -112,9 +110,10 @@ const Manufacturing = () => {
                             <p className='my-3'>
                                 CAD/CAM stands for Computer-Aided Design and Computer-Aided Manufacturing. It's a technology that integrates the design and manufacturing processes, allowing for efficient and accurate product development.
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
+                            <Link to="/manufacturing/jig" className='font-semibold hover:text-pink-600 text-lg text-gray-600'>
                                 Jig & Fixtures
-                            </p>
+                            </Link>
+
                             <div className='border-b-2 border-gray-600 mt-1 w-28'></div>
                         </div>
                     </div>
