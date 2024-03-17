@@ -126,9 +126,9 @@ const Manufacturing = () => {
                             <p className='my-3'>
                                 preliminary version of a product or system that is built to test a concept, process, or design. The main purpose of creating a prototype is to evaluate and validate ideas, functionalities, and design aspects before full-scale
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
+                            <Link to="/manufacturing/injection" className='font-semibold hover:text-pink-600  text-lg text-gray-600'>
                                 Injection Moulding
-                            </p>
+                            </Link>
                             <div className='border-b-2 border-gray-600 mt-1 w-16'></div>
                         </div>
                     </div>
@@ -141,9 +141,10 @@ const Manufacturing = () => {
                             <p className='my-3'>
                                 Manufacturing 3D scanning plays a significant role in various aspects of the production process, offering capabilities for quality control, reverse engineering, and the optimization of manufacturing workflows.
                             </p>
-                            <p className='font-semibold text-lg text-gray-600'>
-                                Industrial Fabrication
-                            </p>
+                            <Link to="/manufacturing/industrial" className='font-semibold hover:text-pink-600  text-lg text-gray-600'>
+                            Industrial Fabrication
+                            </Link>
+                           
                             <div className='border-b-2 border-gray-600 mt-1 w-20'></div>
                         </div>
                     </div>

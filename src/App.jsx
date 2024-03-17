@@ -28,6 +28,8 @@ import Plastic from './pages/Main-servicec-page/manufacturingSubPages/Plastic';
 import Rubber from './pages/Main-servicec-page/manufacturingSubPages/Rubber';
 import Casting from './pages/Main-servicec-page/manufacturingSubPages/Casting';
 import Jigs from './pages/Main-servicec-page/manufacturingSubPages/Jigs';
+import Injection from './pages/Main-servicec-page/manufacturingSubPages/Injection';
+import Industrial from './pages/Main-servicec-page/manufacturingSubPages/Industrial';
 
 const App = () => {
   return (
@@ -65,6 +67,8 @@ const App = () => {
         <Route path="/manufacturing/rubber" element={<Rubber />} />
         <Route path="/manufacturing/casting" element={<Casting />} />
         <Route path="/manufacturing/jig" element={<Jigs />} />
+        <Route path="/manufacturing/injection" element={<Injection />} />
+        <Route path="/manufacturing/industrial" element={<Industrial />} />
 
 
 
