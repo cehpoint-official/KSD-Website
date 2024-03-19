@@ -159,8 +159,12 @@ const Navbar = () => {
                                                 </div>
                                                 <div className=''>
                                                     <p className='mt-5 font-bold'>INDUSTRIES</p>
-                                                    <p className='text-sm my-4'>Automotive</p>
-                                                    <p className='text-sm my-4'>Consumer Goods</p>
+                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                        <Link to="/industry/automotive">Automotive</Link>
+                                                    </p>
+                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                        <Link to="/industry/consumer">Consumer Goods</Link>
+                                                    </p>
                                                     <p className='text-sm my-4'>House Hold</p>
                                                     <p className='text-sm my-4'>Toys</p>
                                                     <p className='text-sm my-4'>defence</p>
@@ -299,8 +303,12 @@ const Navbar = () => {
                     </div>
                     <div className=' col-span-12 lg:col-span-3 md:col-span-4'>
                         <p className='mt-5 font-bold'>INDUSTRIES</p>
-                        <p className='text-sm my-4'>Automotive</p>
-                        <p className='text-sm my-4'>Consumer Goods</p>
+                        <p className='text-sm my-4 hover:text-pink-500'>
+                            <Link to="/industry/automotive" >Automotive</Link>
+                        </p>
+                        <p className='text-sm my-4 hover:text-pink-500'>
+                            <Link to="/industry/consumer" >Consumer Goods</Link>
+                        </p>
                         <p className='text-sm my-4'>House Hold</p>
                         <p className='text-sm my-4'>Toys</p>
                         <p className='text-sm my-4'>defence</p>

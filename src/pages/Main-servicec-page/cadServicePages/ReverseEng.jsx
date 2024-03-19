@@ -10,7 +10,7 @@ import Navbar from '../../../component/Navbar'
 import Footer from '../../../component/Footer'
 
 const ReverseEng = () => {
-  
+
     return <div>
         {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-8 '>
@@ -40,13 +40,13 @@ const ReverseEng = () => {
             </div>
 
             <div className='grid grid-cols-12  gap-6 md:m-10  my-10'>
-                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 bg-red-300 bg-opacity-15 rounded-xl h-24 p-3 pt-5 hover:bg-opacity-25  my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>Enhances product competitiveness</p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 bg-red-300 bg-opacity-15 rounded-xl h-24 p-3 pt-5 hover:bg-opacity-25  my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
@@ -54,7 +54,7 @@ const ReverseEng = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 bg-red-300 bg-opacity-15 rounded-xl h-24 p-3 pt-5 hover:bg-opacity-25  my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
@@ -62,7 +62,7 @@ const ReverseEng = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 bg-red-300 bg-opacity-15 rounded-xl h-24 p-3 pt-5 hover:bg-opacity-25  my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
@@ -70,7 +70,7 @@ const ReverseEng = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 bg-red-300 bg-opacity-15 rounded-xl h-24 p-3 pt-5 hover:bg-opacity-25  my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
@@ -78,7 +78,7 @@ const ReverseEng = () => {
                         </p>
                     </div>
                 </div>
-                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
+                <div className='lg:col-span-4 bg-red-300 bg-opacity-15 rounded-xl h-24 p-3 pt-5 hover:bg-opacity-25  my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>

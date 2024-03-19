@@ -30,6 +30,8 @@ import Casting from './pages/Main-servicec-page/manufacturingSubPages/Casting';
 import Jigs from './pages/Main-servicec-page/manufacturingSubPages/Jigs';
 import Injection from './pages/Main-servicec-page/manufacturingSubPages/Injection';
 import Industrial from './pages/Main-servicec-page/manufacturingSubPages/Industrial';
+import Automotive from './pages/IndustryPages/Automotive';
+import Consumer from './pages/IndustryPages/Consumer';
 
 const App = () => {
   return (
@@ -70,7 +72,10 @@ const App = () => {
         <Route path="/manufacturing/injection" element={<Injection />} />
         <Route path="/manufacturing/industrial" element={<Industrial />} />
 
+        {/* Company Page */}
 
+        <Route path="/industry/automotive" element={<Automotive />} />
+        <Route path="/industry/consumer" element={<Consumer />} />
 
         {/* Company Page */}
 
