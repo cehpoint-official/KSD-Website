@@ -32,7 +32,7 @@ const Drafting = () => {
             </div>
 
 
-            <div className='text-center flex-col flex items-center mt-10'>
+            <div className='text-center flex-col flex items-center mt-28'>
                 <div className='text-2xl font-bold '>
                     Why 2d Drafting?
                 </div>

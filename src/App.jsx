@@ -32,6 +32,8 @@ import Injection from './pages/Main-servicec-page/manufacturingSubPages/Injectio
 import Industrial from './pages/Main-servicec-page/manufacturingSubPages/Industrial';
 import Automotive from './pages/IndustryPages/Automotive';
 import Consumer from './pages/IndustryPages/Consumer';
+import House from './pages/IndustryPages/House';
+import Toys from './pages/IndustryPages/Toys';
 
 const App = () => {
   return (
@@ -72,10 +74,12 @@ const App = () => {
         <Route path="/manufacturing/injection" element={<Injection />} />
         <Route path="/manufacturing/industrial" element={<Industrial />} />
 
-        {/* Company Page */}
+        {/* industry Page */}
 
         <Route path="/industry/automotive" element={<Automotive />} />
         <Route path="/industry/consumer" element={<Consumer />} />
+        <Route path="/industry/house" element={<House />} />
+        <Route path="/industry/toys" element={<Toys />} />
 
         {/* Company Page */}
 

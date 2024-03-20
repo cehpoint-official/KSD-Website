@@ -165,10 +165,14 @@ const Navbar = () => {
                                                     <p className='text-sm my-4 hover:text-pink-500'>
                                                         <Link to="/industry/consumer">Consumer Goods</Link>
                                                     </p>
-                                                    <p className='text-sm my-4'>House Hold</p>
-                                                    <p className='text-sm my-4'>Toys</p>
-                                                    <p className='text-sm my-4'>defence</p>
-                                                    <p className='text-sm my-4'>Transportation</p>
+                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                        <Link to="/industry/house" >House Hold</Link>
+                                                    </p>
+                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                        <Link to="/industry/toys" >Toys</Link>
+                                                    </p>
+                                                    <p className='text-sm my-4 hover:text-pink-500'>defence</p>
+                                                    <p className='text-sm my-4 hover:text-pink-500'>Transportation</p>
                                                 </div>
                                                 <div className='me-5'>
                                                     <p className='text-sm my-4 mt-16'>Medical Technology</p>
@@ -309,10 +313,14 @@ const Navbar = () => {
                         <p className='text-sm my-4 hover:text-pink-500'>
                             <Link to="/industry/consumer" >Consumer Goods</Link>
                         </p>
-                        <p className='text-sm my-4'>House Hold</p>
-                        <p className='text-sm my-4'>Toys</p>
-                        <p className='text-sm my-4'>defence</p>
-                        <p className='text-sm my-4'>Transportation</p>
+                        <p className='text-sm my-4 hover:text-pink-500'>
+                            <Link to="/industry/house" >House Hold</Link>
+                        </p>
+                        <p className='text-sm my-4 hover:text-pink-500'>
+                            <Link to="/industry/toys" >Toys</Link>
+                        </p>
+                        <p className='text-sm my-4 hover:text-pink-500'>defence</p>
+                        <p className='text-sm my-4 hover:text-pink-500'>Transportation</p>
                     </div>
                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
                         <p className='text-sm my-4 mt-16'>Medical Technology</p>

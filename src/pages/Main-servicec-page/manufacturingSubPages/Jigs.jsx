@@ -109,7 +109,7 @@ const Jigs = () => {
                 </div>
 
             </div>
-            <div className=" col-span-12 md:col-span-6 lg:col-span-6 bg-black">
+            <div className=" col-span-12 md:col-span-6 lg:col-span-6 bg-white">
                 <img src={Img2} alt="" className=" object-cover w-full h-[30rem]" />
             </div>
         </div>

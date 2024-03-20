@@ -32,20 +32,14 @@ const Consumer = () => {
         </div>
 
         <div className=" grid grid-cols-12 bg-black  text-black pt-16">
-
-
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
                 <div className="md:text-4xl text-3xl font-bold ">What We Do?</div>
                 <div className='border-b-4 w-28 mt-3 border-pink-600 rounded-xl'></div>
-
                 <div className=" pt-6">
                     <p>
                         Using advanced technologies like precision lasers, we meticulously capture the details of products, helping manufacturers keep up with short product cycles, cost pressures, and high-quality demands. Our services enable swift identification of improvements in design and ensure that products meet stringent quality standards. In a nutshell, we're here to make the development and production of consumer goods efficient, cost-effective, and precise.
                     </p>
-
-
                 </div>
-
             </div>
             <div className=" col-span-12 md:col-span-6 lg:col-span-6 bg-white">
                 <img src={Img2} alt="" className=" object-cover w-full h-[30rem]" />
@@ -58,7 +52,6 @@ const Consumer = () => {
                     Applications
                 </div>
                 <div className='bg-pink-600 w-28 mt-3 h-[3px] rounded-xl'></div>
-
             </div>
 
             <div class="grid grid-cols-12 gap-6 mt-20">
