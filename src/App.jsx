@@ -34,6 +34,8 @@ import Automotive from './pages/IndustryPages/Automotive';
 import Consumer from './pages/IndustryPages/Consumer';
 import House from './pages/IndustryPages/House';
 import Toys from './pages/IndustryPages/Toys';
+import Defence from './pages/IndustryPages/Defence';
+import Transportation from './pages/IndustryPages/Transportation';
 
 const App = () => {
   return (
@@ -80,6 +82,8 @@ const App = () => {
         <Route path="/industry/consumer" element={<Consumer />} />
         <Route path="/industry/house" element={<House />} />
         <Route path="/industry/toys" element={<Toys />} />
+        <Route path="/industry/defence" element={<Defence />} />
+        <Route path="/industry/transportation" element={<Transportation />} />
 
         {/* Company Page */}
 
