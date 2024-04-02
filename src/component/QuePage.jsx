@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const QuePage = () => {
 
@@ -8,6 +8,24 @@ const QuePage = () => {
     const [fourButton, setFourButton] = useState(false)
     const [fourFive, setFourFive] = useState(false)
 
+    useEffect(() => {
+        document.addEventListener("click", () => {
+            setFirstButton(false)
+            setSecondButton(false)
+            setThirdButton(false)
+            setFourButton(false)
+            setFourFive(false)
+        })
+        return () => {
+            document.removeEventListener("click", () => {
+                setFirstButton(false)
+                setSecondButton(false)
+                setThirdButton(false)
+                setFourButton(false)
+                setFourFive(false)
+            })
+        }
+    }, [])
     return <div className='my-20 mx-10 '>
         <div className='flex-col text-center items-center mt-28 mb-10'>
             <i className='text-xl text-slate-600 '>Just Find Your Answers Below ----</i>
@@ -17,17 +35,26 @@ const QuePage = () => {
             </p>
 
         </div>
+
+
         <div className='lg:mx-28 md:20 mx-10 text-xl mb-20 '>
             <div className='flex justify-between items-center py-4 px-2 border-b-2 border-slate-400'>
-                <button onClick={e => setFirstButton(true)}>
+                <button onClick={e => {
+                    e.stopPropagation()
+                    setFirstButton(!firstButton)
+                }}>
                     What are the services offered by KSD technologies?
                 </button>
-                <button onClick={e => setFirstButton(true)}>
+                <button
+                    onClick={e => {
+                        e.stopPropagation()
+                        setFirstButton(!firstButton)
+                    }}>
                     <i className={`z-50 ${!firstButton ? " bi bi-chevron-down" : "bi bi-chevron-up"}`}></i>
                 </button>
             </div>
-            <div
-                onMouseLeave={e => setFirstButton(false)}
+
+            <div onMouseLeave={e => setFirstButton(false)}
                 onClick={e => setFirstButton(false)}
                 className={` z-50 ${!firstButton ? "hidden" : ""}  bg-slate-300`}>
                 <p className='hover:bg-slate-200 p-2  focus:bg-slate-400' tabindex="0">
@@ -40,11 +67,22 @@ const QuePage = () => {
                     3. Technical support.
                 </p>
             </div>
+
+
+
+
             <div className='flex justify-between items-center py-4 px-2 border-b-2 border-slate-400'>
-                <button onClick={e => setSecondButton(!secondButton)}>
+                <button onClick={e => {
+                    e.stopPropagation()
+                    setSecondButton(!secondButton)
+                }}>
                     What is reverse engineering?
                 </button>
-                <button onClick={e => setSecondButton(!secondButton)}>
+                <button
+                    onClick={e => {
+                        e.stopPropagation()
+                        setSecondButton(!secondButton)
+                    }}>
                     <i className={`z-50 ${!secondButton ? " bi bi-chevron-down" : "bi bi-chevron-up"}`}></i>
                 </button>
             </div>
@@ -67,10 +105,16 @@ const QuePage = () => {
             </div>
 
             <div className='flex justify-between items-center py-4 px-2 border-b-2 border-slate-400'>
-                <button onClick={e => setThirdButton(!thirdButton)}>
+                <button onClick={e => {
+                    e.stopPropagation()
+                    setThirdButton(!thirdButton)
+                }}>
                     What is reverse engineering?
                 </button>
-                <button onClick={e => setThirdButton(!thirdButton)}>
+                <button onClick={e => {
+                    e.stopPropagation()
+                    setThirdButton(!thirdButton)
+                }}>
                     <i className={`z-50 ${!thirdButton ? " bi bi-chevron-down" : "bi bi-chevron-up"}`}></i>
                 </button>
             </div>
@@ -92,10 +136,16 @@ const QuePage = () => {
             </div>
 
             <div className='flex justify-between items-center py-4 px-2 border-b-2 border-slate-400'>
-                <button onClick={e => setFourButton(!fourButton)}>
+                <button onClick={e => {
+                    e.stopPropagation()
+                    setFourButton(!fourButton)
+                }}>
                     What is reverse engineering?
                 </button>
-                <button onClick={e => setFourButton(!fourButton)}>
+                <button onClick={e => {
+                    e.stopPropagation()
+                    setFourButton(!fourButton)
+                }}>
                     <i className={`z-50 ${!fourButton ? " bi bi-chevron-down" : "bi bi-chevron-up"}`}></i>
                 </button>
             </div>
@@ -116,10 +166,16 @@ const QuePage = () => {
                 </p>
             </div>
             <div className='flex justify-between items-center py-4 px-2 '>
-                <button onClick={e => setFourFive(!fourFive)}>
+                <button onClick={e => {
+                    e.stopPropagation()
+                    setFourFive(!fourFive)
+                }}>
                     What is 3D scanning?
                 </button>
-                <button onClick={e => setFourFive(!fourFive)}>
+                <button onClick={e => {
+                    e.stopPropagation()
+                    setFourFive(!fourFive)
+                }}>
                     <i className={`z-50 ${!fourFive ? " bi bi-chevron-down" : "bi bi-chevron-up"}`}></i>
                 </button>
             </div>
@@ -141,7 +197,7 @@ const QuePage = () => {
             </div>
 
         </div>
-    </div>
+    </div >
 }
 
 export default QuePage

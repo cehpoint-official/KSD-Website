@@ -31,11 +31,11 @@ const Custemer = () => {
 
                         </p>
                         <div className='flex gap-2 my-4'>
-                            <i className='bi bi-star-fill text-yellow-600'></i>
-                            <i className='bi bi-star-fill text-yellow-600'></i>
-                            <i className='bi bi-star-fill text-yellow-600'></i>
-                            <i className='bi bi-star-fill text-yellow-600'></i>
-                            <i className='bi bi-star-fill text-yellow-600'></i>
+                            <i className='bi bi-star-fill text-yellow-400'></i>
+                            <i className='bi bi-star-fill text-yellow-400'></i>
+                            <i className='bi bi-star-fill text-yellow-400'></i>
+                            <i className='bi bi-star-fill text-yellow-400'></i>
+                            <i className='bi bi-star-fill text-yellow-400'></i>
                         </div>
                         <div className='lg:mt-40 md:mt-24 mt-10'>
                             <div className='flex justify-between'>
