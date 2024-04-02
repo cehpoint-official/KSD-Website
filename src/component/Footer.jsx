@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterImg from "../asset/nav-logo.png"
+import Logo from "../asset/nav-logo.png"
 import FacebookIcon from "../asset/facebook-icon.png"
 import LinkedinIcon from "../asset/linkedin-icon.png"
 import WhatsappIcon from "../asset/whatsapp-icon.png"
@@ -10,21 +10,22 @@ const Footer = () => {
         <div className=" bg-black">
             <div className='grid grid-cols-12 text-white mx-12 pt-20 pb-10 gap-8'>
                 <div className='col-span-12  pb-10 md:col-span-6 lg:col-span-4 border-b md:border-b-0 '>
-                    <p className=' text-3xl font-semibold'>Connect with us</p>
+                    <img src={Logo} alt="" className='mb-7' />
+                    <p className=' text-xl font-semibold'>Connect with us</p>
                     {/* <img className='pe-4  lg:h-14 h-10' src={FooterImg} alt="" /> */}
-                    <div className='flex gap-3 mt-10'>
+                    <div className='flex gap-3 mt-4'>
                         <img className='h-10 cursor-pointer' src={WhatsappIcon} alt="" />
                         <img className='h-10 cursor-pointer' src={LinkedinIcon} alt="" />
                         <img className='h-10 cursor-pointer' src={FacebookIcon} alt="" />
                     </div>
-                    <p className='text-xl mt-5'><i class="bi bi-envelope-at-fill"></i> contact@ksdtech.com</p>
+                    <p className='text-lg mt-5'><i class="bi bi-envelope-at-fill"></i> contact@ksdtech.com</p>
 
                 </div>
 
                 <div className='col-span-12  md:col-span-3 lg:col-span-2  border-b md:border-b-0 lg:border-b-0'>
                     <p className='text-3xl font-semibold'>Links</p>
                     <p className='text-lg mt-6 lg:mt-10 my-3'>Home</p>
-                    <p className='text-lg my-3 mb-6'>Contact Us</p>
+                    <p className='text-lg my-3 '>Contact Us</p>
                     <p className='text-lg my-3'>FAQ</p>
                 </div>
 

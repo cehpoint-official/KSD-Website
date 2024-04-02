@@ -31,12 +31,12 @@ const Home = () => {
                     className='mt-14 flex flex-col items-center md:flex-row md:justify-center space-y-2 md:space-y-0 md:space-x-3'>
                     <Link to="/contactUs">
                         <button
-                            className='border-pink-500 border hover:bg-pink-500 px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
+                            className='border-[#ff0000] text-[#ff0000] hover:text-white border hover:bg-[#ff0000] px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                             Contact us
                         </button>
                     </Link>
                     <Link to="/company/quote">
-                        <button className='bg-pink-600 hover:bg-pink-500 text-white px-10 py-2 rounded-lg'>Get a Quote</button>
+                        <button className='bg-[#ff0000] hover:bg-[#ff0000] text-white px-10 py-2 rounded-lg'>Get a Quote</button>
                     </Link>
                 </motion.div>
             </motion.div>

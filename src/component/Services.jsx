@@ -7,31 +7,38 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
     return <>
-        <div className=' text-center flex-col flex items-center bg-black '>
-            <div className='pt-28 lg:pb-5 text-5xl text-white font-bold'>Our Services</div>
-            <div className=' md:mx-0 mx-10  pb-10 md:pb-10 lg:pb-12 text-xl md:w-[60%] lg:w-[50%] text-gray-300 pt-2'>
-                <p>
-                    KSD tand industry solutions go beyond working smarter. Our unique ability to connect the physical and digital worlds with data and integrated technology improves the way people live, eat and move
-                </p>
+        <div className=' text-center flex-col flex items-center bg-black'>
+
+            <div className='text-center flex-col flex items-center lg:pb-5 pt-28 text-white'>
+                <div className='text-4xl font-bold  border-b-2 border-white  pb-6'>
+                    Our Services
+                </div>
+                <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
+                    <p>
+                        KSD tand industry solutions go beyond working smarter. Our unique ability to connect the physical and digital worlds with data and integrated technology improves the way people live, eat and move
+                    </p>
+                </div>
             </div>
+
             <div class='grid grid-cols-12 gap-8 m-10'>
                 <motion.div
                     whileHover={{ scale: 0.9 }}
                     transition={{ type: "spring", stiffness: 200, damping: 20 }}
-                    class='col-span-12 md:col-span-6 lg:col-span-4 group'>
-                    <img src={Img1} alt="" className="w-full group-hover:blur-[2px]" />
-                    <div class='text-start'>
+                    class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 lg:col-span-4 group bg-white'>
+                    <img src={Img1} alt="" className="w-full " />
+                    <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/cadServise">
-                                <p className='font-bold hover:text-pink-500'>3D CAD/CAM</p>
+                                <p className='font-semibold text-slate-700 hover:text-red-500 text-3xl'>3D Models</p>
                             </Link>
-                            <p className='my-3'>
-                                CAD/CAM stands for Computer-Aided Design and Computer-Aided Manufacturing. It's a technology that integrates the design and manufacturing processes, allowing for efficient and accurate product development.
+                            <p className='my-5 text-slate-700'>
+                                For all those training, briefing or presentation sessions that need a little more than powerpoint.
                             </p>
-                            <Link to="/cadServise">
-                                <p className='text-gray-500 hover:text-pink-500'>
-                                    3D CAD/CAM
+                            <Link to="/cadServise" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                                <p className='font-serif  text-xl'>
+                                    Read More
                                 </p>
+                                <i className='bi bi-arrow-right text-2xl'></i>
                             </Link>
                         </div>
                     </div>
@@ -39,21 +46,22 @@ const Services = () => {
                 <motion.div
                     whileHover={{ scale: 0.9 }}
                     transition={{ type: "spring", stiffness: 200, damping: 20 }}
-                    class='col-span-12 md:col-span-6 lg:col-span-4 group'>
-                    <img src={Img2} alt="" className="w-full group-hover:blur-[2px]" />
-                    <div class='text-start'>
+                    class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 lg:col-span-4 group '>
+                    <img src={Img2} alt="" className="w-full " />
+                    <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/prototype">
-                                <p className='font-bold hover:text-pink-500'>Prototype</p>
+                                <p className='font-semibold text-slate-700 hover:text-red-500 text-3xl'>3D Printing</p>
                             </Link>
-                            <p className='my-3'>
-                                CAD/CAM stands for Computer-Aided Design and Computer-Aided Manufacturing. It's a technology that integrates the design and manufacturing processes, allowing for efficient and accurate product development.
+                            <p className='my-5 text-slate-700'>
+                                The absolute gem in manufacturing, convert your thoughts into reality with our state of art 3D Printing facility
                             </p>
 
-                            <Link to="/prototype">
-                                <p className='text-gray-500 hover:text-pink-500'>
-                                    Prototype
+                            <Link to="/prototype" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                                <p className='font-serif  text-xl'>
+                                    Read More
                                 </p>
+                                <i className='bi bi-arrow-right text-2xl'></i>
                             </Link>
                         </div>
                     </div>
@@ -61,21 +69,23 @@ const Services = () => {
                 <motion.div
                     whileHover={{ scale: 0.9 }}
                     transition={{ type: "spring", stiffness: 200, damping: 20 }}
-                    class='col-span-12 md:col-span-6 lg:col-span-4 group'>
+                    class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 group'>
                     <img src={Img3} alt="" className="w-full group-hover:blur-[2px]" />
-                    <div class='text-start'>
+                    <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/manufacturing" >
-                                <p className='font-bold hover:text-pink-500'>Manufacturing</p>
+
+                                <p className='font-semibold text-slate-700 hover:text-red-500 text-3xl'>Manufacturing</p>
                             </Link>
-                            <p className='my-3'>
-                                CAD/CAM stands for Computer-Aided Design and Computer-Aided Manufacturing. It's a technology that integrates the design and manufacturing processes, allowing for efficient and accurate product development.
+                            <p className='my-5 text-slate-700'>
+                                Even before the egg or the chicken, <br /> came a Prototype. Get yours with FRAXUS expertise
                             </p>
 
-                            <Link to="/manufacturing">
-                                <p className='text-gray-500 hover:text-pink-500'>
-                                    Manufacturing
+                            <Link to="/manufacturing" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                                <p className='font-serif text-xl'>
+                                    Read More
                                 </p>
+                                <i className='bi bi-arrow-right text-2xl'></i>
                             </Link>
                         </div>
                     </div>
@@ -84,7 +94,7 @@ const Services = () => {
             </div>
 
 
-            <div class='grid grid-cols-12 gap-8 m-10'>
+            {/* <div class='grid grid-cols-12 gap-8 m-10'>
                 <div class='col-span-12 md:col-span-4 lg:col-span-4  mt-24'>
                     <div className='bg-gray-900 hover:bg-pink-500 text-white group border-gray-400 p-6 my-8'>
                         <p> <i className='bi bi-camera text-pink-500  me-1 group-hover:text-white'></i> Trusted By Clients</p>
@@ -118,7 +128,7 @@ const Services = () => {
                 </div>
 
 
-            </div>
+            </div> */}
 
         </div>
 

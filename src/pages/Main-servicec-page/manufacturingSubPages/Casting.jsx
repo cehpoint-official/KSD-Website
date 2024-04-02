@@ -7,8 +7,6 @@ import Img5 from "../../../asset/main-services-page/Manufacturing/casting/img-5.
 import Img6 from "../../../asset/main-services-page/Manufacturing/casting/img-6.png"
 import Img7 from "../../../asset/main-services-page/Manufacturing/casting/img-7.png"
 // import Img8 from "../../../asset/main-services-page/Manufacturing/casting/img-8.png"
-import Navbar from '../../../component/Navbar'
-import Footer from '../../../component/Footer'
 
 const Casting = () => {
     return <div>

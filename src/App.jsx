@@ -36,6 +36,9 @@ import House from './pages/IndustryPages/House';
 import Toys from './pages/IndustryPages/Toys';
 import Defence from './pages/IndustryPages/Defence';
 import Transportation from './pages/IndustryPages/Transportation';
+import Medical from './pages/IndustryPages/Medical';
+import KSDCourses from './pages/CoursesPages/KSDCourses';
+import PayNow from './pages/Main-servicec-page/PayNow';
 
 const App = () => {
   return (
@@ -84,11 +87,21 @@ const App = () => {
         <Route path="/industry/toys" element={<Toys />} />
         <Route path="/industry/defence" element={<Defence />} />
         <Route path="/industry/transportation" element={<Transportation />} />
+        <Route path="/industry/medical" element={<Medical />} />
 
         {/* Company Page */}
 
         < Route path="/contactUs" element={<ContactUs />} />
         <Route path="/company/quote" element={<Quote />} />
+
+        {/* Navbar Page Route */}
+        {/* Courses Page */}
+        < Route path="/cousers/ksd" element={<KSDCourses />} />
+
+        {/* PayNow */}
+        < Route path="/payNow" element={<PayNow />} />
+
+
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
       <Footer />

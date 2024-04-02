@@ -6,25 +6,47 @@ import Img3 from "../asset/industries-img/Rectangle-3.png"
 import Img4 from "../asset/industries-img/Rectangle-4.png"
 import Img5 from "../asset/industries-img/Rectangle-5.png"
 import Img6 from "../asset/industries-img/Rectangle-6.png"
+import { Link } from 'react-router-dom';
 
 const Industries = () => {
     return <>
-        <div className='text-center items-center  mt-10'>
+        <div className='text-center items-center mt-20 indBackImg py-20'>
             <div className='text-center flex-col flex items-center'>
-                <div className='text-5xl font-bold  border-b-4  pb-4 '>
+                <div className='text-4xl font-semibold  border-b-2 text-white pb-4 '>
                     Industries</div>
             </div>
 
             <div className=' flex justify-center'>
+                <div className=' text-xl overflow-clip text-gray-200 pt-20  '>
+                    <div className='space-x-4 '>
+                        <Link className=''> Automotive </Link>
+                        <span>|</span>
+                        <Link className=''>Consumer Goods</Link>
+                        <span>|</span>
+                        <Link className=''>House Hold</Link>
+                        <span>|</span>
+                        <Link className=''>Medical Technology</Link>
+                        <span>|</span>
+                        <Link className=''>Toys</Link>
+                        <span>|</span>
+                        <Link className=''>Defence</Link>
+                        <span>|</span>
+                        <Link className=''>Transportation</Link>
+                        <br className='' />
+                        <br className='' />
+                        <Link className=''>Sheet Metal Forming</Link>
+                        <span>|</span>
+                        <Link className=''>Casting Foundry</Link>
+                        <span>|</span>
+                        <Link className=''>Injection Moudling</Link>
+                        <span>|</span>
+                        <Link className=''>Tool & Die Manufacture</Link>
+                    </div>
 
-                <div className='md:pb-10  lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae similique, obcaecati nobis cupiditate quia atque distinctio vero! Quos, non voluptas.
-                    </p>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {/* 1st row */}
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
                 <motion.div
                     whileHover={{ scale: 0.9 }}
                     transition={{ type: "spring", stiffness: 400, damping: 20 }}
@@ -68,7 +90,6 @@ const Industries = () => {
                     </motion.div>
                 </motion.div>
 
-                {/* 2nd row */}
                 <motion.div
                     whileHover={{ scale: 0.9 }}
                     transition={{ type: "spring", stiffness: 400, damping: 20 }}
@@ -111,7 +132,7 @@ const Industries = () => {
                         <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
                     </motion.div>
                 </motion.div>
-            </div>
+            </div> */}
         </div>
     </>
 }

@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.indBackImg {
+    background-image: url(asset/industri-bg-img.png);
+    background-color: black;
+}
+
+.achiBackImg {
+    background-image: url(asset/achi-back-img.png);
+    background-color: black;
+}
+
+.paynowImg {
+    background-image: url(asset/payNow-img/paynow-Img.png);
+    background-color: black;
+}

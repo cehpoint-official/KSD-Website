@@ -21,9 +21,9 @@ const HomeOne = () => {
         <Industries />
         <Manufacture />
         <Work />
-        <Blog />
+        {/* <Blog /> */}
         <Custemer />
-        <Contact />
+        {/* <Contact /> */}
         <QuePage />
         {/* <Footer /> */}
     </div>

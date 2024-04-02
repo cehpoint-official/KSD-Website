@@ -66,27 +66,27 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={` overflow-hidden`}>
+            <div className={``}>
                 <div className=''>
                     <div className='w-full bg-black text-white px-10 '>
-                        <div className=' py-2'>
+                        <div className=' py-2 '>
                             <div className='flex items-center justify-between'>
                                 <Link to="/">
-                                    <img className='pe-4 lg:h-14 md:h-12 h-10' src={NavbarImg} alt="" />
+                                    <img className='pe-4 lg:h-12 md:h-12 h-10' src={NavbarImg} alt="" />
                                 </Link>
-                                <div className='text-lg hidden lg:block space-x-4'>
+                                <div className='text-[1.1rem] hidden lg:block space-x-4'>
 
                                     <Link to="/" >
                                         <button >
                                             <p
-                                                className="hover:text-pink-500 transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4  rounded-sm font-semibold"
+                                                className="hover:text-[#ff0000] transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4  rounded-sm font-semibold"
                                                 href="#"
                                             > Home</p>
                                         </button>
                                     </Link>
                                     <button className='group '>
                                         <p
-                                            className="hover:text-pink-500 transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4  rounded-sm font-semibold"
+                                            className="hover:text-[#ff0000] transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4  rounded-sm font-semibold"
                                             href="#"
                                         > Services</p>
                                         <motion.div
@@ -144,7 +144,7 @@ const Navbar = () => {
                                         </motion.div>
                                     </button>
                                     <button className='group '>
-                                        <p className="hover:text-pink-500 transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4 rounded-sm font-semibold" href="#">Industries</p>
+                                        <p className="hover:text-[#ff0000] transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4 rounded-sm font-semibold" href="#">Industries</p>
 
                                         <motion.div
                                             whileHover={{ scale: 1.05 }}
@@ -159,28 +159,30 @@ const Navbar = () => {
                                                 </div>
                                                 <div className=''>
                                                     <p className='mt-5 font-bold'>INDUSTRIES</p>
-                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                    <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/automotive">Automotive</Link>
                                                     </p>
-                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                    <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/consumer">Consumer Goods</Link>
                                                     </p>
-                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                    <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/house" >House Hold</Link>
                                                     </p>
-                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                    <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/toys" >Toys</Link>
                                                     </p>
-                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                    <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/defence" >Defence</Link>
                                                     </p>
-                                                    <p className='text-sm my-4 hover:text-pink-500'>
+                                                    <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/transportation" >Transportation</Link>
                                                     </p>
 
                                                 </div>
                                                 <div className='me-5'>
-                                                    <p className='text-sm my-4 mt-16'>Medical Technology</p>
+                                                    <p className='text-sm my-4 mt-16 hover:text-[#ff0000]'>
+                                                        <Link to="/industry/medical">Medical Technology</Link>
+                                                    </p>
                                                     <p className='text-sm my-4'>Sheet Metal Forming</p>
                                                     <p className='text-sm my-4'>Casting Foundry</p>
                                                     <p className='text-sm my-4'>Injection Moulding</p>
@@ -194,8 +196,7 @@ const Navbar = () => {
 
                                     <motion.button className='group'>
                                         <p
-
-                                            className="hover:text-pink-500 transition ease-in-out delay-10 hover:scale-125 duration-200 pb-7 px-4 rounded-sm font-semibold"
+                                            className="hover:text-[#ff0000] transition ease-in-out delay-10 hover:scale-125 duration-200 pb-7 px-4 rounded-sm font-semibold"
                                         >
                                             Company
                                         </p>
@@ -220,16 +221,35 @@ const Navbar = () => {
                                             </div>
                                         </motion.div>
                                     </motion.button>
+                                    <motion.button className='group'>
+                                        <p
+                                            className="hover:text-[#ff0000] transition ease-in-out delay-10 hover:scale-125 duration-200 pb-7 px-4 rounded-sm font-semibold"
+                                        >
+                                            <Link to="/cousers/ksd">
+                                                Courses
+                                            </Link>
+
+                                        </p>
+                                    </motion.button>
+                                    <motion.button className='group'>
+                                        <p
+                                            className="hover:text-[#ff0000] transition ease-in-out delay-10 hover:scale-125 duration-200 pb-7 px-4 rounded-sm font-semibold"
+                                        >
+                                            <Link to="/payNow">
+                                                Pay Now
+                                            </Link>
+                                        </p>
+                                    </motion.button>
                                     <Link to="/contactUs" >
-                                        <button className='bg-pink-500 hover:bg-pink-600 focus:ring-2 focus:ring-pink-300 text-white font-semibold rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2 dark:bg-pink-600 dark:hover:bg-pink-700 dark:focus:ring-pink-800'>
+                                        <button className='bg-[#ff0000] hover:bg-red-600 focus:ring-2 focus:ring-red-300 text-white font-semibold rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800'>
                                             Contact
                                         </button>
                                     </Link>
                                 </div>
                                 <div className='lg:hidden block text-center'>
                                     <button
-                                        onClick={toggleContactPage} className=' hover:text-pink-500 focus:text-gray-50 focus:outline-none font-medium rounded-lg text-3xl'>
-                                        <i class={!isContactOpen ? " bi  bi-list " : " bi-x-lg hover:text-pink-600"}></i>
+                                        onClick={toggleContactPage} className=' hover:text-[#ff0000] focus:text-gray-50 focus:outline-none font-medium rounded-lg text-3xl'>
+                                        <i class={!isContactOpen ? " bi  bi-list " : " bi-x-lg hover:text-[#ff0000]"}></i>
                                     </button>
                                 </div>
                             </div>
@@ -242,6 +262,8 @@ const Navbar = () => {
             {/* <div className={`z-10 ${isOpen ? '' : 'hidden'} bg-white absolute`}>
                 <p className='text-3xl'>Home Details</p>
             </div> */}
+
+            {/* small navbar */}
 
 
             <motion.div
@@ -312,27 +334,29 @@ const Navbar = () => {
                     </div>
                     <div className=' col-span-12 lg:col-span-3 md:col-span-4'>
                         <p className='mt-5 font-bold'>INDUSTRIES</p>
-                        <p className='text-sm my-4 hover:text-pink-500'>
+                        <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/automotive" >Automotive</Link>
                         </p>
-                        <p className='text-sm my-4 hover:text-pink-500'>
+                        <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/consumer" >Consumer Goods</Link>
                         </p>
-                        <p className='text-sm my-4 hover:text-pink-500'>
+                        <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/house" >House Hold</Link>
                         </p>
-                        <p className='text-sm my-4 hover:text-pink-500'>
+                        <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/toys" >Toys</Link>
                         </p>
-                        <p className='text-sm my-4 hover:text-pink-500'>
+                        <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/defence" >Defence</Link>
                         </p>
-                        <p className='text-sm my-4 hover:text-pink-500'>
+                        <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/transportation" >Transportation</Link>
                         </p>
                     </div>
                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
-                        <p className='text-sm my-4 mt-16'>Medical Technology</p>
+                        <p className='text-sm my-4 mt-10 hover:text-[#ff0000]'>
+                            <Link to="/industry/medical">Medical Technology</Link>
+                        </p>
                         <p className='text-sm my-4'>Sheet Metal Forming</p>
                         <p className='text-sm my-4'>Casting Foundry</p>
                         <p className='text-sm my-4'>Injection Moulding</p>

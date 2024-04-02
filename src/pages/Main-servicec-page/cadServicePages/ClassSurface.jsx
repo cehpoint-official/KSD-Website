@@ -92,7 +92,6 @@ const ClassSurface = () => {
 
         <div className=" grid grid-cols-12 bg-black  text-black">
 
-
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
                 <div className="md:text-4xl text-3xl font-bold ">  Importance </div>
                 <div className='border-b-4 w-32 mt-3 border-pink-600 rounded-xl'></div>

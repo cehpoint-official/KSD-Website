@@ -2,10 +2,10 @@ import React from 'react'
 import Img1 from '../asset/customer-img.png'
 
 const Custemer = () => {
-    return <div className='mt-16'>
+    return <div className='mt-10'>
         <div className='text-center flex-col flex items-center'>
             <p className='text-gray-600 text-xl font-semibold my-6'><i>Testimonials  ---</i></p>
-            <div className='text-5xl font-bold  border-b-4  pb-6'>
+            <div className='text-4xl font-bold  border-b-4  pb-6'>
                 What Our Customer Says
             </div>
         </div>
@@ -38,9 +38,16 @@ const Custemer = () => {
                             <i className='bi bi-star-fill text-yellow-600'></i>
                         </div>
                         <div className='lg:mt-40 md:mt-24 mt-10'>
-
-                            <p className='font-bold text-xl'>Anya Mondal</p>
-                            <p className='text-sm text-gray-700'>Chief Accountant</p>
+                            <div className='flex justify-between'>
+                                <div>
+                                    <p className='font-bold text-xl'>Anya Mondal</p>
+                                    <p className='text-sm text-gray-700'>Chief Accountant</p>
+                                </div>
+                                <div className='space-x-3'>
+                                    <button className='bg-slate-100 border shadow-lg h-12 w-12 rounded-full'><i className='bi text-3xl bi-arrow-left'></i></button>
+                                    <button className='bg-slate-900 border shadow-lg h-12 w-12 text-white rounded-full'><i className='bi text-3xl bi-arrow-right'></i></button>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
