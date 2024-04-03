@@ -105,37 +105,74 @@ const Navbar = () => {
                                                         </div>
                                                     </div>
                                                     <div className=' col-span-12 lg:col-span-3 md:col-span-4'>
-                                                        <p className='mt-5 font-bold'>3D CAD</p>
-                                                        <p className='text-sm my-4'>Reverse  Engineering</p>
-                                                        <p className='text-sm my-4'>Quality control & 3D Inspection</p>
-                                                        <p className='text-sm my-4'>Surface Modelling & Solid Modelling</p>
-                                                        <p className='text-sm my-4'>gd & T</p>
-                                                        <p className='text-sm my-4'>Class a surfacing</p>
-                                                        <p className='text-sm my-4'>Product design service</p>
-                                                        <p className='text-sm my-4'>2D drafting</p>
-                                                        <p className='text-sm my-4'>conversion of 2d to 3d</p>
+
+                                                        <p className='mt-5 font-bold'>
+                                                            <Link to="/cadServise" className='hover:text-[#ff0000]'>3D CAD</Link>
+                                                        </p>
+                                                        <p className='text-sm my-4 '>
+                                                            <Link to="/cad/reverseEng" className='hover:text-[#ff0000]'>Reverse  Engineering</Link>
+                                                        </p>
+                                                        <p className='text-sm my-4'>
+                                                            <Link to="/cad/qualityControl" className='hover:text-[#ff0000]'>Quality control & 3D Inspection</Link>
+                                                        </p>
+                                                        <p className='text-sm my-4'>
+                                                            <Link to="/cad/surfaceMod" className='hover:text-[#ff0000]'>
+                                                                Surface Modelling & Solid Modelling
+                                                            </Link>
+                                                        </p>
+                                                        <p className='text-sm my-4'>
+                                                            <Link to="/cad/gDandT" className='hover:text-[#ff0000]'>
+                                                                gd & T
+                                                            </Link>
+                                                        </p>
+                                                        <p className='text-sm my-4'>
+                                                            <Link to="/cad/classSurface" className='hover:text-[#ff0000]'>Class a surfacing</Link>
+                                                        </p>
+                                                        <p className='text-sm my-4'>
+                                                            <Link to="/cad/productDesign" className='hover:text-[#ff0000]'>  Product design service</Link>
+                                                        </p>
+                                                        <p className='text-sm my-4'>
+                                                            <Link to="/cad/drafting" className='hover:text-[#ff0000]'>2D drafting</Link>
+                                                        </p>
+                                                        <p className='text-sm my-4'>
+                                                            <Link to="/cad/conversion" className='hover:text-[#ff0000]'>conversion of 2d to 3d</Link>
+                                                        </p>
                                                     </div>
+
+
+
+
+
                                                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
-                                                        <p className='mt-5 font-bold'>3D CAM</p>
-                                                        <p className='text-sm my-4'>VMC MACHINING</p>
-                                                        <p className='text-sm my-4'>CNC MACHINING</p>
+                                                        <p className='mt-5 font-bold'>
+                                                            <Link to="/cadServise" className='hover:text-[#ff0000]'>3D CAM</Link>
+                                                        </p>
+                                                        <p className='text-sm my-4'>
+                                                            <Link to="/cad/cNCMachining" className='hover:text-[#ff0000]'>VMC MACHINING</Link>
+                                                        </p>
+                                                        <p className='text-sm my-4'>
+                                                            <Link to="/cad/vMCMachining" className='hover:text-[#ff0000]'>CNC MACHINING</Link>
+                                                        </p>
                                                     </div>
+
+
+
                                                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
-                                                        <p className='mt-5 font-bold'>PROTOTYPE</p>
-                                                        <p className='text-sm my-4'>SLA</p>
-                                                        <p className='text-sm my-4'>FDM</p>
-                                                        <p className='text-sm my-4'>Poly  jet</p>
-                                                        <p className='text-sm my-4'>metal Printing</p>
-                                                        <p className='text-sm my-4'>SLS</p>
+                                                        <p className='mt-5 font-bold'><Link to="/prototype" className='hover:text-[#ff0000]'>PROTOTYPE</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/prototype/slaPage" className='hover:text-[#ff0000]'>SLA</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/prototype/fdmPage" className='hover:text-[#ff0000]'>FDM</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/prototype/polyjet" className='hover:text-[#ff0000]'>Poly  jet</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/prototype/metal" className='hover:text-[#ff0000]'>metal Printing</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/prototype/slsPage" className='hover:text-[#ff0000]'>SLS</Link></p>
                                                     </div>
                                                     <div className='col-span-12 lg:col-span-3 md:col-span-4'>
-                                                        <p className='mt-5 font-bold'>MANUFACTURING</p>
-                                                        <p className='text-sm my-4'>plastic  injection mould</p>
-                                                        <p className='text-sm my-4'>rubber mould</p>
-                                                        <p className='text-sm my-4'>casting and froging tool</p>
-                                                        <p className='text-sm my-4'>gig & fixtures</p>
-                                                        <p className='text-sm my-4'>injection moulding</p>
-                                                        <p className='text-sm my-4'>industrial fabrication</p>
+                                                        <p className='mt-5 font-bold'><Link to="/manufacturing" className='hover:text-[#ff0000]'>MANUFACTURING</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/manufacturing/plastic" className='hover:text-[#ff0000]'>plastic  injection mould</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/manufacturing/rubber" className='hover:text-[#ff0000]'>rubber mould</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/manufacturing/casting" className='hover:text-[#ff0000]'>casting and froging tool</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/manufacturing/jig" className='hover:text-[#ff0000]'>gig & fixtures</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/manufacturing/injection" className='hover:text-[#ff0000]'>injection moulding</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/manufacturing/industrial" className='hover:text-[#ff0000]'>industrial fabrication</Link></p>
                                                     </div>
                                                 </div>
 
@@ -144,7 +181,9 @@ const Navbar = () => {
                                         </motion.div>
                                     </button>
                                     <button className='group '>
-                                        <p className="hover:text-[#ff0000] transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4 rounded-sm font-semibold" href="#">Industries</p>
+                                        <p className="hover:text-[#ff0000] transition ease-in-out delay-150  hover:scale-125  duration-200  pb-7 px-4 rounded-sm font-semibold" href="#">
+                                            Industries
+                                        </p>
 
                                         <motion.div
                                             whileHover={{ scale: 1.05 }}
@@ -215,7 +254,9 @@ const Navbar = () => {
                                                     <p className='mt-5 font-bold'>COMPANY</p>
                                                     <p className='text-sm my-4'>About Us</p>
                                                     <p className='text-sm my-4'>FAQs</p>
-                                                    <p className='text-sm my-4'>Blogs</p>
+                                                    <p className='text-sm my-4'>
+                                                        <Link to="/company/blog" className='hover:text-[#ff0000]'>Blogs</Link>
+                                                    </p>
                                                     <p className='text-sm my-4'>Request a Quote</p>
                                                 </div>
                                             </div>

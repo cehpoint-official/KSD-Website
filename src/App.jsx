@@ -39,6 +39,7 @@ import Transportation from './pages/IndustryPages/Transportation';
 import Medical from './pages/IndustryPages/Medical';
 import KSDCourses from './pages/CoursesPages/KSDCourses';
 import PayNow from './pages/Main-servicec-page/PayNow';
+import Blog from './pages/companyPages/Blog';
 
 const App = () => {
   return (
@@ -93,6 +94,7 @@ const App = () => {
 
         < Route path="/contactUs" element={<ContactUs />} />
         <Route path="/company/quote" element={<Quote />} />
+        <Route path="/company/blog" element={<Blog />} />
 
         {/* Navbar Page Route */}
         {/* Courses Page */}

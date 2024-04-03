@@ -1,14 +1,14 @@
 import React from 'react'
-import Img1 from "../asset/blog-1.png"
-import Img2 from "../asset/blog-2.png"
-import Img3 from "../asset/blog-3.png"
-import Img4 from "../asset/blog-4.png"
+import Img1 from "../../asset/blog-1.png"
+import Img2 from "../../asset/blog-2.png"
+import Img3 from "../../asset/blog-3.png"
+import Img4 from "../../asset/blog-4.png"
 
 
 const Blog = () => {
     return <>
-        <div className='text-center flex-col flex items-center mt-10 bg-black py-10'>
-            <div className='text-5xl font-bold border-white text-white border-b-2 pb-2'>OUR BLOG</div>
+        <div className='text-center flex-col flex items-center bg-black py-10'>
+            <div className='text-5xl font-bold border-white text-white border-b-2 pb-2 my-4'>OUR BLOG</div>
 
             <div class='grid grid-cols-12 gap-8 m-10 '>
                 <div class='col-span-12 md:col-span-5 lg:col-span-5'>
@@ -37,7 +37,7 @@ const Blog = () => {
 
             </div>
 
-            <div class='grid grid-cols-12 gap-8 m-10'>
+            <div class='grid grid-cols-12 gap-8 m-10 mt-20'>
                 <div class='col-span-12 md:col-span-6 lg:col-span-4'>
                     <img src={Img2} alt="" className="w-full" />
                     <div class='text-start'>

@@ -8,7 +8,7 @@ import Work from '../component/Work'
 import Custemer from '../component/Custemer'
 import QuePage from '../component/QuePage'
 import Footer from '../component/Footer'
-import Blog from '../component/Blog'
+import Blog from './companyPages/Blog'
 import Contact from '../component/Contact'
 import Home from '../component/Home'
 
