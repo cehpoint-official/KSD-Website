@@ -10,7 +10,7 @@ const Services = () => {
         <div className=' text-center flex-col flex items-center bg-black'>
 
             <div className='text-center flex-col flex items-center lg:pb-5 pt-28 text-white'>
-                <div className='text-4xl font-bold  border-b-2 border-white  pb-6'>
+                <div className='text-4xl md:text-6xl font-bold  border-b-2 border-white  pb-6'>
                     Our Services
                 </div>
                 <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
@@ -70,7 +70,7 @@ const Services = () => {
                     whileHover={{ scale: 0.9 }}
                     transition={{ type: "spring", stiffness: 200, damping: 20 }}
                     class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 group'>
-                    <img src={Img3} alt="" className="w-full group-hover:blur-[2px]" />
+                    <img src={Img3} alt="" className="w-full " />
                     <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/manufacturing" >

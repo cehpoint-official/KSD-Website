@@ -9,11 +9,9 @@ const Blog = () => {
     return <>
         <div className='text-center flex-col flex items-center bg-black py-10'>
             <div className='text-5xl font-bold border-white text-white border-b-2 pb-2 my-4'>OUR BLOG</div>
-
             <div class='grid grid-cols-12 gap-8 m-10 '>
                 <div class='col-span-12 md:col-span-5 lg:col-span-5'>
                     <img src={Img1} alt="" className="w-full lg:h-80 md:h-80" />
-
                 </div>
                 <div class='col-span-12 md:col-span-7 lg:col-span-7'>
 
@@ -29,11 +27,9 @@ const Blog = () => {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis obcaecati facere dignissimos libero, officiis, id, autem hic accusantium voluptatibus provident at ullam eius porro quo! Lorem ipsum dolor sit.
                             </p>
                             <button className='text-sm border-2  text-white px-4 py-1 rounded-lg font-bold'>Read  More</button>
-
                         </div>
                     </div>
                 </div>
-
 
             </div>
 
@@ -90,11 +86,9 @@ const Blog = () => {
                     </div>
                 </div>
 
-
             </div>
 
         </div>
-
 
     </>
 }

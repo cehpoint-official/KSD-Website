@@ -6,9 +6,10 @@ const Manufacture = () => {
         <div className=' bg-slate-50  py-24 pt-32'>
 
             <div className='text-center flex-col flex items-center'>
-                <div className='text-4xl font-semibold  border-b-2  pb-4 '>
+                <div className='text-4xl md:text-6xl font-bold  pb-6 '>
                     Our Manufacturing Process
                 </div>
+                <div className='border-b-8 border-red-600 w-64 text-center'></div>
             </div>
             {/* <div className='flex justify-center  lg:mx-32 mx-8 bg-red-800'>
                 <img src={Img1} alt="" className=' md:h-[25rem]' />

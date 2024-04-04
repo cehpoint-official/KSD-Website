@@ -2,10 +2,10 @@ import React from 'react'
 import Img1 from '../asset/customer-img.png'
 
 const Custemer = () => {
-    return <div className='mt-10'>
+    return <div className='mt-10 bg-white py-10'>
         <div className='text-center flex-col flex items-center'>
-            <p className='text-gray-600 text-xl font-semibold my-6'><i>Testimonials  ---</i></p>
-            <div className='text-4xl font-bold  border-b-4  pb-6'>
+            <p className='text-gray-600 text-2xl font-semibold my-6'><i>Testimonials  ---</i></p>
+            <div className='text-4xl md:text-6xl font-bold  border-b-4  pb-6'>
                 What Our Customer Says
             </div>
         </div>

@@ -10,9 +10,9 @@ import { Link } from 'react-router-dom';
 
 const Industries = () => {
     return <>
-        <div className='text-center items-center mt-20 indBackImg py-20'>
+        <div className='text-center items-center my-20 indBackImg py-20 opacity-80'>
             <div className='text-center flex-col flex items-center'>
-                <div className='text-4xl font-semibold  border-b-2 text-white pb-4 '>
+                <div className='text-4xl md:text-6xl font-bold  border-b-8 border-blue-500 text-white pb-4 '>
                     Industries</div>
             </div>
 

@@ -40,31 +40,32 @@ const Work = () => {
 
     return <>
 
-        <div className='text-center  items-center mt-10'>
+        <div className='text-center  items-center mt-10 bg-white py-10'>
             <div className='text-center flex-col flex items-center'>
-                <div className='text-4xl font-bold  border-b-2 border-red-600  pb-6'>
+                <div className='text-4xl md:text-6xl font-bold    pb-6'>
                     SEE OUR LATEST WORK
                 </div>
+                <div className='border-b-8 border-purple-600 w-60'></div>
                 <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae similique, obcaecati nobis cupiditate quia atque distinctio vero! Quos, non voluptas.
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-12 lg:mx-36 mx-10 gap-4">
+            <div className="grid grid-cols-12 lg:mx-36 mx-10 gap-10">
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
-                    className="col-span-12 md:col-span-8  group relative">
+                    whileHover={{ scale: 1.04 }}
+                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                    className="col-span-12 md:col-span-8 overflow-hidden  group relative">
                     <img className="w-full z-1  object-cover  " src={Work1} alt="" />
-                    {/* <motion.div
-                        whileHover={{ scale: 0.9 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
-                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
+                    <motion.div
+                        whileHover={{ scale: 1.04 }}
+                        transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                        className='absolute hidden group-hover:block group-hover:bg-slate-400 top-0 h-full  w-full text-white'>
                         <p className='font-bold'>INDUSTRY 1</p>
                         <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
                         <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
-                    </motion.div> */}
+                    </motion.div>
                 </motion.div>
                 <motion.div
                     whileHover={{ scale: 0.9 }}
@@ -157,14 +158,12 @@ const Work = () => {
         </div>
 
 
-        <div className='text-center achiBackImg text-white py-24 my-32'>
-            {/* <p className='text-gray-600 text-xl font-semibold my-6 mt-16'><i>ACHIEVEMENTS  ---</i></p>
-            <div className='text-4xl  mb-8  font-bold pb-2'>Our ACHIEVEMENTS
-            </div> */}
+        <div className='text-center achiBackImg  bg-white py-24 my-32'>
+
 
             <div className="grid grid-cols-12 gap-8 lg:mx-16 mg:mx-16 mx-8">
-                <div className='col-span-12 lg:col-span-3  text-white md:col-span-4 sm:col-span-6 flex justify-center items-center'>
-                    <div>
+                <div className='col-span-12 lg:col-span-3   text-white md:col-span-4 sm:col-span-6 flex justify-center items-center'>
+                    <div className=''>
                         <p className="text-5xl flex font-bold  ms-6 my-4">
                             {count}+
                         </p>
