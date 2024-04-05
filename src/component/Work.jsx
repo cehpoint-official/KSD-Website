@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSpring, animated } from 'react-spring'
 import { AnimatePresence, motion } from "framer-motion"
-import Img1 from "../asset/achi-img1.png"
-import Img2 from "../asset/achi-img2.png"
-import Img3 from "../asset/achi-img3.png"
-import Img4 from "../asset/achi-img3.png"
+
 import Work1 from "../asset/work-img/Rectangle-1.png"
 import Work2 from "../asset/work-img/Rectangle-2.png"
 import Work3 from "../asset/work-img/Rectangle-3.png"
@@ -23,7 +20,7 @@ const Work = () => {
     const [countTwo, setCountTwo] = useState(0);
     const [countThree, setCountThree] = useState(0);
     const [countFour, setCountFour] = useState(0);
-
+    const [like, setLike] = useState(false)
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCount(prevCount => (prevCount >= 100 ? 5 : prevCount + 5));
@@ -59,98 +56,160 @@ const Work = () => {
                     className="col-span-12 md:col-span-8 overflow-hidden  group relative">
                     <img className="w-full z-1  object-cover  " src={Work1} alt="" />
                     <motion.div
-                        whileHover={{ scale: 1.04 }}
-                        transition={{ type: "spring", stiffness: 80, damping: 50 }}
-                        className='absolute hidden group-hover:block group-hover:bg-slate-400 top-0 h-full  w-full text-white'>
-                        <p className='font-bold'>INDUSTRY 1</p>
-                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
-                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
+                        className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
+
+                        <button
+                            onClick={e => setLike(!like)}
+                            className='absolute hidden group-hover:block left-3 top-3'>
+                            <i className={`bi ${!like ? "bi-heart" : "bi-heart-fill"}  text-red-700 me-1`}></i> <strong>{!like ? "20" : "21"}</strong>
+                        </button>
+
+                        <motion.div
+                            whileHover={{ scale: 1.04 }}
+                            transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                            className='absolute hidden group-hover:block  top-[40%] h-full  w-full  '>
+                            <p className='font-bold text-xl text-slate-800'>Prototype Design service</p>
+
+                        </motion.div>
                     </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
+                    whileHover={{ scale: 1.04 }}
+                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group relative">
                     <img className="w-full  object-cover " src={Work2} alt="" />
-                    {/* <motion.div
-                        whileHover={{ scale: 0.9 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
-                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
-                        <p className='font-bold'>INDUSTRY 1</p>
-                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
-                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
-                    </motion.div> */}
+                    <motion.div
+                        className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
+
+                        <button
+                            onClick={e => setLike(!like)}
+                            className='absolute hidden group-hover:block left-3 top-3'>
+                            <i className={`bi ${!like ? "bi-heart" : "bi-heart-fill"}  text-red-700 me-1`}></i> <strong>{!like ? "8" : "9"}</strong>
+                        </button>
+
+                        <motion.div
+                            whileHover={{ scale: 1.04 }}
+                            transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                            className='absolute hidden group-hover:block  top-[40%] h-full  w-full  '>
+                            <p className='font-bold text-xl text-slate-800'>3D Printing Robots</p>
+
+                        </motion.div>
+                    </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
+                    whileHover={{ scale: 1.04 }}
+                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-8 relative group">
                     <img className="w-full  object-cover " src={Work3} alt="" />
-                    {/* <motion.div
-                        whileHover={{ scale: 0.9 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
-                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
-                        <p className='font-bold'>INDUSTRY 1</p>
-                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
-                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
-                    </motion.div> */}
+                    <motion.div
+                        className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
+
+                        <button
+                            onClick={e => setLike(!like)}
+                            className='absolute hidden group-hover:block left-3 top-3'>
+                            <i className={`bi ${!like ? "bi-heart" : "bi-heart-fill"}  text-red-700 me-1`}></i> <strong>{!like ? "12" : "13"}</strong>
+                        </button>
+
+                        <motion.div
+                            whileHover={{ scale: 1.04 }}
+                            transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                            className='absolute hidden group-hover:block  top-[40%] h-full  w-full  '>
+                            <p className='font-bold text-xl text-slate-800'>Expert Precision Engineering Cad Cam</p>
+
+                        </motion.div>
+                    </motion.div>
                 </motion.div>
 
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
+                    whileHover={{ scale: 1.04 }}
+                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group relative">
                     <img className="w-full h-full object-cover " src={Work4} alt="" />
-                    {/* <motion.div
-                        whileHover={{ scale: 0.9 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
-                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
-                        <p className='font-bold'>INDUSTRY 1</p>
-                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
-                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
-                    </motion.div> */}
+                    <motion.div
+                        className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
+
+                        <button
+                            onClick={e => setLike(!like)}
+                            className='absolute hidden group-hover:block left-3 top-3'>
+                            <i className={`bi ${!like ? "bi-heart" : "bi-heart-fill"}  text-red-700 me-1`}></i> <strong>{!like ? "2" : "3"}</strong>
+                        </button>
+
+                        <motion.div
+                            whileHover={{ scale: 1.04 }}
+                            transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                            className='absolute hidden group-hover:block  top-[40%] h-full  w-full  '>
+                            <p className='font-bold text-xl text-slate-800'>Computer Aided Design (CAD) Services</p>
+
+                        </motion.div>
+                    </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
+                    whileHover={{ scale: 1.04 }}
+                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group  relative">
                     <img className="w-full h-full  object-cover " src={Work5} alt="" />
-                    {/* <motion.div
-                        whileHover={{ scale: 1.10 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
-                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
-                        <p className='font-bold'>INDUSTRY 1</p>
-                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
-                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
-                    </motion.div> */}
+                    <motion.div
+                        className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
+
+                        <button
+                            onClick={e => setLike(!like)}
+                            className='absolute hidden group-hover:block left-3 top-3'>
+                            <i className={`bi ${!like ? "bi-heart" : "bi-heart-fill"}  text-red-700 me-1`}></i> <strong>{!like ? "3" : "4"}</strong>
+                        </button>
+
+                        <motion.div
+                            whileHover={{ scale: 1.04 }}
+                            transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                            className='absolute hidden group-hover:block  top-[40%] h-full  w-full  '>
+                            <p className='font-bold text-xl text-slate-800'>CAD CAM Software</p>
+
+                        </motion.div>
+                    </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
+                    whileHover={{ scale: 1.04 }}
+                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
                     <img className="w-full  object-cover h-full " src={Work6} alt="" />
-                    {/* <motion.div
-                        whileHover={{ scale: 1.10 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
-                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
-                        <p className='font-bold'>INDUSTRY 1</p>
-                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
-                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
-                    </motion.div> */}
+                    <motion.div
+                        className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
+
+                        <button
+                            onClick={e => setLike(!like)}
+                            className='absolute hidden group-hover:block left-3 top-3'>
+                            <i className={`bi ${!like ? "bi-heart" : "bi-heart-fill"}  text-red-700 me-1`}></i> <strong>{!like ? "10" : "11"}</strong>
+                        </button>
+
+                        <motion.div
+                            whileHover={{ scale: 1.04 }}
+                            transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                            className='absolute hidden group-hover:block  top-[40%] h-full  w-full  '>
+                            <p className='font-bold text-xl text-slate-800'>Solid Works</p>
+
+                        </motion.div>
+                    </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 20 }}
+                    whileHover={{ scale: 1.04 }}
+                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
                     <img className="w-full  object-cover " src={Work7} alt="" />
-                    {/* <motion.div
-                        whileHover={{ scale: 1.10 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 15 }}
-                        className='absolute hidden group-hover:block top-[3rem] left-16 w-2/3 text-white'>
-                        <p className='font-bold'>INDUSTRY 1</p>
-                        <p className='my-3'>Etiam purus lorem, aliquet a eros sit amet, vestibulum finibus augue</p>
-                        <button className='text-sm border-2 text-white px-4 py-1 rounded-lg'>More Details</button>
-                    </motion.div> */}
+                    <motion.div className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
+
+                        <button
+                            onClick={e => setLike(!like)}
+                            className='absolute hidden group-hover:block left-3 top-3'>
+                            <i className={`bi ${!like ? "bi-heart" : "bi-heart-fill"}  text-red-700 me-1`}></i> <strong>{!like ? "5" : "6"}</strong>
+                        </button>
+
+
+                        <motion.div
+                            whileHover={{ scale: 1.04 }}
+                            transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                            className='absolute hidden group-hover:block  top-[40%] h-full  w-full  '>
+                            <p className='font-bold text-xl text-slate-800'>3D Modeling</p>
+                        </motion.div>
+                    </motion.div>
                 </motion.div>
             </div>
 
