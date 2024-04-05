@@ -12,8 +12,6 @@ import Work7 from "../asset/work-img/Rectangle-7.png"
 
 
 
-
-
 const Work = () => {
 
     const [count, setCount] = useState(0);

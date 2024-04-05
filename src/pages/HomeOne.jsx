@@ -16,11 +16,33 @@ import BgVdo from "../asset/videoplayback.mp4"
 
 const HomeOne = () => {
 
+    const videoRef = useRef(null);
 
+    useEffect(() => {
+        const video = videoRef.current;
+
+        if (video) {
+            video.play()
+                .then(() => {
+                    // Autoplay started
+                })
+                .catch(error => {
+                    // Autoplay failed
+                    console.error('Autoplay failed:', error);
+                });
+        }
+    }, []);
 
     return <div className=''>
 
-        <video loop autoPlay className='md:top-0 top-20 w-full  z-[-10] bg-white  fixed ' src={BgVdo}></video>
+        {/* <video autoPlay loop muted className='md:top-0 top-20 w-full  z-[-10] bg-white  fixed ' src={BgVdo}></video> */}
+
+        <video ref={videoRef} autoPlay loop muted className='md:top-0 top-20 w-full z-[-10] bg-white fixed'>
+            <source src={BgVdo} type='video/mp4' />
+            {/* Add additional source elements for different video formats if needed */}
+            Your browser does not support the video tag.
+        </video>
+
         {/* <Navbar /> */}
         <Home />
         {/* <Services /> */}
