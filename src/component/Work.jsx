@@ -9,10 +9,15 @@ import Work4 from "../asset/work-img/Rectangle-4.png"
 import Work5 from "../asset/work-img/Rectangle-5.png"
 import Work6 from "../asset/work-img/Rectangle-6.png"
 import Work7 from "../asset/work-img/Rectangle-7.png"
-
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 
 const Work = () => {
+
+    useEffect(() => {
+        Aos.init();
+    }, []);
 
     const [count, setCount] = useState(0);
     const [countTwo, setCountTwo] = useState(0);
@@ -35,17 +40,20 @@ const Work = () => {
 
     return <>
 
-        <div className='text-center  items-center mt-10 bg-white py-10'>
-            <div className='text-center flex-col flex items-center'>
-                <div className='text-4xl md:text-6xl font-bold    pb-6'>
+        <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className='text-center  items-center mt-10 bg-white py-10'>
+            <div className='text-center flex-col flex items-center md:pb-10 lg:pb-12'>
+                <div className='text-4xl md:text-6xl font-bold '>
                     SEE OUR LATEST WORK
                 </div>
-                <div className='border-b-8 border-purple-600 w-60'></div>
-                <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
+                <div className='border-b-8 border-purple-600 w-64 mt-4'></div>
+                {/* <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae similique, obcaecati nobis cupiditate quia atque distinctio vero! Quos, non voluptas.
+
                     </p>
-                </div>
+                </div> */}
             </div>
             <div className="grid grid-cols-12 lg:mx-36 mx-10 gap-10">
                 <motion.div
@@ -215,11 +223,14 @@ const Work = () => {
         </div>
 
 
-        <div className='text-center achiBackImg  bg-white py-24 my-32'>
+        <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className='text-center bg-yellow-300 bg-opacity-70   py-24 my-32'>
 
 
             <div className="grid grid-cols-12 gap-8 lg:mx-16 mg:mx-16 mx-8">
-                <div className='col-span-12 lg:col-span-3   text-white md:col-span-4 sm:col-span-6 flex justify-center items-center'>
+                <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white   md:col-span-4 sm:col-span-6 flex justify-center items-center'>
                     <div className=''>
                         <p className="text-5xl flex font-bold  ms-6 my-4">
                             {count}+
@@ -227,7 +238,7 @@ const Work = () => {
                         <p className="text-2xl  font-semibold ">Total Projects</p>
                     </div>
                 </div>
-                <div className='col-span-12 lg:col-span-3  text-white md:col-span-4 sm:col-span-6 flex justify-center items-center'>
+                <div className='col-span-12 lg:col-span-3  hover:shadow-2xl duration-500 hover:shadow-white  md:col-span-4 sm:col-span-6 flex justify-center items-center'>
                     <div>
                         <p className="text-5xl flex font-bold  ms-6 my-4">
                             {countTwo}+
@@ -235,7 +246,7 @@ const Work = () => {
                         <p className="text-2xl  font-semibold ">Total Products</p>
                     </div>
                 </div>
-                <div className='col-span-12 lg:col-span-3  text-white md:col-span-4 sm:col-span-6 flex justify-center items-center'>
+                <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white md:col-span-4 sm:col-span-6 flex justify-center items-center'>
                     <div>
                         <p className="text-5xl flex font-bold  ms-9 my-4">
                             {countThree}+
@@ -243,7 +254,7 @@ const Work = () => {
                         <p className="text-2xl  font-semibold ">Satisfied Clients</p>
                     </div>
                 </div>
-                <div className='col-span-12 lg:col-span-3  text-white md:col-start-3 md:col-span-8 sm:col-span-6 flex justify-center items-center'>
+                <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white   md:col-start-3 md:col-span-8 sm:col-span-6 flex justify-center items-center'>
                     <div>
                         <p className="text-5xl flex font-bold ms-6 my-4">
                             {countFour}+

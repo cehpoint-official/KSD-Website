@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Img1 from "../asset/manu-img-2.png"
 import ImgIcon from "../asset/manu-img-2-icon.png"
+import Aos from 'aos'
+import "aos/dist/aos.css";
+
+
 const Manufacture = () => {
+    useEffect(() => {
+        Aos.init();
+    }, []);
+
+
     return (
-        <div className=' bg-slate-50  py-24 pt-32'>
+        <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className=' bg-slate-50  py-24 pt-32'>
 
             <div className='text-center flex-col flex items-center'>
                 <div className='text-4xl md:text-6xl font-bold  pb-6 '>

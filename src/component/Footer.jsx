@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Logo from "../asset/nav-logo.png"
 import FacebookIcon from "../asset/facebook-icon.png"
 import LinkedinIcon from "../asset/linkedin-icon.png"
 import WhatsappIcon from "../asset/whatsapp-icon.png"
-
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 const Footer = () => {
+    useEffect(() => {
+        Aos.init();
+    }, []);
     return <>
-        <div className=" bg-black">
+        <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className=" bg-black">
             <div className='grid grid-cols-12 text-white mx-12 pt-20 pb-10 gap-8'>
                 <div className='col-span-12  pb-10 md:col-span-6 lg:col-span-4 border-b md:border-b-0 '>
                     <img src={Logo} alt="" className='mb-7' />

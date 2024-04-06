@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { motion } from 'framer-motion';
 import Img1 from "../asset/industries-img/Rectangle-1.png"
 import Img2 from "../asset/industries-img/Rectangle-2.png"
@@ -7,10 +7,20 @@ import Img4 from "../asset/industries-img/Rectangle-4.png"
 import Img5 from "../asset/industries-img/Rectangle-5.png"
 import Img6 from "../asset/industries-img/Rectangle-6.png"
 import { Link } from 'react-router-dom';
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 const Industries = () => {
+
+    useEffect(() => {
+        Aos.init();
+    }, []);
+
     return <>
-        <div className='text-center items-center my-20 indBackImg py-20 opacity-80'>
+        <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className='text-center items-center my-20 indBackImg py-20 opacity-80'>
             <div className='text-center flex-col flex items-center'>
                 <div className='text-4xl md:text-6xl font-bold  border-b-8 border-blue-500 text-white pb-4 '>
                     Industries</div>

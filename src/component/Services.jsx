@@ -1,29 +1,42 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Img1 from "../asset/server-img-1.png"
 import Img2 from "../asset/server-img-2.png"
 import Img3 from "../asset/server-img-3.png"
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 const Services = () => {
-    return <>
-        <div className=' text-center flex-col flex items-center bg-black'>
 
-            <div className='text-center flex-col flex items-center lg:pb-5 pt-28 text-white'>
-                <div className='text-4xl md:text-6xl font-bold  border-b-2 border-white  pb-6'>
+    useEffect(() => {
+        Aos.init();
+    }, []);
+
+    return <>
+        <div className=' text-center flex-col  flex items-center bg-white mb-5'>
+
+            <div className='text-center flex-col flex items-center lg:pb-5 pt-12 '>
+                <div className='text-4xl md:text-6xl font-bold text-slate-800 pb-6'>
                     Our Services
                 </div>
-                <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
+                <div className='border-b-8 w-48 border-yellow-400'>
+
+                </div>
+                {/* <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
                     <p>
                         KSD tand industry solutions go beyond working smarter. Our unique ability to connect the physical and digital worlds with data and integrated technology improves the way people live, eat and move
                     </p>
-                </div>
+                </div> */}
             </div>
 
-            <div class='grid grid-cols-12 gap-8 m-10'>
+            <div
+                data-aos="fade-up"
+                data-aos-duration="1500"
+                className='grid grid-cols-12 gap-8 m-10'>
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 200, damping: 20 }}
+                    whileHover={{ scale: 0.95 }}
+                    transition={{ type: "spring", stiffness: 100, damping: 50 }}
                     class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 lg:col-span-4 group bg-white'>
                     <img src={Img1} alt="" className="w-full " />
                     <div class=''>
@@ -44,8 +57,8 @@ const Services = () => {
                     </div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 200, damping: 20 }}
+                    whileHover={{ scale: 0.95 }}
+                    transition={{ type: "spring", stiffness: 100, damping: 50 }}
                     class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 lg:col-span-4 group '>
                     <img src={Img2} alt="" className="w-full " />
                     <div class=''>
@@ -67,8 +80,8 @@ const Services = () => {
                     </div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 200, damping: 20 }}
+                    whileHover={{ scale: 0.95 }}
+                    transition={{ type: "spring", stiffness: 100, damping: 50 }}
                     class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 group'>
                     <img src={Img3} alt="" className="w-full " />
                     <div class=''>

@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 const QuePage = () => {
-
+    useEffect(() => {
+        Aos.init();
+    }, []);
     const [firstButton, setFirstButton] = useState(false)
     const [secondButton, setSecondButton] = useState(false)
     const [thirdButton, setThirdButton] = useState(false)
@@ -26,7 +30,10 @@ const QuePage = () => {
             })
         }
     }, [])
-    return <div className='my-20 py-6 px-10 bg-white bg-opacity-80'>
+    return <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className='my-20 py-6 px-10 bg-white bg-opacity-80'>
         <div className='flex-col text-center items-center mt-28 mb-10'>
             <i className='text-2xl text-slate-600 '>Just Find Your Answers Below ----</i>
             <p className='md:text-6xl text-4xl font-bold mt-4'>
