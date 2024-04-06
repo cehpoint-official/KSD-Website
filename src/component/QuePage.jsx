@@ -32,7 +32,7 @@ const QuePage = () => {
     }, [])
     return <div
         data-aos="fade-up"
-        data-aos-duration="1000"
+        data-aos-duration="1500"
         className='my-20 py-6 px-10 bg-white bg-opacity-80'>
         <div className='flex-col text-center items-center mt-28 mb-10'>
             <i className='text-2xl text-slate-600 '>Just Find Your Answers Below ----</i>

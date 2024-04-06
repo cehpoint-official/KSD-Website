@@ -14,7 +14,7 @@ const Manufacture = () => {
     return (
         <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="1500"
             className=' bg-slate-50  py-24 pt-32'>
 
             <div className='text-center flex-col flex items-center'>

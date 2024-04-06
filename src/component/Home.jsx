@@ -60,7 +60,7 @@ const Home = () => {
 
         <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="1500"
             className=" mx-auto grid grid-cols-12 ">
 
 

@@ -42,7 +42,7 @@ const Work = () => {
 
         <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="1500"
             className='text-center  items-center mt-10 bg-white py-10'>
             <div className='text-center flex-col flex items-center md:pb-10 lg:pb-12'>
                 <div className='text-4xl md:text-6xl font-bold '>

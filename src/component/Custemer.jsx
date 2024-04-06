@@ -9,7 +9,7 @@ const Custemer = () => {
     }, []);
     return <div
         data-aos="fade-up"
-        data-aos-duration="1000"
+        data-aos-duration="1500"
         className='mt-10 bg-white py-10'>
         <div className='text-center flex-col flex items-center'>
             <p className='text-gray-600 text-2xl font-semibold my-6'><i>Testimonials  ---</i></p>

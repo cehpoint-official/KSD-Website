@@ -13,7 +13,7 @@ const Footer = () => {
     return <>
         <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="1500"
             className=" bg-black">
             <div className='grid grid-cols-12 text-white mx-12 pt-20 pb-10 gap-8'>
                 <div className='col-span-12  pb-10 md:col-span-6 lg:col-span-4 border-b md:border-b-0 '>
