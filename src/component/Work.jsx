@@ -17,7 +17,8 @@ const Work = () => {
 
     useEffect(() => {
         Aos.init();
-    }, []);
+    });
+
 
     const [count, setCount] = useState(0);
     const [countTwo, setCountTwo] = useState(0);
