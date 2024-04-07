@@ -37,9 +37,8 @@ const HomeOne = () => {
 
         {/* <video autoPlay loop muted className='md:top-0 top-20 w-full  z-[-10] bg-white  fixed ' src={BgVdo}></video> */}
 
-        <video ref={videoRef} autoPlay loop muted className='md:top-0 top-20 w-full z-[-10] bg-white fixed'>
+        <video ref={videoRef} autoPlay loop muted className=' w-full top-0 z-[-10] bg-white fixed'>
             <source src={BgVdo} type='video/mp4' />
-            {/* Add additional source elements for different video formats if needed */}
             Your browser does not support the video tag.
         </video>
 

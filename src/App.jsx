@@ -82,6 +82,7 @@ const App = () => {
 
         {/* industry Page */}
 
+        <Route path="/industry" element={<Industrial />} />
         <Route path="/industry/automotive" element={<Automotive />} />
         <Route path="/industry/consumer" element={<Consumer />} />
         <Route path="/industry/house" element={<House />} />

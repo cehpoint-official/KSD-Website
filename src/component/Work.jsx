@@ -42,14 +42,13 @@ const Work = () => {
     return <>
 
         <div
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            className='text-center  items-center mt-10 bg-white py-10'>
+
+            className='text-center  items-center mt-4 bg-white py-10'>
             <div className='text-center flex-col flex items-center md:pb-10 lg:pb-12'>
-                <div className='text-4xl md:text-6xl font-bold '>
+                <div className='text-2xl lg:text-6xl md:text-4xl font-bold pb-3'>
                     SEE OUR LATEST WORK
                 </div>
-                <div className='border-b-8 border-purple-600 w-64 mt-4'></div>
+                <div className='border-b-[0.4rem] border-purple-600 w-64 '></div>
                 {/* <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
                     <p>
 
@@ -58,8 +57,10 @@ const Work = () => {
             </div>
             <div className="grid grid-cols-12 lg:mx-36 mx-10 gap-10">
                 <motion.div
-                    whileHover={{ scale: 1.04 }}
-                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    // whileHover={{ scale: 1.04 }}
+                    // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-8 overflow-hidden  group relative">
                     <img className="w-full z-1  object-cover  " src={Work1} alt="" />
                     <motion.div
@@ -81,8 +82,10 @@ const Work = () => {
                     </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 1.04 }}
-                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                    data-aos="fade-up"
+                    data-aos-duration="8000"
+                    // whileHover={{ scale: 1.04 }}
+                    // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group relative">
                     <img className="w-full  object-cover " src={Work2} alt="" />
                     <motion.div
@@ -104,8 +107,10 @@ const Work = () => {
                     </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 1.04 }}
-                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                    data-aos="fade-up"
+                    data-aos-duration="8000"
+                    // whileHover={{ scale: 1.04 }}
+                    // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-8 relative group">
                     <img className="w-full  object-cover " src={Work3} alt="" />
                     <motion.div
@@ -128,8 +133,10 @@ const Work = () => {
                 </motion.div>
 
                 <motion.div
-                    whileHover={{ scale: 1.04 }}
-                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                    data-aos="fade-up"
+                    data-aos-duration="8000"
+                    // whileHover={{ scale: 1.04 }}
+                    // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group relative">
                     <img className="w-full h-full object-cover " src={Work4} alt="" />
                     <motion.div
@@ -151,8 +158,10 @@ const Work = () => {
                     </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 1.04 }}
-                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                    data-aos="fade-up"
+                    data-aos-duration="8000"
+                    // whileHover={{ scale: 1.04 }}
+                    // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group  relative">
                     <img className="w-full h-full  object-cover " src={Work5} alt="" />
                     <motion.div
@@ -174,8 +183,10 @@ const Work = () => {
                     </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 1.04 }}
-                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                    data-aos="fade-up"
+                    data-aos-duration="8000"
+                    // whileHover={{ scale: 1.04 }}
+                    // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
                     <img className="w-full  object-cover h-full " src={Work6} alt="" />
                     <motion.div
@@ -197,8 +208,10 @@ const Work = () => {
                     </motion.div>
                 </motion.div>
                 <motion.div
-                    whileHover={{ scale: 1.04 }}
-                    transition={{ type: "spring", stiffness: 80, damping: 50 }}
+                    data-aos="fade-up"
+                    data-aos-duration="8000"
+                    // whileHover={{ scale: 1.04 }}
+                    // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
                     <img className="w-full  object-cover " src={Work7} alt="" />
                     <motion.div className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
@@ -225,13 +238,13 @@ const Work = () => {
 
 
         <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className='text-center bg-yellow-300 bg-opacity-70   py-24 my-32'>
+            // data-aos="fade-up"
+            // data-aos-duration="900"
+            className='text-center bg-yellow-300    py-14 '>
 
 
             <div className="grid grid-cols-12 gap-8 lg:mx-16 mg:mx-16 mx-8">
-                <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white   md:col-span-4 sm:col-span-6 flex justify-center items-center'>
+                <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white   md:col-span-3 sm:col-span-6 flex justify-center items-center text-slate-500'>
                     <div className=''>
                         <p className="text-5xl flex font-bold  ms-6 my-4">
                             {count}+
@@ -239,7 +252,7 @@ const Work = () => {
                         <p className="text-2xl  font-semibold ">Total Projects</p>
                     </div>
                 </div>
-                <div className='col-span-12 lg:col-span-3  hover:shadow-2xl duration-500 hover:shadow-white  md:col-span-4 sm:col-span-6 flex justify-center items-center'>
+                <div className='col-span-12 lg:col-span-3  hover:shadow-2xl duration-500 hover:shadow-white  md:col-span-3 sm:col-span-6 flex justify-center items-center text-slate-500'>
                     <div>
                         <p className="text-5xl flex font-bold  ms-6 my-4">
                             {countTwo}+
@@ -247,20 +260,22 @@ const Work = () => {
                         <p className="text-2xl  font-semibold ">Total Products</p>
                     </div>
                 </div>
-                <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white md:col-span-4 sm:col-span-6 flex justify-center items-center'>
+                <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white md:col-span-3 sm:col-span-6 flex justify-center items-center text-slate-500'>
                     <div>
                         <p className="text-5xl flex font-bold  ms-9 my-4">
                             {countThree}+
                         </p>
-                        <p className="text-2xl  font-semibold ">Satisfied Clients</p>
+                        <p className="text-2xl  font-semibold ">Team Support</p>
                     </div>
                 </div>
-                <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white   md:col-start-3 md:col-span-8 sm:col-span-6 flex justify-center items-center'>
+                <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white   sm:col-start-3 md:col-span-3 sm:col-span-6 flex justify-center items-center text-slate-500'>
                     <div>
-                        <p className="text-5xl flex font-bold ms-6 my-4">
-                            {countFour}+
+                        <p className="text-5xl flex font-bold ms-6">
+                            {/* {countFour}+ */}
                         </p>
-                        <p className="text-2xl  font-semibold ">Team Support</p>
+                        <p className='text-black text-xl font-semibold my-3'>Somethings are UNCOUNTABLE
+                            😁</p>
+                        <p className="text-2xl font-semibold ">Working Hours</p>
                     </div>
                 </div>
             </div>

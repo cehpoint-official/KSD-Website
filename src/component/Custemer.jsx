@@ -9,14 +9,14 @@ const Custemer = () => {
     }, []);
     return <div
         data-aos="fade-up"
-        data-aos-duration="1500"
-        className='mt-10 bg-white py-10'>
+        data-aos-duration="900"
+        className='mt-8 bg-white py-6'>
         <div className='text-center flex-col flex items-center'>
-            <p className='text-gray-600 text-2xl font-semibold my-6'><i>Testimonials  ---</i></p>
-            <div className='text-4xl md:text-6xl font-bold    pb-6'>
+            <p className='text-gray-600 text-xl font-semibold my-4'><i>Testimonials  ---</i></p>
+            <div className='text-2xl lg:text-6xl md:text-4xl  font-bold    pb-3'>
                 What Our Customer Says
             </div>
-            <div className='border-b-8 border-purple-600 w-64'>
+            <div className='border-b-[0.4rem] border-purple-600 w-64'>
 
             </div>
         </div>
@@ -65,8 +65,6 @@ const Custemer = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 }

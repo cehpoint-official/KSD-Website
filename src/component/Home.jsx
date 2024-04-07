@@ -15,15 +15,15 @@ const Home = () => {
 
     return <>
         <div className='relative '>
-            <img src={ImgBg} alt="" className='object-fill opacity-50  md:h-[45rem]  h-[30rem] w-full' />
+            <img src={ImgBg} alt="" className='object-fill opacity-50  lg:h-[33rem]  md:h-[22rem] h-[13rem] w-full' />
             <motion.div
-                className='absolute h-80 lg:h-48  w-full top-10 md:top-32 text-white md:py-0 py-16 px-10 text-center  '>
+                className='absolute h-80 lg:h-48  w-full top-0  text-white   text-center  '>
                 <motion.div
                     initial={{ x: -1400 }}
                     animate={{ x: 0 }}
                     transition={{ duration: 1, delay: 1 }}
-                    className='font-semibold lg:text-7xl md:text-6xl text-4xl mx-auto'>
-                    <p className='mb-20'>LEADERS IN</p>
+                    className='font-semibold lg:text-6xl md:text-4xl mt-2 text-2xl mx-auto'>
+                    <p className='mt-12 lg:mt-20 mb-4 md:mb-10'>LEADERS IN</p>
                     <p><span className='text-yellow-400'>URGENT</span> 3D SCALE MODELS</p>
                     <p><span className='text-yellow-400'>QUALITY</span> 3D PRINTING</p>
                     <p><span className='text-yellow-400'>PRECISION</span> PROTOTYPING</p>
@@ -60,19 +60,17 @@ const Home = () => {
 
         <div
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="1000"
             className=" mx-auto grid grid-cols-12 ">
 
-
-
             <div className="col-span-12 md:col-span-6 lg:col-span-6 px-10 pt-5 bg-white">
-                <div className="md:text-6xl text-4xl font-bold">WELCOME !</div>
-                <div className="border-b-8 w-36 sm:w-40 mt-2 border-red-500"></div>
+                <div className="lg:text-6xl md:text-4xl text-2xl font-bold">WELCOME !</div>
+                <div className="border-b-[0.4rem] w-36 sm:w-40 mt-2 border-red-500"></div>
                 <div className="text-gray-700  font-light mt-4  text-xl p-3">
 
 
                     The world is a place of beauty and imagination. KSD started with a dream of improving the scope of imaginations in professional practice. We create LIVE 3D MODELS of a vast variety of projects ranging from architectural building models to product design prototypes.
-                    KSD 3D is a leading company that provides top-notch 3D modelling, printing, and prototyping services. With a team of skilled designers, we can create 3D models for a diverse range of projects, from buildings to jewellery designs. KSD is at the forefront of 3D printing technology, offering unparalleled quality and precision. Our services are available to a wide range of industries, including architecture, fashion, computer manufacturing, automobiles, highways, railways, education, and training. KSD 3D takes custom orders and inquiries from clients all over the world, ensuring that their customers receive tailored solutions to their unique needs. We are titled as Best in quality 3d printing, precision 3d prototyping and fastest urgent 3d model making company in India.
+                    KSD 3D is a leading company that provides top-notch 3D modelling, printing, and prototyping services. With a team of skilled designers, we can create 3D models for a diverse range of projects, from buildings to jewellery designs. KSD is at the forefront of 3D printing technology, offering unparalleled quality and precision. Our services are available to a wide range of industries, including architecture, fashion, computer manufacturing, automobiles, highways, railways, education, and training. KSD 3D takes custom orders and inquiries from clients all over the world, precision 3d prototyping and fastest urgent 3d model making company in India.
                 </div>
             </div>
 

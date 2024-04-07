@@ -12,11 +12,11 @@ const Footer = () => {
     }, []);
     return <>
         <div
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            className=" bg-black">
+            // data-aos="fade-up"
+            // data-aos-duration="1500"
+            className=" bg-black ">
             <div className='grid grid-cols-12 text-white mx-12 pt-20 pb-10 gap-8'>
-                <div className='col-span-12  pb-10 md:col-span-6 lg:col-span-4 border-b md:border-b-0 '>
+                <div className='col-span-12  pb-10 md:col-span-3 lg:col-span-4 border-b md:border-b-0 '>
                     <img src={Logo} alt="" className='mb-7' />
                     <p className=' text-xl font-semibold'>Connect with us</p>
                     {/* <img className='pe-4  lg:h-14 h-10' src={FooterImg} alt="" /> */}
@@ -30,22 +30,22 @@ const Footer = () => {
                 </div>
 
                 <div className='col-span-12  md:col-span-3 lg:col-span-2  border-b md:border-b-0 lg:border-b-0'>
-                    <p className='text-3xl font-semibold'>Links</p>
+                    <p className='text-2xl font-semibold'>Links</p>
                     <p className='text-lg mt-6 lg:mt-10 my-3'>Home</p>
                     <p className='text-lg my-3 '>Contact Us</p>
                     <p className='text-lg my-3'>FAQ</p>
                 </div>
 
                 <div className='col-span-12  md:col-span-3 lg:col-span-3  border-b md:border-b-0 lg:border-b-0'>
-                    <p className='text-3xl font-semibold'>Services</p>
+                    <p className='text-2xl font-semibold'>Services</p>
                     <p className='text-lg mt-6 lg:mt-10 my-3'>3D CAD/ CAM</p>
                     <p className='text-lg my-3'>Prototype</p>
                     <p className='text-lg my-3'>Manufacturing</p>
                     <p className='text-lg my-3'>CAM</p>
                     <p className='text-lg my-3 mb-6'>Class a surfacing</p>
                 </div>
-                <div className='col-span-12  md:col-span-6 lg:col-span-3 '>
-                    <p className='text-3xl font-semibold'>Industries</p>
+                <div className='col-span-12  md:col-span-3 lg:col-span-3 '>
+                    <p className='text-2xl font-semibold'>Industries</p>
 
                     <p className='my-1 text-lg mt-6 lg:mt-10'>Automotive</p>
                     <p className='my-1 text-lg'>Consumer Goods</p>

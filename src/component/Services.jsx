@@ -17,10 +17,10 @@ const Services = () => {
         <div className=' text-center flex-col  flex items-center bg-white mb-5'>
 
             <div className='text-center flex-col flex items-center lg:pb-5 pt-12 '>
-                <div className='text-4xl md:text-6xl font-bold text-slate-800 pb-6'>
+                <div className='text-2xl lg:text-6xl md:text-4xl font-bold text-slate-800 pb-3'>
                     Our Services
                 </div>
-                <div className='border-b-8 w-48 border-yellow-400'>
+                <div className='border-b-[0.4rem] w-48 border-yellow-400'>
 
                 </div>
                 {/* <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
@@ -32,23 +32,23 @@ const Services = () => {
 
             <div
                 data-aos="fade-up"
-                data-aos-duration="1500"
+                data-aos-duration="1000"
                 className='grid grid-cols-12 gap-8 m-10'>
                 <motion.div
                     whileHover={{ scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 100, damping: 50 }}
-                    class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 lg:col-span-4 group bg-white'>
+                    class='col-span-12 sm:col-span-6  md:col-span-4 lg:col-span-4 group bg-white'>
                     <img src={Img1} alt="" className="w-full " />
                     <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/cadServise">
-                                <p className='font-semibold text-slate-700 hover:text-red-500 text-3xl'>3D Models</p>
+                                <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>3D Models</p>
                             </Link>
                             <p className='my-5 text-slate-700'>
-                                For all those training, briefing or presentation sessions that need a little more than powerpoint.
+                                For all those training, briefing or presentation sessions that need a little briefing more than powerpoint.
                             </p>
                             <Link to="/cadServise" className='flex justify-center items-center gap-2 hover:text-red-500'>
-                                <p className='font-serif  text-xl'>
+                                <p className='font-serif  text-lg'>
                                     Read More
                                 </p>
                                 <i className='bi bi-arrow-right text-2xl'></i>
@@ -59,19 +59,19 @@ const Services = () => {
                 <motion.div
                     whileHover={{ scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 100, damping: 50 }}
-                    class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 lg:col-span-4 group '>
+                    class='col-span-12 sm:col-span-6  md:col-span-4 lg:col-span-4 group '>
                     <img src={Img2} alt="" className="w-full " />
                     <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/prototype">
-                                <p className='font-semibold text-slate-700 hover:text-red-500 text-3xl'>3D Printing</p>
+                                <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>3D Printing</p>
                             </Link>
                             <p className='my-5 text-slate-700'>
                                 The absolute gem in manufacturing, convert your thoughts into reality with our state of art 3D Printing facility
                             </p>
 
                             <Link to="/prototype" className='flex justify-center items-center gap-2 hover:text-red-500'>
-                                <p className='font-serif  text-xl'>
+                                <p className='font-serif  text-lg'>
                                     Read More
                                 </p>
                                 <i className='bi bi-arrow-right text-2xl'></i>
@@ -82,20 +82,20 @@ const Services = () => {
                 <motion.div
                     whileHover={{ scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 100, damping: 50 }}
-                    class='col-span-12 sm:col-span-8 sm:col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 group'>
+                    class='col-span-12 sm:col-span-6  md:col-span-4 sm:col-start-4 lg:col-span-4 group'>
                     <img src={Img3} alt="" className="w-full " />
                     <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/manufacturing" >
 
-                                <p className='font-semibold text-slate-700 hover:text-red-500 text-3xl'>Manufacturing</p>
+                                <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>Manufacturing</p>
                             </Link>
                             <p className='my-5 text-slate-700'>
-                                Even before the egg or the chicken, <br /> came a Prototype. Get yours with FRAXUS expertise
+                                Even before the egg or the chicken,3D Printing 3D Printing  came a Prototype. Get yours with KSD expertise
                             </p>
 
                             <Link to="/manufacturing" className='flex justify-center items-center gap-2 hover:text-red-500'>
-                                <p className='font-serif text-xl'>
+                                <p className='font-serif text-lg'>
                                     Read More
                                 </p>
                                 <i className='bi bi-arrow-right text-2xl'></i>

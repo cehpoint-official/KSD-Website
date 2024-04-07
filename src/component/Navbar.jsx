@@ -64,11 +64,31 @@ const Navbar = () => {
         window.scroll(0, 0)
     }, [pathname])
 
+
+    useEffect(() => {
+        document.addEventListener("click", () => {
+            setIsOpen(false)
+            setIsServices(false)
+            setIsContactOpen(false)
+            setIsIndustriesOpen(false)
+            setIsCompanyOpen(false)
+        })
+        return () => {
+            document.removeEventListener("click", () => {
+                setIsOpen(false)
+                setIsServices(false)
+                setIsContactOpen(false)
+                setIsIndustriesOpen(false)
+                setIsCompanyOpen(false)
+            })
+        }
+    }, [])
+
     return (
         <>
-            <div className={``}>
+            <div className="">
                 <div className=''>
-                    <div className='w-full bg-black text-white px-10 '>
+                    <div className='w-full  z-10 bg-black text-white px-10 '>
                         <div className=' py-2 '>
                             <div className='flex items-center justify-between'>
                                 <Link to="/">
@@ -139,10 +159,6 @@ const Navbar = () => {
                                                         </p>
                                                     </div>
 
-
-
-
-
                                                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
                                                         <p className='mt-5 font-bold'>
                                                             <Link to="/cadServise" className='hover:text-[#ff0000]'>3D CAM</Link>
@@ -154,8 +170,6 @@ const Navbar = () => {
                                                             <Link to="/cad/vMCMachining" className='hover:text-[#ff0000]'>CNC MACHINING</Link>
                                                         </p>
                                                     </div>
-
-
 
                                                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
                                                         <p className='mt-5 font-bold'><Link to="/prototype" className='hover:text-[#ff0000]'>PROTOTYPE</Link></p>
@@ -197,7 +211,9 @@ const Navbar = () => {
                                                     <img src={NavImg3} className='sm:w-44 sm:h-24' alt="" />
                                                 </div>
                                                 <div className=''>
-                                                    <p className='mt-5 font-bold'>INDUSTRIES</p>
+                                                    <p className='mt-5 font-bold'>
+                                                        <Link to="/industry" className='hover:text-[#ff0000]'>INDUSTRIES</Link>
+                                                    </p>
                                                     <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/automotive">Automotive</Link>
                                                     </p>
@@ -289,7 +305,14 @@ const Navbar = () => {
                                 </div>
                                 <div className='lg:hidden block text-center'>
                                     <button
-                                        onClick={toggleContactPage} className=' hover:text-[#ff0000] focus:text-gray-50 focus:outline-none font-medium rounded-lg text-3xl'>
+
+                                        onClick={e => {
+                                            e.stopPropagation()
+                                            setIsContactOpen(!isContactOpen);
+                                            setIsServices(false);
+                                            setIsCompanyOpen(false);
+                                            setIsIndustriesOpen(false);
+                                        }} className=' hover:text-[#ff0000] focus:text-gray-50 focus:outline-none font-medium rounded-lg text-3xl'>
                                         <i class={!isContactOpen ? " bi  bi-list " : " bi-x-lg hover:text-[#ff0000]"}></i>
                                     </button>
                                 </div>
@@ -312,7 +335,13 @@ const Navbar = () => {
                 animate={{ opacity: isServices ? 1 : 0 }}
                 transition={{ duration: 0.3 }}
                 className={`z-10 ${isServices ? '' : 'hidden'}  shadow-lg absolute text-white w-full mt-5 text-center md:text-start `}>
-                <div onMouseLeave={e => setIsServices(false)} className='grid grid-cols-12  bg-gray-900 p-10 lg:p-0 mx-10 gap-5'>
+                <div
+                    onClick={e => {
+                        e.stopPropagation()
+
+                        setIsServices(false)
+                    }}
+                    onMouseLeave={e => setIsServices(false)} className='grid grid-cols-12  bg-gray-900 p-10 lg:p-0 mx-10 gap-5'>
                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
                         <div className='md:flex-col flex md:block justify-center items-center'>
 
@@ -323,37 +352,65 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className=' col-span-12 lg:col-span-3 md:col-span-4'>
-                        <p className='mt-5 font-bold'>3D CAD</p>
-                        <p className='text-sm my-4'>Reverse  Engineering</p>
-                        <p className='text-sm my-4'>Quality control & 3D Inspection</p>
-                        <p className='text-sm my-4'>Surface Modelling & Solid Modelling</p>
-                        <p className='text-sm my-4'>gd & T</p>
-                        <p className='text-sm my-4'>Class a surfacing</p>
-                        <p className='text-sm my-4'>Product design service</p>
-                        <p className='text-sm my-4'>2D drafting</p>
-                        <p className='text-sm my-4'>conversion of 2d to 3d</p>
+                        <p className='mt-5 font-bold'>
+                            <Link to="/cadServise" className='hover:text-[#ff0000]'>3D CAD</Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/reverseEng" className='hover:text-[#ff0000]'>Reverse  Engineering</Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/qualityControl" className='hover:text-[#ff0000]'>Quality control & 3D Inspection</Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/surfaceMod" className='hover:text-[#ff0000]'>
+                                Surface Modelling & Solid Modelling
+                            </Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/gDandT" className='hover:text-[#ff0000]'>
+                                gd & T
+                            </Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/classSurface" className='hover:text-[#ff0000]'>Class a surfacing</Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/productDesign" className='hover:text-[#ff0000]'>  Product design service</Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/drafting" className='hover:text-[#ff0000]'>2D drafting</Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/conversion" className='hover:text-[#ff0000]'>conversion of 2d to 3d</Link>
+                        </p>
                     </div>
                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
-                        <p className='mt-5 font-bold'>3D CAM</p>
-                        <p className='text-sm my-4'>VMC MACHINING</p>
-                        <p className='text-sm my-4'>CNC MACHINING</p>
+                        <p className='mt-5 font-bold'>
+                            <Link to="/cadServise" className='hover:text-[#ff0000]'>3D CAM</Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/cNCMachining" className='hover:text-[#ff0000]'>VMC MACHINING</Link>
+                        </p>
+                        <p className='text-sm my-4'>
+                            <Link to="/cad/vMCMachining" className='hover:text-[#ff0000]'>CNC MACHINING</Link>
+                        </p>
                     </div>
                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
-                        <p className='mt-5 font-bold'>PROTOTYPE</p>
-                        <p className='text-sm my-4'>SLA</p>
-                        <p className='text-sm my-4'>FDM</p>
-                        <p className='text-sm my-4'>Poly  jet</p>
-                        <p className='text-sm my-4'>metal Printing</p>
-                        <p className='text-sm my-4'>SLS</p>
+                        <p className='mt-5 font-bold'><Link to="/prototype" className='hover:text-[#ff0000]'>PROTOTYPE</Link></p>
+                        <p className='text-sm my-4'><Link to="/prototype/slaPage" className='hover:text-[#ff0000]'>SLA</Link></p>
+                        <p className='text-sm my-4'><Link to="/prototype/fdmPage" className='hover:text-[#ff0000]'>FDM</Link></p>
+                        <p className='text-sm my-4'><Link to="/prototype/polyjet" className='hover:text-[#ff0000]'>Poly  jet</Link></p>
+                        <p className='text-sm my-4'><Link to="/prototype/metal" className='hover:text-[#ff0000]'>metal Printing</Link></p>
+                        <p className='text-sm my-4'><Link to="/prototype/slsPage" className='hover:text-[#ff0000]'>SLS</Link></p>
                     </div>
                     <div className='col-span-12 lg:col-span-3 md:col-span-4'>
-                        <p className='mt-5 font-bold'>MANUFACTURING</p>
-                        <p className='text-sm my-4'>plastic  injection mould</p>
-                        <p className='text-sm my-4'>rubber mould</p>
-                        <p className='text-sm my-4'>casting and froging tool</p>
-                        <p className='text-sm my-4'>gig & fixtures</p>
-                        <p className='text-sm my-4'>injection moulding</p>
-                        <p className='text-sm my-4'>industrial fabrication</p>
+                        <p className='mt-5 font-bold'><Link to="/manufacturing" className='hover:text-[#ff0000]'>MANUFACTURING</Link></p>
+                        <p className='text-sm my-4'><Link to="/manufacturing/plastic" className='hover:text-[#ff0000]'>plastic  injection mould</Link></p>
+                        <p className='text-sm my-4'><Link to="/manufacturing/rubber" className='hover:text-[#ff0000]'>rubber mould</Link></p>
+                        <p className='text-sm my-4'><Link to="/manufacturing/casting" className='hover:text-[#ff0000]'>casting and froging tool</Link></p>
+                        <p className='text-sm my-4'><Link to="/manufacturing/jig" className='hover:text-[#ff0000]'>gig & fixtures</Link></p>
+                        <p className='text-sm my-4'><Link to="/manufacturing/injection" className='hover:text-[#ff0000]'>injection moulding</Link></p>
+                        <p className='text-sm my-4'><Link to="/manufacturing/industrial" className='hover:text-[#ff0000]'>industrial fabrication</Link></p>
                     </div>
                 </div>
             </motion.div>
@@ -364,7 +421,9 @@ const Navbar = () => {
                 transition={{ duration: 0.3 }}
                 className={`z-10 ${isIndustriesOpen ? '' : 'hidden'} shadow-lg absolute text-white w-full mt-5 text-center md:text-start`}>
 
-                <div onMouseLeave={e => setIsIndustriesOpen(false)} className='grid grid-cols-12 bg-gray-900 p-10 lg:p-0 mx-10 gap-5'>
+                <div
+                    onClick={e => setIsIndustriesOpen(false)}
+                    onMouseLeave={e => setIsIndustriesOpen(false)} className='grid grid-cols-12 bg-gray-900 p-10 lg:p-0 mx-10 gap-5'>
                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>
                         <div className='md:flex-col flex md:block justify-center items-center'>
                             <img src={NavImg1} className='sm:w-44 sm:h-24 w-[30%] h-[30%]' alt="" />
@@ -374,7 +433,9 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className=' col-span-12 lg:col-span-3 md:col-span-4'>
-                        <p className='mt-5 font-bold'>INDUSTRIES</p>
+                        <p className='mt-5 font-bold hover:text-[#ff0000]'>
+                            <Link to="/industry" >INDUSTRIES</Link>
+                        </p>
                         <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/automotive" >Automotive</Link>
                         </p>
@@ -435,13 +496,28 @@ const Navbar = () => {
 
             <div className={`z-10 ${isContactOpen ? '' : 'hidden'}  w-full text-white  absolute lg:hidden `}>
                 <div onMouseLeave={e => setIsContactOpen(false)} className='flex-col flex w-72   ms-auto me-11 rounded-xl bg-gray-900 py-5'>
-                    <button onClick={toggleServicesPage} className='group hover:bg-slate-800 py-2 focus:border-2 focus:border-pink-500'>
+                    <button className='text-xl font-semibold'>
+                        <Link to="/">Home</Link>
+                    </button>
+                    <button onClick={e => {
+                        e.stopPropagation()
+                        setIsContactOpen(false);
+                        setIsServices(!isServices);
+                    }} className='group hover:bg-slate-800 py-2 focus:border-2 focus:border-pink-500'>
                         <a className='text-xl font-semibold group-hover:text-pink-600'>Services</a>
                     </button>
-                    <button onClick={toggleCompanyPage} className='group hover:bg-slate-800 py-2 focus:border-2 focus:border-pink-500 '>
+                    <button onClick={e => {
+                        e.stopPropagation()
+                        setIsContactOpen(false);
+                        setIsCompanyOpen(!isCompanyOpen);
+                    }} className='group hover:bg-slate-800 py-2 focus:border-2 focus:border-pink-500 '>
                         <a className='text-xl font-semibold group-hover:text-pink-600'>Campany</a>
                     </button>
-                    <button onClick={toggleIndustriesPage} className='group hover:bg-slate-800 py-2 focus:border-2 focus:border-pink-500 '>
+                    <button onClick={e => {
+                        e.stopPropagation()
+                        setIsContactOpen(false);
+                        setIsIndustriesOpen(!isIndustriesOpen);
+                    }} className='group hover:bg-slate-800 py-2 focus:border-2 focus:border-pink-500 '>
                         <a className='text-xl font-semibold group-hover:text-pink-600'>Industries</a>
                     </button>
                 </div>

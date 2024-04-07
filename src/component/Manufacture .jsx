@@ -13,15 +13,15 @@ const Manufacture = () => {
 
     return (
         <div
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            className=' bg-slate-50  py-24 pt-32'>
+            // data-aos="fade-up"
+            // data-aos-duration="1500"
+            className=' bg-slate-50  py-16 '>
 
             <div className='text-center flex-col flex items-center'>
-                <div className='text-4xl md:text-6xl font-bold  pb-6 '>
+                <div className='text-2xl lg:text-6xl md:text-4xl font-bold  pb-3 '>
                     Our Manufacturing Process
                 </div>
-                <div className='border-b-8 border-red-600 w-64 text-center'></div>
+                <div className='border-b-[0.4rem] border-red-600 w-64 text-center'></div>
             </div>
             {/* <div className='flex justify-center  lg:mx-32 mx-8 bg-red-800'>
                 <img src={Img1} alt="" className=' md:h-[25rem]' />
