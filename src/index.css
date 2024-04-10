@@ -24,8 +24,11 @@ html {
 
 
 
-.imgBg {
+.item {
     background-image: url("asset/welcome-page.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* object-fit: fill; */
+    height: 33rem;
+    width: 100%;
 }
