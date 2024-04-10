@@ -56,91 +56,110 @@ const CadServices = () => {
       <div class='grid grid-cols-12 gap-8  '>
         <div class='col-span-12 md:col-span-6 lg:col-span-4'>
           <img src={Img2} alt="" className="w-full" />
-          <div class='text-start'>
+          <div class='text-center'>
             <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>Reverse Engineering</p>
+              <p className='font-semibold text-xl text-slate-800'>Reverse Engineering</p>
               <p className='my-3'>
                 CAD/CAM stands for Computer-Aided Design and Computer-Aided Manufacturing. It's a technology that integrates the design and manufacturing processes, allowing for efficient and accurate product development.
               </p>
-              <Link to="/cad/reverseEng" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                Reverse Engineering
+              <Link to="/cad/reverseEng" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-20'></div>
+
             </div>
           </div>
         </div>
         <div class='col-span-12 md:col-span-6 lg:col-span-4'>
           <img src={Img3} alt="" className="w-full" />
-          <div class='text-start'>
+          <div class='text-center'>
             <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>Quality Control & 3D Inspection</p>
+              <p className='font-semibold text-xl text-slate-800'>Quality Control & 3D Inspection</p>
               <p className='my-3'>
                 preliminary version of a product or system that is built to test a concept, process, or design. The main purpose of creating a prototype is to evaluate and validate ideas, functionalities, and design aspects before full-scale
               </p>
-              <Link to="/cad/qualityControl" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                Quality Control & 3D Inspection
+              <Link to="/cad/qualityControl" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-36'></div>
+
             </div>
           </div>
         </div>
         <div class='col-span-12 md:col-span-6 lg:col-span-4'>
           <img src={Img4} alt="" className="w-full" />
-          <div class='text-start '>
+          <div class='text-center'>
             <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>Surface Modelling & Solid Modelling</p>
+              <p className='font-semibold text-xl text-slate-800'>Surface Modelling & Solid Modelling</p>
               <p className='my-3'>
                 Manufacturing 3D scanning plays a significant role in various aspects of the production process, offering capabilities for quality control, reverse engineering, and the optimization of manufacturing workflows.
               </p>
-              <Link to="/cad/surfaceMod" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                Surface Modelling & Solid Modelling
+              <Link to="/cad/surfaceMod" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-36'></div>
+
             </div>
           </div>
         </div>
         <div class='col-span-12 md:col-span-6 lg:col-span-4'>
           <img src={Img5} alt="" className="w-full" />
-          <div class='text-start '>
+          <div class=' text-center'>
             <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>Gd & T</p>
+              <p className='font-semibold text-xl text-slate-800'>Gd & T</p>
               <p className='my-3'>
                 CAM, or Computer-Aided Manufacturing, is a technology that uses computer software and machinery to automate and control manufacturing processes.
               </p>
-              <Link to="/cad/gDandT" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                Gd & T
+              <Link to="/cad/gDandT" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-14 mb-6'></div>
+
             </div>
           </div>
         </div>
         <div class='col-span-12 md:col-span-6 lg:col-span-4'>
           <img src={Img6} alt="" className="w-full" />
-          <div class='text-start '>
+          <div class='text-center '>
             <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>Class A Surfacing</p>
+              <p className='font-semibold text-xl text-slate-800'>Class A Surfacing</p>
               <p className='my-3'>
                 Class A surfacing refers to the creation of high-quality, aesthetically pleasing, and precisely engineered 3D surfaces in computer-aided design (CAD).
               </p>
-              <Link to="/cad/classSurface" className='font-semibold hover:text-pink-500 text-lg text-gray-600 '>
-                Class A Surfacing
+
+              <Link to="/cad/classSurface" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-14 mb-6'></div>
+
             </div>
           </div>
         </div>
         <div class='col-span-12 md:col-span-6  lg:col-span-4  ...'>
           <img src={Img7} alt="" className="w-full" />
-          <div class='text-start '>
+          <div class='bg-white text-center'>
             <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>Product Design Service</p>
+              <p className='font-semibold text-xl text-slate-800'>Product Design Service</p>
               <p className='my-3'>
                 Reverse engineering is the process of deconstructing and analyzing a product, system, or component to understand its structure, functionality, and design principles.
               </p>
-              <Link to="/cad/productDesign" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                Product Design Service
+              <Link to="/cad/productDesign" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-14'></div>
+
             </div>
           </div>
         </div>
@@ -152,31 +171,37 @@ const CadServices = () => {
       <div class="grid grid-cols-12 gap-6 ">
         <div class="lg:col-start-3 lg:col-span-4 md:col-span-6 col-span-12 ...">
           <img src={Img8} alt="" className="w-full" />
-          <div class='text-start '>
+          <div class='text-center'>
             <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>2D Drafting</p>
+              <p className='font-semibold text-xl text-slate-800'>2D Drafting</p>
               <p className='my-3'>
                 CAM, or Computer-Aided Manufacturing, is a technology that uses computer software and machinery to automate and control manufacturing processes.
               </p>
-              <Link to="/cad/drafting" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                2D Drafting
+              <Link to="/cad/drafting" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-24'></div>
+
             </div>
           </div>
         </div>
         <div class="lg:col-span-4 md:col-span-6 col-span-12 ...">
           <img src={Img9} alt="" className="w-full" />
-          <div class='text-start '>
+          <div class='bg-white text-center '>
             <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>Conversion of 2D To 3D</p>
+              <p className='font-semibold text-xl text-slate-800'>Conversion of 2D To 3D</p>
               <p className='my-3'>
                 Class A surfacing refers to the creation of high-quality, aesthetically pleasing, and precisely engineered 3D surfaces in computer-aided design (CAD).
               </p>
-              <Link to="/cad/conversion" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                Conversion of 2D To 3D
+              <Link to="/cad/conversion" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-24'></div>
+
             </div>
           </div>
         </div>
@@ -191,34 +216,40 @@ const CadServices = () => {
       </div>
 
 
-      <div class="grid grid-cols-12 gap-6 mt-14">
+      <div class="grid grid-cols-12 gap-6  mt-14">
         <div class="lg:col-start-3 lg:col-span-4 md:col-span-6 col-span-12 ...">
           <img src={Img10} alt="" className="w-full" />
-          <div class='text-start '>
-            <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>CNC Machining</p>
+          <div class='bg-white text-center'>
+            <div className='border-slate-500  p-5'>
+              <p className='font-semibold text-xl text-slate-800'>CNC Machining</p>
               <p className='my-3'>
                 CAM, or Computer-Aided Manufacturing, is a technology that uses computer software and machinery to automate and control manufacturing processes.
               </p>
-              <Link to="/cad/cNCMachining" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                CNC Machining
+              <Link to="/cad/cNCMachining" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-24'></div>
+
             </div>
           </div>
         </div>
         <div class="lg:col-span-4 md:col-span-6 col-span-12 ...">
           <img src={Img11} alt="" className="w-full" />
-          <div class='text-start '>
-            <div className='border-slate-500 bg-white  text-black p-5'>
-              <p className='font-semibold text-xl'>VMC Machining</p>
+          <div class='bg-white text-center'>
+            <div className='border-slate-500   text-black p-5'>
+              <p className='font-semibold text-xl text-slate-800'>VMC Machining</p>
               <p className='my-3'>
                 Class A surfacing refers to the creation of high-quality, aesthetically pleasing, and precisely engineered 3D surfaces in computer-aided design (CAD). (CAD).
               </p>
-              <Link to="/cad/vMCMachining" className='font-semibold hover:text-pink-500 text-lg text-gray-600'>
-                VMC Machining
+              <Link to="/cad/vMCMachining" className='flex justify-center items-center gap-2 hover:text-red-500'>
+                <p className='font-serif text-lg'>
+                  Read More
+                </p>
+                <i className='bi bi-arrow-right text-2xl'></i>
               </Link>
-              <div className='border-b-2 border-gray-600 mt-1 w-24'></div>
+
             </div>
           </div>
         </div>
@@ -228,7 +259,7 @@ const CadServices = () => {
 
     {/* <Footer /> */}
 
-  </div>
+  </div >
 }
 
 export default CadServices

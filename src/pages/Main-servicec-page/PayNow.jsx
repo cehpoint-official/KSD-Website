@@ -7,7 +7,7 @@ import icon4 from "../../asset/payNow-img/stripe.png"
 const PayNow = () => {
     return <>
         <div className='paynowImg p-4'>
-            <div className='bg-white mx-28 px-20 mb-20'>
+            <div className='bg-white lg:mx-28 mx-10 px-20 mb-20'>
                 <div className='text-center'>
                     <p className='text-3xl font-semibold py-12'>Pay Now</p>
                 </div>

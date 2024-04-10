@@ -19,15 +19,15 @@ const Industries = () => {
     return <>
         <div
             data-aos="fade-up"
-            data-aos-duration="1500"
-            className='text-center items-center mt-8 indBackImg py-14 opacity-80'>
+            data-aos-duration="900"
+            className='text-center items-center md:mt-6 mt-4 indBackImg py-14 opacity-80'>
             <div className='text-center flex-col flex items-center'>
                 <div className='text-2xl lg:text-6xl md:text-4xl font-bold  border-b-[0.4rem] border-blue-500 text-white pb-3 '>
                     Industries</div>
             </div>
 
             <div className=' flex justify-center'>
-                <div className=' text-xl overflow-clip text-gray-200 pt-10  '>
+                <div className=' text-xl overflow-clip text-gray-200 pt-10 '>
                     <div className='space-x-4 '>
                         <Link className=''> Automotive </Link>
                         <span>|</span>

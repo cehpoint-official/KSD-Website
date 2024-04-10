@@ -21,3 +21,11 @@ html {
     background-image: url(asset/payNow-img/paynow-Img.png);
     background-color: black;
 }
+
+
+
+.imgBg {
+    background-image: url("asset/welcome-page.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
