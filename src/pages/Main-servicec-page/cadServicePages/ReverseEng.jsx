@@ -14,8 +14,8 @@ const ReverseEng = () => {
 
     return <div>
         {/* <Navbar /> */}
-        <div className='  py-10 px-8 '>
-            <div className="bg-black text-white grid grid-cols-12  gap-4 py-16">
+        <div className='  py-10 px-8 bg-black '>
+            <div className="bg-black text-white grid grid-cols-12  gap-4 py-14">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
                     <img src={Img1} alt="" className=" object-fill " />
                 </div>
@@ -33,7 +33,7 @@ const ReverseEng = () => {
             </div>
         </div>
 
-        <div className='grid grid-cols-12 gap-1 mb-20 mt-10'>
+        <div className='grid grid-cols-12 gap-1 mb-20  mt-16'>
             <div className='md:col-span-5 col-span-12 md:border-e md:ps-0 mb-10 ps-10 border-slate-500 md:relative '>
                 <div className='md:-rotate-90 md:absolute h-full font-bold md:-right-60 text-4xl'>
                     <p className='text-red-600'>Why</p>
