@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Img from "../asset/welcome-page.jpg"
+import Img from "../asset/Website-Picture-gallery/Picture1.png"
 import ImgBg from "../asset/home-bg-img.png"
 import { motion } from "framer-motion"
 import { Link } from 'react-router-dom'
@@ -29,11 +29,13 @@ const Home = () => {
                     initial={{ x: -1400 }}
                     animate={{ x: 0 }}
                     transition={{ duration: 1, delay: 1 }}
-                    className='font-semibold lg:text-6xl md:text-4xl mt-2 text-2xl mx-auto'>
-                    <p className='mt-12 lg:mt-20 mb-4 md:mb-10'>LEADERS IN</p>
-                    <p><span className='text-yellow-400'>URGENT</span> 3D SCALE MODELS</p>
+                    className='font-semibold lg:text-6xl md:text-4xl mt-12 lg:mt-28 text-2xl mx-auto'>
+                    {/* <p className='mt-12 lg:mt-20 mb-4 md:mb-10'>LEADERS IN</p> */}
+                    <p><span className='text-yellow-400'>URGENT</span> 3D CAD DESIGNING</p>
                     <p><span className='text-yellow-400'>QUALITY</span> 3D PRINTING</p>
                     <p><span className='text-yellow-400'>PRECISION</span> PROTOTYPING</p>
+                    <p><span className='text-yellow-400'>PRECISION</span> MANUFACTURING</p>
+
                 </motion.div>
                 {/* <motion.div
                     initial={{ x: 1000 }}
@@ -64,44 +66,32 @@ const Home = () => {
 
 
         <Services />
-        <div className=' item w-full bg-red-600 bg-cover mb-40 md:mb-36 lg:mb-52'>
-            <div className=''>
-                <div className="">
 
-                    <div className=" px-10 pt-5 w-[50%] h-full bg-white">
-                        <div className="lg:text-6xl md:text-4xl text-2xl font-bold">WELCOME !</div>
+        {/* welcome page start */}
+        <div className=' bg-cover mb-6 md:mb-8 lg:mb-10'>
+            <div className=''>
+                <div className="grid grid-cols-12 ">
+
+                    <div className="col-span-6 px-10 pt-5  h-full  bg-white">
+                        <div className="lg:text-5xl md:text-4xl text-2xl font-bold">WELCOME TO THE LEALM OF UNLIMITED POSSIBILITIES</div>
                         <div className="border-b-[0.4rem] w-36 sm:w-40 mt-2 border-red-500"></div>
-                        <div className="text-gray-700  font-light mt-4  text-xl p-3">
-                            The world is a place of beauty and imagination. KSD started with a dream of improving the scope of imaginations in professional practice. We create LIVE 3D MODELS of a vast variety of projects ranging from architectural building models to product design prototypes.
-                            KSD 3D is a leading company that provides top-notch 3D modelling, printing, and prototyping services. With a team of skilled designers, we can create 3D models for a diverse range of projects, from buildings to jewellery designs. KSD is at the forefront of 3D printing technology, offering unparalleled quality and precision.
-                            <div className='py-4 hidden lg:block'>
-                                Our services are available to a wide range of industries, including architecture, fashion, computer manufacturing, automobiles, highways, railways, education and training. Fraxus 3D takes custom orders and inquiries from clients all over the world, ensuring that their customers receive tailored solutions to their unique needs. We are titled as Best in quality 3d printing, precision 3d prototyping and fastest urgent 3d model making company in India.
-                            </div>
+                        <div className="text-gray-700 font-light mt-4  text-xl p-3">
+                            <p>
+                                KSD Technologies is a leading top-notch 3D modelling, prototyping & manufacturing services with a team of skilled designers & operators, We can create 3D models and manufacturing of parts for a diverse range of projects, from diff industries like Automobile, Defense, household, Buildings.
+                            </p>
+
+                            <p className='mt-2'>
+                                Our Services are available to a wide range of industries, Including architecture, fashion, Computer manufacturing, Automobile, Highways, railways, Education & Training
+                            </p>
+
                         </div>
                     </div>
-
-                    {/* <div className='flex '>
-                <div className="text-gray-700 w-[60%] font-light mt-4  text-xl p-3">
-                    <div className="lg:text-6xl md:text-4xl text-2xl font-bold">WELCOME !</div>
-                    <div className="border-b-[0.4rem] w-36 sm:w-40 mt-2 border-red-500"></div>
-                    <p>
-                        The world is a place of beauty and imagination. KSD started with a dream of improving the scope of imaginations in professional practice. We create LIVE 3D MODELS of a vast variety of projects ranging from architectural building models to product design prototypes.
-                        KSD 3D is a leading company that provides top-notch 3D modelling, printing, and prototyping services. With a team of skilled designers, we can create 3D models for a diverse range of projects, from buildings to jewellery designs. KSD is at the forefront of 3D printing technology, offering unparalleled quality and precision.
-                    </p>
-                </div>
-                <div className=' -z-30'>
-                    <img src="https://static.wixstatic.com/media/a9aecfcd0c474899a57da07176a929c4.jpg/v1/fill/w_640,h_1296,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/a9aecfcd0c474899a57da07176a929c4.jpg" alt="" className="  w-full right-0 -z-20  " />
-                </div>
-
-            </div> */}
-
-                    {/* <div className=" col-span-12 md:col-span-6 lg:col-span-6">
-                <img src={Img} alt="" className=" w-full md:h-[80%]  object-cover " />
-            </div> */}
+                    <div class="col-span-6">
+                        <img src={Img} alt="" class="h-full  w-full" />
+                    </div>
 
                 </div>
             </div>
-
         </div>
 
     </div>

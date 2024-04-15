@@ -33,7 +33,7 @@ const Industries = () => {
                         <span>|</span>
                         <Link className=''>Consumer Goods</Link>
                         <span>|</span>
-                        <Link className=''>House Hold</Link>
+                        <Link className=''>Home Appliances</Link>
                         <span>|</span>
                         <Link className=''>Medical Technology</Link>
                         <span>|</span>

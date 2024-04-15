@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react'
-import Img1 from "../asset/server-img-1.png"
+// import Img1 from "../asset/server-img-1.png"
 import Img2 from "../asset/server-img-2.png"
-import Img3 from "../asset/server-img-3.png"
+// import Img3 from "../asset/server-img-3.png"
+import Img1 from "../asset/Website-Picture-gallery/3.jpeg"
+import Img3 from "../asset/Website-Picture-gallery/3.jpeg"
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Aos from 'aos'
@@ -38,14 +40,14 @@ const Services = () => {
                     whileHover={{ scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 100, damping: 50 }}
                     class='col-span-12 sm:col-span-6  md:col-span-4 lg:col-span-4 group bg-white'>
-                    <img src={Img1} alt="" className="w-full " />
+                    <img src={Img1} alt="" className="w-full lg:h-[389px] md:h-[250px]" />
                     <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/cadServise">
-                                <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>3D Models</p>
+                                <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>3D model to 3D CAD Designing</p>
                             </Link>
                             <p className='my-5 text-slate-700'>
-                                For all those training, briefing or presentation sessions that need a little briefing more than powerpoint.
+                                we design precise 2D/3D models and seamlessly translate them into manufacturing instructions.
                             </p>
                             <Link to="/cadServise" className='flex justify-center items-center gap-2 hover:text-red-500'>
                                 <p className='font-serif  text-lg'>
@@ -60,14 +62,15 @@ const Services = () => {
                     whileHover={{ scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 100, damping: 50 }}
                     class='col-span-12 sm:col-span-6  md:col-span-4 lg:col-span-4 group '>
-                    <img src={Img2} alt="" className="w-full " />
+                    <img src={Img2} alt="" className="w-full lg:h-[389px] md:h-[250px]" />
                     <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/prototype">
-                                <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>3D Printing</p>
+                                <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>
+                                    3D Printing & prototyping</p>
                             </Link>
                             <p className='my-5 text-slate-700'>
-                                The absolute gem in manufacturing, convert your thoughts into reality with our state of art 3D Printing facility
+                                3D printing is an additive manufacturing method that creates a physical object from a digital model file.
                             </p>
 
                             <Link to="/prototype" className='flex justify-center items-center gap-2 hover:text-red-500'>
@@ -83,7 +86,7 @@ const Services = () => {
                     whileHover={{ scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 100, damping: 50 }}
                     class='col-span-12 sm:col-span-6  md:col-span-4 sm:col-start-4 lg:col-span-4 group'>
-                    <img src={Img3} alt="" className="w-full " />
+                    <img src={Img3} alt="" className="w-full lg:h-[389px] md:h-[250px]" />
                     <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/manufacturing" >
@@ -91,7 +94,8 @@ const Services = () => {
                                 <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>Manufacturing</p>
                             </Link>
                             <p className='my-5 text-slate-700'>
-                                Even before the egg or the chicken,3D Printing 3D Printing  came a Prototype. Get yours with KSD expertise
+                                Deifine
+                                The process of turning raw materials or parts into finished goods through the use of tools, human labor, machinery, and chemical processing
                             </p>
 
                             <Link to="/manufacturing" className='flex justify-center items-center gap-2 hover:text-red-500'>

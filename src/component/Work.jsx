@@ -46,14 +46,10 @@ const Work = () => {
             className='text-center  items-center mt-4 bg-white py-10'>
             <div className='text-center flex-col flex items-center md:pb-10 lg:pb-12'>
                 <div className='text-2xl lg:text-6xl md:text-4xl font-bold pb-3'>
-                    SEE OUR LATEST WORK
+                SEE OUR LATEST WORK GALLERY
                 </div>
                 <div className='border-b-[0.4rem] border-purple-600 w-64 '></div>
-                {/* <div className='md:pb-10 lg:pb-12 mx-6 text-xl md:w-[60%] lg:w-[50%] text-gray-500 py-5'>
-                    <p>
-
-                    </p>
-                </div> */}
+               
             </div>
             <div className="grid grid-cols-12 lg:mx-36 mx-10 gap-10">
                 <motion.div

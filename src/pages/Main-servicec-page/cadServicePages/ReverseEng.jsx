@@ -17,7 +17,7 @@ const ReverseEng = () => {
         <div className='  py-10 px-8 bg-black '>
             <div className="bg-black text-white grid grid-cols-12  gap-4 py-14">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
-                    <img src={Img1} alt="" className=" object-fill " />
+                    <img src={Img1} alt="" className=" object-cover h-full " />
                 </div>
 
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">

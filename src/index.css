@@ -25,10 +25,15 @@ html {
 
 
 .item {
-    background-image: url("asset/welcome-page.jpg");
+    background-image: url("asset/Website-Picture-gallery/Picture1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* object-fit: fill; */
-    height: 33rem;
-    width: 100%;
+    background-size: contain;
+    /* margin-left: auto; */
+    /* height: 50vh; */
+    /* 50% of the viewport height */
+    /* width: 100%; */
+    /* 50% of the viewport width */
+
+    /* Centers the image horizontally */
 }
