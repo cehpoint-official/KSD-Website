@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import Img2 from "../asset/server-img-2.png"
 // import Img3 from "../asset/server-img-3.png"
 import Img1 from "../asset/Website-Picture-gallery/3.jpeg"
-import Img3 from "../asset/Website-Picture-gallery/3.jpeg"
+import Img3 from "../asset/Website-Picture-gallery/2.jpg"
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Aos from 'aos'
