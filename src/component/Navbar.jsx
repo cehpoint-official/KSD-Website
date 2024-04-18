@@ -94,7 +94,7 @@ const Navbar = () => {
                                 <Link to="/">
                                     <img className='pe-4 lg:h-14 md:h-12 h-12 ' src={NavbarImg} alt="" />
                                 </Link>
-                                <div className='text-[1.1rem] hidden lg:block space-x-4'>
+                                <div className='text-[1.1rem] hidden lg:block space-x-3'>
 
                                     <Link to="/" >
                                         <button >

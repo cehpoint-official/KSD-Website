@@ -117,7 +117,7 @@ const QuePage = () => {
                     e.stopPropagation()
                     setThirdButton(!thirdButton)
                 }}>
-                    What is reverse engineering?
+                    What is our Expertise?
                 </button>
                 <button onClick={e => {
                     e.stopPropagation()
@@ -132,14 +132,14 @@ const QuePage = () => {
                 onClick={e => setThirdButton(false)}
                 className={` z-50 ${!thirdButton ? "hidden" : ""}  bg-slate-300`}>
                 <p className='hover:bg-slate-200 p-2  focus:bg-slate-400' tabindex="0">
-                    1. Dissecting a product to explore its design and architecture.
+                    1. Natural Language Processing (NLP).
                 </p>
                 <p className='hover:bg-slate-200 p-2  focus:bg-slate-400' tabindex="0">
-                    2.Rebuilding a software program from its compiled form back to source code.
+                    2. Software Development.
                 </p>
 
                 <p className='hover:bg-slate-200 p-2  focus:bg-slate-400' tabindex="0">
-                    3. Extracting knowledge or design information from anything man-made.
+                    3. Machine Learning and AI.
                 </p>
             </div>
 
@@ -148,7 +148,7 @@ const QuePage = () => {
                     e.stopPropagation()
                     setFourButton(!fourButton)
                 }}>
-                    What is reverse engineering?
+                    what is Quality Control & 3D Inspection?
                 </button>
                 <button onClick={e => {
                     e.stopPropagation()
@@ -163,14 +163,14 @@ const QuePage = () => {
                 onClick={e => setFourButton(false)}
                 className={` z-50 ${!fourButton ? "hidden" : ""}  bg-slate-300`}>
                 <p className='hover:bg-slate-200 p-2  focus:bg-slate-400' tabindex="0">
-                    1. Dismantling an item to understand its components and operation.
+                    1. Ensures products or services meet specified quality standards.
                 </p>
                 <p className='hover:bg-slate-200 p-2  focus:bg-slate-400' tabindex="0">
-                    2. Reconstructing code or blueprints from finished products.
+                    2. Evaluates objects using three-dimensional data.
                 </p>
 
                 <p className='hover:bg-slate-200 p-2  focus:bg-slate-400' tabindex="0">
-                    3. Learning how things work to duplicate or enhance them.
+                    3. Reduces rework costs and enhances efficiency.
                 </p>
             </div>
             <div className='flex justify-between items-center py-4 px-2 '>

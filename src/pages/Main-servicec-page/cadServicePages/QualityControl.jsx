@@ -1,5 +1,5 @@
 import React from 'react'
-import Img1 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-1.png"
+import Img1 from "../../../asset/Website-Picture-gallery/5.webp"
 import Img2 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-2.png"
 import Img3 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-3.png"
 import Img4 from "../../../asset/main-services-page/cmd-service/Quality-Control/img-4.png"
@@ -13,15 +13,15 @@ const QualityControl = () => {
     return <div>
         {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-8 '>
-            <div className=" grid grid-cols-12  gap-4 py-16">
+            <div className=" grid grid-cols-12  gap-4 ">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
-                    <img src={Img1} alt="" className=" object-fill " />
+                    <img src={Img1} alt="" className=" object-fill md:h-[23rem] w-full " />
                 </div>
 
-                <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
+                <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 lg:mt-8">
                     <div className="text-4xl font-bold">Quality Control & 3D Inspection</div>
                     <div className=" text-base font-light pt-6">
-                        Inspection, a process to ensure that products are free from defects, is essential for manufacturing, especially for high-precision parts. The requirements for inspection are increasing as the manufacturing technology improves.
+                        A quality inspection involves measuring, examining, testing, or gauging various characteristics of a product and comparing those results with specified requirements to determine whether there is a conformity.
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
@@ -31,7 +31,7 @@ const QualityControl = () => {
             </div>
 
 
-            <div className='text-center flex-col flex items-center mt-28'>
+            {/* <div className='text-center flex-col flex items-center mt-28'>
                 <div className='text-2xl font-bold '>
                     Why Quality Control & 3D Inspection?
                 </div>
@@ -86,7 +86,7 @@ const QualityControl = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
         </div>
 

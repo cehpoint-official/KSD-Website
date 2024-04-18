@@ -19,7 +19,7 @@ const Industries = () => {
     return <>
         <div
             data-aos="fade-up"
-            data-aos-duration="900"
+            data-aos-duration="700"
             className='text-center items-center md:mt-6 mt-4 indBackImg py-14 opacity-80'>
             <div className='text-center flex-col flex items-center'>
                 <div className='text-2xl lg:text-6xl md:text-4xl font-bold  border-b-[0.4rem] border-blue-500 text-white pb-3 '>
