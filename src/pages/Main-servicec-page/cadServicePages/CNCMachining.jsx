@@ -1,5 +1,5 @@
 import React from 'react'
-import Img1 from "../../../asset/main-services-page/cmd-service/CNCMachine/img-1.png"
+import Img1 from "../../../asset/Website-Picture-gallery/12.png"
 import Img2 from "../../../asset/main-services-page/cmd-service/CNCMachine/img-2.png"
 import Img3 from "../../../asset/main-services-page/cmd-service/CNCMachine/img-3.png"
 import Img4 from "../../../asset/main-services-page/cmd-service/CNCMachine/img-4.png"
@@ -14,15 +14,15 @@ const CNCMachining = () => {
     return <div>
         {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-10 '>
-            <div className=" grid grid-cols-12  gap-4 py-16">
+            <div className=" grid grid-cols-12  gap-4 pb-16">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
-                    <img src={Img1} alt="" className=" object-fill " />
+                    <img src={Img1} alt="" className=" object-fill w-full" />
                 </div>
 
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
                     <div className="text-4xl font-bold">CNC Machining</div>
                     <div className=" text-base font-light pt-6">
-                        By definition CNC (Computerized Numerical Control) means controlling a machine tool or other device automatically by a computer instead of direct manipulation by an operator. Machine tools, on the other hand,
+                        A CNC lathe(CNC turning machine) is a machine that spins material around a central spindle and a fixed cutting tool. Instead of being controlled by physical labor, the movement of your components is determined by coded instructions fed to a computer.
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
@@ -100,22 +100,12 @@ const CNCMachining = () => {
                 <div className='border-b-4 w-28 mt-3 rounded-xl border-pink-600'></div>
 
                 <div className=" pt-6">
-                    <p> <i className='bi bi-dot text-2xl'></i>
-                        Minimum to maximum bed size (400x400x600) - (5000x2000x1200)
+                    <p>
+                        CNC is a technology which is used for motion control of machines which can be lathe, milling, grinding, EDM, any type of machine. VMC is a specific type of milling machine which is CNC controlled. VMC means Vertical Milling Centre. In this type of milling machine, the cutting head is vertical, normal to the work table
                     </p>
-                    <p> <i className='bi bi-dot text-2xl'></i>
-                        Minimum to maximum turning dia. & length of Ø(250-350)X(400-1000)
+                    <p>
+                        CNC is technology for machines and VMC is name of particular type machine. CNC technology encompasses the broader concept of computer control in machining, while VMC technology refers to a specific type of CNC machine with a vertical spindle orientation
                     </p>
-                    <p> <i className='bi bi-dot text-2xl'></i>
-                        Multi-axis capability - 3, 4 & 5 axis machines
-                    </p>
-                    <p> <i className='bi bi-dot text-2xl'></i>
-                        Specific capabilities like Traub, Jig Boring, Radial Drilling
-                    </p>
-                    <p> <i className='bi bi-dot text-2xl'></i>
-                        Special CBN inserts machining for HRS alloys and hardened parts
-                    </p>
-
 
                 </div>
 

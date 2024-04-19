@@ -12,8 +12,8 @@ import Footer from '../../../component/Footer'
 const QualityControl = () => {
     return <div>
         {/* <Navbar /> */}
-        <div className='bg-black text-white py-10 px-8 '>
-            <div className=" grid grid-cols-12  gap-4 ">
+        <div className='bg-black text-white py-10'>
+            <div className=" grid grid-cols-12  gap-4 px-8">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
                     <img src={Img1} alt="" className=" object-fill md:h-[23rem] w-full " />
                 </div>
@@ -31,14 +31,44 @@ const QualityControl = () => {
             </div>
 
 
-            {/* <div className='text-center flex-col flex items-center mt-28'>
+            <div className='text-center flex-col flex items-center mt-28'>
                 <div className='text-2xl font-bold '>
                     Why Quality Control & 3D Inspection?
                 </div>
                 <div className='bg-pink-600 w-48 mt-3 h-[3px] rounded-xl'></div>
             </div>
 
-            <div className='grid grid-cols-12  gap-6 md:m-10  my-10'>
+            <div className='flex justify-center my-20 mt-28 '>
+                <div className='sm:h-[30rem] h-[23rem] sm:w-[30rem] w-[23rem] border-2 border-blue-400 rounded-full flex justify-between items-center gap-4 relative'>
+                    <p className='absolute sm:left-[18%] left-[23%] font-bold text-[#56cb44] sm:text-[8rem] text-[5rem]'>QMS</p>
+                    <div className='sm:space-y-32 space-y-12 ms-[-2rem]'>
+                        <div className='h-32 w-32 border-2 border-slate-400 font-semibold rounded-full bg-white text-center text-black flex  items-center'>
+                            <p>Applications in Various Industries</p>
+                        </div>
+                        <div className='h-32 w-32 border-2 border-slate-400 font-semibold rounded-full bg-white text-center text-black flex  items-center'>
+                            <p>Integrity of Data Acquisition</p> </div>
+                    </div>
+                    <div className='sm:space-y-[20rem] space-y-48 '>
+                        <div className='h-32 w-32 border-2 border-slate-400 font-semibold rounded-full bg-white text-center text-black flex  items-center'>
+                            <p>Efficiency, and Double Profits</p>
+                        </div>
+                        <div className='h-32 w-32 border-2 border-slate-400 font-semibold rounded-full bg-white text-center text-black flex  items-center'>
+                            <p className='-mt-6'>ensure consistent product quality</p>
+                        </div>
+                    </div>
+                    <div className='sm:space-y-32 space-y-12 '>
+                        <div className='h-32 w-32 border-2 border-slate-400 font-semibold rounded-full bg-white text-center text-black flex  items-center'>
+                            <p>equipment problems being identified</p>
+                        </div>
+                        <div className='h-32 w-32 border-2 border-slate-400 font-semibold rounded-full bg-white text-center text-black flex  items-center'>
+                            <p>better equipment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* <div className='grid grid-cols-12  gap-6 md:m-10  my-10'>
                 <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
@@ -90,7 +120,7 @@ const QualityControl = () => {
 
         </div>
 
-        <div className=" grid grid-cols-12 bg-black  text-black">
+        <div className=" grid grid-cols-12 bg-black  text-black mx-8">
 
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
                 <div className="md:text-4xl text-3xl font-bold ">Tested Solution, Trusted Quality</div>
@@ -105,7 +135,7 @@ const QualityControl = () => {
                 <img src={Img2} alt="" className=" object-cover h-[30rem]" />
             </div>
         </div>
-        <div className='bg-black text-white p-10 pt-24  '>
+        {/* <div className='bg-black text-white p-10 pt-24  '>
 
             <div className='text-center flex-col flex items-center '>
                 <div className='text-2xl font-bold '>
@@ -153,10 +183,10 @@ const QualityControl = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
-        <div className='py-10 px-8 '>
+        {/* <div className='py-10 px-8 '>
             <div class="grid grid-cols-12 gap-6 mt-6">
                 <div class="lg:col-start-3 lg:col-span-4 md:col-span-6 col-span-12 ...">
                     <img src={Img6} alt="" className="w-full" />
@@ -185,7 +215,7 @@ const QualityControl = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
         {/* <Footer /> */}
     </div>
 }

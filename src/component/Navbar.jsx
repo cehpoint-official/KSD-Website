@@ -164,10 +164,10 @@ const Navbar = () => {
                                                             <Link to="/cadServise" className='hover:text-[#ff0000]'>3D CAM</Link>
                                                         </p>
                                                         <p className='text-sm my-4'>
-                                                            <Link to="/cad/cNCMachining" className='hover:text-[#ff0000]'>VMC MACHINING</Link>
+                                                            <Link to="/cad/vMCMachining" className='hover:text-[#ff0000]'>VMC MACHINING</Link>
                                                         </p>
                                                         <p className='text-sm my-4'>
-                                                            <Link to="/cad/vMCMachining" className='hover:text-[#ff0000]'>CNC MACHINING</Link>
+                                                            <Link to="/cad/cNCMachining" className='hover:text-[#ff0000]'>CNC MACHINING</Link>
                                                         </p>
                                                     </div>
 
@@ -389,10 +389,10 @@ const Navbar = () => {
                             <Link to="/cadServise" className='hover:text-[#ff0000]'>3D CAM</Link>
                         </p>
                         <p className='text-sm my-4'>
-                            <Link to="/cad/cNCMachining" className='hover:text-[#ff0000]'>VMC MACHINING</Link>
+                            <Link to="/cad/vMCMachining" className='hover:text-[#ff0000]'>VMC MACHINING</Link>
                         </p>
                         <p className='text-sm my-4'>
-                            <Link to="/cad/vMCMachining" className='hover:text-[#ff0000]'>CNC MACHINING</Link>
+                            <Link to="/cad/" className='hover:text-[#ff0000]'>CNC MACHINING</Link>
                         </p>
                     </div>
                     <div className='col-span-12 lg:col-span-2 md:col-span-4'>

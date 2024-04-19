@@ -29,11 +29,44 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    /* margin-left: auto; */
-    /* height: 50vh; */
-    /* 50% of the viewport height */
-    /* width: 100%; */
-    /* 50% of the viewport width */
 
-    /* Centers the image horizontally */
+}
+
+.circular-container {
+    position: relative;
+    width: 50%;
+    /* Adjust to your preference */
+    height: 50%;
+    /* Adjust to your preference */
+}
+
+.box {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform-origin: center;
+}
+
+.box:nth-child(1) {
+    transform: translate(-50%, -150%);
+}
+
+.box:nth-child(2) {
+    transform: rotate(60deg) translate(-50%, -150%);
+}
+
+.box:nth-child(3) {
+    transform: rotate(120deg) translate(-50%, -150%);
+}
+
+.box:nth-child(4) {
+    transform: rotate(180deg) translate(-50%, -150%);
+}
+
+.box:nth-child(5) {
+    transform: rotate(240deg) translate(-50%, -150%);
+}
+
+.box:nth-child(6) {
+    transform: rotate(300deg) translate(-50%, -150%);
 }

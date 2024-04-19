@@ -21,8 +21,7 @@ const Drafting = () => {
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
                     <div className="text-4xl font-bold">2d Drafting</div>
                     <div className=" text-base font-light pt-6">
-                        Our knowledge in drafting tools and GD&T results in creating an accurate definition of your 3D model with all necessary sectional views and tolerances including achieving flawless manufacturing.
-
+                        2D drafting and drawing is the process of creating and editing technical drawings, as well as annotating designs. Drafters use computer-aided design (CAD) software to develop floor plans, building permit drawings, building inspection plans and landscaping layouts.
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
@@ -58,7 +57,7 @@ const Drafting = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            IUniversal standards
+                            Universal standards
                         </p>
                     </div>
                 </div>
@@ -163,7 +162,7 @@ const Drafting = () => {
         </div>
 
 
-        <div className='py-10 px-10 '>
+        {/* <div className='py-10 px-10 '>
             <div class="grid grid-cols-12 gap-6 mt-6">
                 <div class="lg:col-start-3 lg:col-span-4 md:col-span-6 col-span-12 ...">
                     <img src={Img6} alt="" className="w-full" />
@@ -190,7 +189,7 @@ const Drafting = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
         {/* <Footer /> */}
     </div>
 }

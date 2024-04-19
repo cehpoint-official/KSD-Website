@@ -1,5 +1,5 @@
 import React from 'react'
-import Img1 from "../../../asset/main-services-page/cmd-service/Conversion/img-1.png"
+import Img1 from "../../../asset/Website-Picture-gallery/1.jpg"
 import Img2 from "../../../asset/main-services-page/cmd-service/Conversion/img-2.png"
 import Img3 from "../../../asset/main-services-page/cmd-service/Conversion/img-3.png"
 import Img4 from "../../../asset/main-services-page/cmd-service/Conversion/img-4.png"
@@ -14,15 +14,15 @@ const Conversion = () => {
     return <div>
         {/* <Navbar /> */}
         <div className='bg-black text-white py-10 px-10 '>
-            <div className=" grid grid-cols-12  gap-4 py-16">
+            <div className=" grid grid-cols-12  gap-4 ">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
                     <img src={Img1} alt="" className=" object-fill " />
                 </div>
 
-                <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
+                <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 lg:mt-10">
                     <div className="text-4xl font-bold">Conversion of 2D to 3D</div>
                     <div className=" text-base font-light pt-6">
-                        2D-3D Conversion is an important process in product design that allows for accurate and detailed 3D models to be created from 2D drawings or images. This process is essential in creating a realistic visualization of the product and is an important tool in product design.
+                        To convert a 2D image to a 3D model, use software like Blender or Autodesk Fusion 360. Import the image, create a base mesh, and extrude or sculpt based on the image contours.
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
@@ -43,14 +43,14 @@ const Conversion = () => {
                 <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
-                        <p className='text-xl text-gray-400'>Accuracy</p>
+                        <p className='text-xl text-gray-400'>Enhanced Visualization</p>
                     </div>
                 </div>
                 <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Communication
+                            Improved Collaboration
                         </p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Conversion = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Universal standards
+                            Error Reduction
                         </p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ const Conversion = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Cost-effective
+                            Boosting Creativity
                         </p>
                     </div>
                 </div>
@@ -74,19 +74,11 @@ const Conversion = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Easily accessible and editable
+                            Saving Money
+                        </p>
+                    </div>
+                </div>
 
-                        </p>
-                    </div>
-                </div>
-                <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
-                    <div className='flex gap-3 items-center'>
-                        <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
-                        <p className='text-xl text-gray-400'>
-                            Collaborative interface
-                        </p>
-                    </div>
-                </div>
 
             </div>
 
@@ -100,8 +92,7 @@ const Conversion = () => {
                 <div className='border-b-4 w-48 mt-3 border-pink-600 rounded-xl'></div>
 
                 <div className=" pt-6">
-                    With 3D scanning, reverse engineering becomes a cinch: obtaining a precise CAD model of a product, part or clay model takes mere minutes, no matter their size. Data from complex, organic, intricate and free form shapes can all easily be captured on-the-spot nearly anywhere, by users of any experience level. Additionally, 3D scanning can help perform the root cause analysis and identify problems very quickly and painlessly. It becomes the perfect assistant to production engineers, since it can streamline and simplify the First Article Inspection (FIA) milestone.
-
+                    In the field of visual processing, 3D image processing has become very popular in recent years. To produce a better display than the traditional 2D visual experience, 3D displays offer a number of new applications, including education, games, movies, cameras, etc., with 3D video generations still growing. The user only watches 3D animation or 3D movies made by a special camera on a computer. The lack of 3D videos makes 2D-to-3D image conversion quite practical.
                 </div>
 
             </div>
@@ -161,7 +152,7 @@ const Conversion = () => {
             </div>
         </div>
 
-        <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
+        {/* <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
             <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
                 <img src={Img6} alt="" className="w-full" />
                 <div class='text-start '>
@@ -201,7 +192,7 @@ const Conversion = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
         {/* <Footer /> */}
     </div>

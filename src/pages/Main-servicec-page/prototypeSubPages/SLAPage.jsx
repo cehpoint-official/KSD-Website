@@ -1,6 +1,6 @@
 import React from 'react'
-import Img1 from "../../../asset/main-services-page/Prototype/sla/img-1.png"
-import Img2 from "../../../asset/main-services-page/Prototype/sla/img-2.png"
+import Img1 from "../../../asset/Website-Picture-gallery/sla.webp"
+import Img2 from "../../../asset/Website-Picture-gallery/sla-bag.webp"
 import Img3 from "../../../asset/main-services-page/Prototype/sla/img-3.png"
 import Img4 from "../../../asset/main-services-page/Prototype/sla/img-4.png"
 import Img5 from "../../../asset/main-services-page/Prototype/sla/img-5.png"
@@ -14,15 +14,15 @@ const SLAPage = () => {
   return <div>
     {/* <Navbar /> */}
     <div className='bg-black text-white py-10 px-10 '>
-      <div className=" grid grid-cols-12  gap-4 py-16">
+      <div className=" grid grid-cols-12  gap-4 pb-16">
         <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
-          <img src={Img1} alt="" className=" object-fill " />
+          <img src={Img1} alt="" className=" object-fill w-full  " />
         </div>
 
-        <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
+        <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 lg:mt-10">
           <div className="text-4xl font-bold">What is SLA?</div>
           <div className=" text-base font-light pt-6">
-            Tough Resin simulates the feel and many of the important mechanical properties of ABS plastic. Consider using this material for works-like prototypes and assemblies, including designs with snap fit joints and living hinges. For further finishing, Tough resin can also be machined once printed.
+            Stereolithography (SLA) 3D printing is the most common resin 3D printing process that has become vastly popular for its ability to produce high-accuracy, isotropic, and watertight prototypes and end-use parts in a range of advanced materials with fine features and smooth surface finish.
           </div>
           <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
             Get a Quote
@@ -96,7 +96,7 @@ const SLAPage = () => {
 
     </div>
 
-    <div className=" grid grid-cols-12 bg-black  text-black">
+    <div className=" grid grid-cols-12   text-black">
 
 
       <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
@@ -117,8 +117,8 @@ const SLAPage = () => {
         </div>
 
       </div>
-      <div className=" col-span-12 md:col-span-6 lg:col-span-6 bg-black">
-        <img src={Img2} alt="" className=" object-cover w-full h-[30rem]" />
+      <div className=" col-span-12 md:col-span-6 lg:col-span-6">
+        <img src={Img2} alt="" className=" object-cover w-full " />
       </div>
     </div>
     <div className='bg-black text-white p-10 pt-24  '>

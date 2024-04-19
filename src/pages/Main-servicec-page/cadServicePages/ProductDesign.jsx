@@ -22,7 +22,7 @@ const ProductDesign = () => {
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
                     <div className="text-4xl font-bold">Product Design</div>
                     <div className=" text-base font-light pt-6">
-                        product design is the process of creating digital 3D models of products using software. 3D product rendering is the use of computer programs to create computer-generated imagery (CGI). These images can be used for marketing campaigns
+                        Product design is the process of ideating, developing, and refining products that meet specific market needs and solve user problems.
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
@@ -43,14 +43,14 @@ const ProductDesign = () => {
                 <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
-                        <p className='text-xl text-gray-400'>Better Product Designing</p>
+                        <p className='text-xl text-gray-400'>Incorporating Eco-Friendly Practices</p>
                     </div>
                 </div>
                 <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Saves Time
+                            Evaluating Product effectiveness
                         </p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const ProductDesign = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            It is Budget Friendly
+                            The Art & Science of creating market-friendly products
                         </p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ const ProductDesign = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Delivers Information Effectively
+                            Balancing aesthetics with practical Use
                         </p>
                     </div>
                 </div>
@@ -74,8 +74,7 @@ const ProductDesign = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Connects Customer Emotionally
-
+                            Staying Ahead with Innovative
                         </p>
                     </div>
                 </div>
@@ -83,7 +82,7 @@ const ProductDesign = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Design flexibility
+                        Research & Analyse customer needs
                         </p>
                     </div>
                 </div>
