@@ -61,8 +61,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-8 md:mx-0 overflow-hidden  group relative">
-                    <img className="w-full h-[15rem] object-fill " src={Work1} alt="" />
-                    <motion.div
+                    <img className=" " src={Work1} alt="" />
+                    {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
@@ -78,7 +78,7 @@ const Work = () => {
                             <p className='font-bold text-xl text-slate-800'>Prototype Design service</p>
 
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
                 <motion.div
                     data-aos="fade-up"
@@ -86,8 +86,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group relative">
-                    <img className="w-full h-[15rem] object-fill " src={Work2} alt="" />
-                    <motion.div
+                    <img className=" " src={Work7} alt="" />
+                    {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
@@ -103,7 +103,7 @@ const Work = () => {
                             <p className='font-bold text-xl text-slate-800'>3D Printing Robots</p>
 
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
                 <motion.div
                     data-aos="fade-up"
@@ -111,8 +111,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-8 relative group">
-                    <img className="w-full h-[20rem] object-fill " src={Work3} alt="" />
-                    <motion.div
+                    <img className="" src={Work3} alt="" />
+                    {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
@@ -128,7 +128,7 @@ const Work = () => {
                             <p className='font-bold text-xl text-slate-800'>Expert Precision Engineering Cad Cam</p>
 
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
 
                 <motion.div
@@ -137,8 +137,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group relative">
-                    <img className="w-full h-[20rem] object-fill " src={Work4} alt="" />
-                    <motion.div
+                    <img className="  " src={Work10} alt="" />
+                    {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
@@ -154,7 +154,7 @@ const Work = () => {
                             <p className='font-bold text-xl text-slate-800'>Computer Aided Design (CAD) Services</p>
 
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
                 <motion.div
                     data-aos="fade-up"
@@ -162,8 +162,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group  relative">
-                    <img className="w-full h-[15rem] object-fill " src={Work5} alt="" />
-                    <motion.div
+                    <img className=" " src={Work5} alt="" />
+                    {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
@@ -179,7 +179,7 @@ const Work = () => {
                             <p className='font-bold text-xl text-slate-800'>CAD CAM Software</p>
 
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
                 <motion.div
                     data-aos="fade-up"
@@ -187,8 +187,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
-                    <img className="w-full  h-[15rem] object-fill " src={Work6} alt="" />
-                    <motion.div
+                    <img className=" " src={Work9} alt="" />
+                    {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
@@ -204,7 +204,7 @@ const Work = () => {
                             <p className='font-bold text-xl text-slate-800'>Solid Works</p>
 
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
                 <motion.div
                     data-aos="fade-up"
@@ -212,8 +212,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
-                    <img className="w-full h-[15rem] object-fill " src={Work7} alt="" />
-                    <motion.div className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
+                    <img className="" src={Work8} alt="" />
+                    {/* <motion.div className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
                             onClick={e => setLike(!like)}
@@ -228,7 +228,7 @@ const Work = () => {
                             className='absolute hidden group-hover:block  top-[40%] h-full  w-full  '>
                             <p className='font-bold text-xl text-slate-800'>3D Modeling</p>
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
                 <motion.div
                     data-aos="fade-up"
@@ -236,8 +236,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group  relative">
-                    <img className="w-full h-[15rem] object-fill " src={Work8} alt="" />
-                    <motion.div
+                    <img className="" src={Work6} alt="" />
+                    {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
@@ -253,7 +253,7 @@ const Work = () => {
                             <p className='font-bold text-xl text-slate-800'>CAD CAM Software</p>
 
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
                 <motion.div
                     data-aos="fade-up"
@@ -261,8 +261,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
-                    <img className="w-full  h-[15rem] object-fill " src={Work9} alt="" />
-                    <motion.div
+                    <img className="" src={Work4} alt="" />
+                    {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
@@ -278,7 +278,7 @@ const Work = () => {
                             <p className='font-bold text-xl text-slate-800'>Solid Works</p>
 
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
                 <motion.div
                     data-aos="fade-up"
@@ -286,8 +286,8 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
-                    <img className="w-full h-[15rem] object-fill " src={Work10} alt="" />
-                    <motion.div className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
+                    <img className="" src={Work2} alt="" />
+                    {/* <motion.div className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
                             onClick={e => setLike(!like)}
@@ -302,7 +302,7 @@ const Work = () => {
                             className='absolute hidden group-hover:block  top-[40%] h-full  w-full  '>
                             <p className='font-bold text-xl text-slate-800'>3D Modeling</p>
                         </motion.div>
-                    </motion.div>
+                    </motion.div> */}
                 </motion.div>
             </div>
 

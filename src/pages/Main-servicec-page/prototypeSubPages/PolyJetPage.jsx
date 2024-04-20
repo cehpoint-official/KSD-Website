@@ -1,5 +1,5 @@
 import React from 'react'
-import Img1 from "../../../asset/main-services-page/Prototype/poliJet/img-1.png"
+import Img1 from "../../../asset/Website-Picture-gallery/polyjet.jpg"
 import Img2 from "../../../asset/main-services-page/Prototype/poliJet/img-2.png"
 import Img3 from "../../../asset/main-services-page/Prototype/poliJet/img-3.png"
 import Img4 from "../../../asset/main-services-page/Prototype/poliJet/img-4.png"
@@ -19,11 +19,10 @@ const PolyJetPage = () => {
                     <img src={Img1} alt="" className=" object-fill " />
                 </div>
 
-                <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
+                <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 lg:mt-4">
                     <div className="text-4xl font-bold">What is Poly Jet?</div>
                     <div className=" text-base font-light pt-6">
-                        If you need soft rubber prototypes, Axis can deliver with Connex 3D digital materials printer. Axis Prototypes owns and operates the high end Connex 500 machine, the flagship Objet 3D printer. The Objet Connex is currently the only 3D printer system that can produce multi-durometer over molded prototype parts.
-
+                        PolyJet 3D Printing is an advanced technology that quickly creates precise parts using photopolymers, UV light, and inkjet heads. It achieves accuracy by layering resins to form digital materials. The process starts with a CAD model transformed into a printable format.
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote

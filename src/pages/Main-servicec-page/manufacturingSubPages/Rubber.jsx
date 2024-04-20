@@ -197,7 +197,7 @@ const Rubber = () => {
                 </div>
             </div>
             <div class="lg:col-span-4 md:col-span-6 col-span-12 ...">
-                <img src={Img3} alt="" className="w-full" />
+                <img src={Img8} alt="" className="w-full" />
                 <div class='text-start '>
                     <div className='border-slate-500 bg-white  text-black p-5'>
                         <p className='font-semibold text-xl'>Rubber Suction Cups  </p>

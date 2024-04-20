@@ -46,7 +46,7 @@ const Services = () => {
                             <Link to="/cadServise">
                                 <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>3D model to 3D CAD Designing</p>
                             </Link>
-                            <p className='my-5 text-slate-700'>
+                            <p className='my-5 text-slate-800 text-xl'>
                                 we design precise 2D/3D models and seamlessly translate them into manufacturing instructions.
                             </p>
                             <Link to="/cadServise" className='flex justify-center items-center gap-2 hover:text-red-500'>
@@ -69,7 +69,7 @@ const Services = () => {
                                 <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>
                                     3D Printing & prototyping</p>
                             </Link>
-                            <p className='my-5 text-slate-700'>
+                            <p className='my-5 text-slate-800 text-xl'>
                                 3D printing is an additive manufacturing method that creates a physical object from a digital model file.
                             </p>
 
@@ -93,7 +93,7 @@ const Services = () => {
 
                                 <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>Manufacturing</p>
                             </Link>
-                            <p className='my-5 text-slate-700'>
+                            <p className='my-5 text-slate-800 text-xl'>
                                 Deifine
                                 The process of turning raw materials or parts into finished goods through the use of tools, human labor, machinery, and chemical processing
                             </p>

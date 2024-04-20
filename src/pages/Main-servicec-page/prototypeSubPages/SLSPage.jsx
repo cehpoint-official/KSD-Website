@@ -1,5 +1,5 @@
 import React from 'react'
-import Img1 from "../../../asset/main-services-page/Prototype/sls/img-1.png"
+import Img1 from "../../../asset/Website-Picture-gallery/10.webp"
 import Img2 from "../../../asset/main-services-page/Prototype/sls/img-2.png"
 import Img3 from "../../../asset/main-services-page/Prototype/sls/img-3.png"
 import Img4 from "../../../asset/main-services-page/Prototype/sls/img-4.png"
@@ -19,10 +19,10 @@ const SLSPage = () => {
                     <img src={Img1} alt="" className=" object-fill " />
                 </div>
 
-                <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
+                <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 lg:mt-6 ">
                     <div className="text-4xl font-bold">What is SLS?</div>
                     <div className=" text-base font-light pt-6">
-                        Selective Laser Sintering (SLS) is a powder-based 3D printing technology that uses a laser to fuse material layers into a final part. The laser traces the pattern of each cross section of a 3D design onto a bed of powder. After one layer is built, the build platform lowers and another layer is built on top of the previous layer.
+                        Selective laser sintering (SLS) is a 3d printing process (additive manufacturing) that uses high-powered lasers to sinter, or bind, finely powdered material together into a solid structure
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
@@ -43,15 +43,16 @@ const SLSPage = () => {
                 <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
-                        <p className='text-xl text-gray-400'>Wide Range of Material Selection</p>
+                        <p className='text-xl text-gray-400'>
+                            No support structures.
+                        </p>
                     </div>
                 </div>
                 <div className='lg:col-span-4 my-4 md:col-span-6 sm:col-span-6 col-span-12'>
                     <div className='flex gap-3 items-center'>
                         <i class="bi text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Scalability and
-                            Affordable
+                            Excellent mechanical properties
                         </p>
                     </div>
                 </div>
@@ -59,7 +60,7 @@ const SLSPage = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Can work With Many Materials
+                            Fewer materials
                         </p>
                     </div>
                 </div>
@@ -67,8 +68,7 @@ const SLSPage = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Modelling Can Be
-                            Very Detailed
+                            Rough surface and porosity.
                         </p>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const SLSPage = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Filaments Aren't Easily Contaminated
+                            Ideal for dying and colouring
                         </p>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const SLSPage = () => {
                     <div className='flex gap-3 items-center'>
                         <i class="bi  text-pink-600 text-4xl bi-check-circle"></i>
                         <p className='text-xl text-gray-400'>
-                            Fused Deposition Modeling Is Easy.
+                            Excellent mechanical properties
                         </p>
                     </div>
                 </div>
@@ -102,16 +102,19 @@ const SLSPage = () => {
 
                 <div className=" pt-6">
                     <p>
-                        Before the FDM printing process begins, a design is input into the printer’s computer. The computer is equipped with a computer-aided design (CAD) program, which divides the build into different layers or cross sections.
+                        The SLS process produces very strong adhesion between layers so parts have good isotropic properties. This means that their tensile strength, hardness and elongation to break are similar across the x, y and z axes.
                     </p>
                     <p className='pt-4'>
-                        Once this step is complete, nozzles located inside the printer distributes heated plastic filaments onto a build platform to form each cross section of the part. Once one layer is complete, the build platform lowers so that the nozzles can start constructing the layer above it. This process is repeated layer by layer until the desired part is built.
+                        These properties mean that the printed parts are often a good alternative to injection moulded parts – whether for prototyping or to produce low volumes. Because of the materials used, generally Nylon, the parts also offer good chemical resistance.
+                    </p>
+                    <p className='pt-4'>
+                        Parts produced by SLS tend to have a porous surface – which could be an advantage or a disadvantage depending on your application. What it does mean is that they are an excellent choice for dying or colouring
                     </p>
                 </div>
 
             </div>
             <div className=" col-span-12 md:col-span-6 lg:col-span-6 bg-black">
-                <img src={Img2} alt="" className=" object-cover w-full h-[30rem]" />
+                <img src={Img2} alt="" className=" object-fill w-full h-[30rem]" />
             </div>
         </div>
         <div className='bg-black text-white p-10 pt-24  '>

@@ -22,7 +22,7 @@ const FDMPage = () => {
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
                     <div className="text-4xl font-bold">What is FDM?</div>
                     <div className=" text-base font-light pt-6">
-                        The technique is well-suited for basic proof-of-concept models, as well as quick and low-cost prototyping of simple parts, such as parts that might typically be machined. FDM parts tend to have visible layer lines and might show inaccuracies around complex features.
+                    The technique is well-suited for basic proof-of-concept models, as well as quick and low-cost prototyping of simple parts, such as parts that might typically be machined. FDM parts tend to have visible layer lines and might show inaccuracies around complex features.
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote

@@ -73,9 +73,14 @@ const Home = () => {
                 <div className="grid grid-cols-12 ">
 
                     <div className="lg:col-span-6 col-span-12 px-10 pt-5  h-full  bg-white">
-                        <div className="lg:text-5xl md:text-4xl text-2xl font-bold">WELCOME TO THE LEALM OF UNLIMITED POSSIBILITIES</div>
+                        <div className="lg:text-5xl md:text-4xl text-2xl font-bold ">
+                            <p>WELCOME</p>
+                            <p>TO THE LEALM</p>
+                            <p>OF UNLIMITED</p>
+                            <p>POSSIBILITIES</p>
+                        </div>
                         <div className="border-b-[0.4rem] w-36 sm:w-40 mt-2 border-red-500"></div>
-                        <div className="text-gray-700 font-light mt-4  text-xl p-3">
+                        <div className="text-gray-900  mt-4  text-xl p-3">
                             <p>
                                 KSD Technologies is a leading top-notch 3D modelling, prototyping & manufacturing services with a team of skilled designers & operators, We can create 3D models and manufacturing of parts for a diverse range of projects, from diff industries like Automobile, Defense, household, Buildings.
                             </p>
