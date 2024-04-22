@@ -11,7 +11,7 @@ import Footer from '../component/Footer'
 import Blog from './companyPages/Blog'
 import Contact from '../component/Contact'
 import Home from '../component/Home'
-import BgVdo from "../asset/videoplayback.mp4"
+import BgVdo from "../asset/videoplayback.webm"
 
 
 const HomeOne = () => {
@@ -34,16 +34,6 @@ const HomeOne = () => {
     }, []);
 
     return <div className=''>
-
-        {/* <video autoPlay loop muted className='md:top-0 top-20 w-full  z-[-10] bg-white  fixed ' src={BgVdo}></video> */}
-
-        {/* <div className=''>
-            <video ref={videoRef} autoPlay loop muted className=' w-full top-0  z-[-10] bg-white fixed'>
-                <source src={BgVdo} type='video/mp4' />
-                Your browser does not support the video tag.
-            </video>
-
-        </div> */}
 
         {/* <Navbar /> */}
         <Home />

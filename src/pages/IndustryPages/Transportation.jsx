@@ -17,7 +17,7 @@ const Transportation = () => {
                 </div>
 
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
-                    <div className="text-4xl font-bold">Defence</div>
+                    <div className="text-4xl font-bold">Transportation</div>
                     <div className=" text-base font-light pt-6">
                         From ensuring stringent quality control in manufacturing to enabling efficient maintenance through digital modeling, 3D scanning extends its influence across diverse modes of transportation, including automotive, aerospace, marine, and railways.As the transportation industry embraces the capabilities of 3D scanning, it navigates a future marked by innovation, sustainability, and heightened operational effectiveness.
                     </div>
@@ -44,7 +44,7 @@ const Transportation = () => {
                 <img src={Img2} alt="" className=" object-cover w-full h-[30rem]" />
             </div>
         </div>
-        <div className='bg-black text-white p-10 pt-24  '>
+        {/* <div className='bg-black text-white p-10 pt-24  '>
 
             <div className='text-center flex-col flex items-center '>
                 <div className='text-2xl font-bold '>
@@ -96,9 +96,9 @@ const Transportation = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
-        <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
+        {/* <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
             <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
                 <img src={Img6} alt="" className="w-full" />
                 <div class='text-start '>
@@ -136,7 +136,7 @@ const Transportation = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
     </div >

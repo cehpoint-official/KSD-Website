@@ -113,7 +113,7 @@ const Jigs = () => {
                 <img src={Img2} alt="" className=" object-cover w-full h-[30rem]" />
             </div>
         </div>
-        <div className='bg-black text-white p-10 pt-24  '>
+        {/* <div className='bg-black text-white p-10 pt-24  '>
 
             <div className='text-center flex-col flex items-center '>
                 <div className='text-2xl font-bold '>
@@ -163,9 +163,9 @@ const Jigs = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
-        <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
+        {/* <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
             <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
                 <img src={Img6} alt="" className="w-full" />
                 <div class='text-start '>
@@ -205,7 +205,7 @@ const Jigs = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
         {/* <Footer /> */}

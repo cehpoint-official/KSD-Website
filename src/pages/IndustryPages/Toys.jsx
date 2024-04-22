@@ -69,7 +69,7 @@ const Toys = () => {
                         </div>
                     </div>
                 </div>
-                <div class="lg:col-span-4 md:col-span-6 col-span-12 bg-white ...">
+                {/* <div class="lg:col-span-4 md:col-span-6 col-span-12 bg-white ...">
                     <img src={Img4} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className=' bg-white  text-black p-5'>
@@ -81,37 +81,37 @@ const Toys = () => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div class="lg:col-span-4 md:col-span-6 col-span-12 bg-white ...">
                     <img src={Img5} alt="" className="w-full " />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
                             <p className='font-semibold text-xl'>  Efficient Manufacturing</p>
                             <p className='my-3'>
+                                Household Industry is defined as an industry conducted by one or more members of the household at home or within the village in rural areas and only within the precincts of the house where the household lives in urban areas
 
-                                By providing accurate data for the production of toy components, 3D scanning streamlines manufacturing processes. This efficiency leads to cost savings, shorter production cycles, and the ability to respond quickly to market demands.
+                                They are called so because they are small scale industries which require less capital and employ few people. Production also takes place in small quantities. Basket weaving, local bakeries and handicrafts fall under these categories
                             </p>
 
+                        </div>
+                    </div>
+                </div>
+                <div class=" lg:col-span-4 md:col-span-6 col-span-12 bg-white ...">
+                    <img src={Img6} alt="" className="w-full" />
+                    <div class='text-start '>
+                        <div className='border-slate-500   text-black p-5'>
+                            <p className='font-semibold text-xl'> Design Optimization</p>
+                            <p className='my-3'>
+                                3D scanning allows for the precise capture of intricate details and dimensions of household items, facilitating accurate digital models. Designers can use this data to refine and optimize the aesthetics and functionality of products.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
-            <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
-                <img src={Img6} alt="" className="w-full" />
-                <div class='text-start '>
-                    <div className='border-slate-500 bg-white  text-black p-5'>
-                        <p className='font-semibold text-xl'> Design Optimization</p>
-                        <p className='my-3'>
-
-                            3D scanning allows for the precise capture of intricate details and dimensions of household items, facilitating accurate digital models. Designers can use this data to refine and optimize the aesthetics and functionality of products.
-
-                        </p>
-                    </div>
-                </div>
-            </div>
+        {/* <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
+           
             <div class="lg:col-span-4 md:col-span-6 col-span-12 ...">
                 <img src={Img7} alt="" className="w-full" />
                 <div class='text-start '>
@@ -136,7 +136,7 @@ const Toys = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
     </div >

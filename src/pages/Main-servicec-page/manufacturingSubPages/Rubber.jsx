@@ -1,6 +1,6 @@
 import React from 'react'
 import Img1 from "../../../asset/main-services-page/Manufacturing/rubber/img-1.png"
-import Img2 from "../../../asset/main-services-page/Manufacturing/rubber/img-2.png"
+import Img2 from "../../../asset/Website-Picture-gallery/rubber-img.webp"
 import Img3 from "../../../asset/main-services-page/Manufacturing/rubber/img-3.png"
 import Img4 from "../../../asset/main-services-page/Manufacturing/rubber/img-4.png"
 import Img5 from "../../../asset/main-services-page/Manufacturing/rubber/img-5.png"
@@ -92,7 +92,7 @@ const Rubber = () => {
 
         </div>
 
-        <div className=" grid grid-cols-12 bg-black  text-black">
+        <div className=" grid grid-cols-12   text-black">
 
 
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
@@ -110,8 +110,8 @@ const Rubber = () => {
                 </div>
 
             </div>
-            <div className=" col-span-12 md:col-span-6 lg:col-span-6 bg-black">
-                <img src={Img2} alt="" className=" object-cover w-full h-[30rem]" />
+            <div className=" col-span-12 md:col-span-6 lg:col-span-6 ">
+                <img src={Img2} alt="" className=" object-fill " />
             </div>
         </div>
         <div className='bg-black text-white p-10 pt-24  '>

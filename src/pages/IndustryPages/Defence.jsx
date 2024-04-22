@@ -3,7 +3,7 @@ import Img1 from "../../asset/industries-img/Defence/img-1.png"
 import Img2 from "../../asset/industries-img/Defence/img-2.png"
 import Img3 from "../../asset/industries-img/Defence/img-3.png"
 import Img4 from "../../asset/industries-img/Defence/img-4.png"
-import Img5 from "../../asset/industries-img/Defence/img-5.png"
+import Img5 from "../../asset/Website-Picture-gallery/defence-img.webp"
 import Img6 from "../../asset/industries-img/Defence/img-6.png"
 import Img7 from "../../asset/industries-img/Defence/img-7.png"
 import Img8 from "../../asset/industries-img/Defence/img-8.png"
@@ -83,13 +83,12 @@ const Defence = () => {
                     </div>
                 </div>
                 <div class="lg:col-span-4 md:col-span-6 col-span-12 bg-white ...">
-                    <img src={Img5} alt="" className="w-full " />
+                    <img src={Img5} alt="" className="h-[19rem] lg:ms-[12%] md:ms-16 ms-[20%] w-auto object-cover" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl'>Weapon Systems Development</p>
+                            <p className='font-semibold text-xl'>Safety Equipments</p>
                             <p className='my-3'>
-
-                                By providing accurate data for the production of toy components, 3D scanning streamlines manufacturing processes. This efficiency leads to cost savings, shorter production cycles, and the ability to respond quickly to market demands.
+                                It is a piece of personal armor designed specifically to protect the head during combat.
                             </p>
 
                         </div>

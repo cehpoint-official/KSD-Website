@@ -114,7 +114,7 @@ const Industrial = () => {
 
             <div className='text-center flex-col flex items-center '>
                 <div className='text-2xl font-bold '>
-                    The Material Available  For Jigs And Fixtures
+                    used for fabrication
                 </div>
                 <div className='bg-pink-600 w-48 mt-3 h-[3px] rounded-xl'></div>
 
@@ -138,7 +138,7 @@ const Industrial = () => {
                     <img src={Img4} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className=' bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl'>Sheet Metal</p>
+                            <p className='font-semibold text-xl'>Copper</p>
                             <p className='my-3'>
 
                                 Rubber diaphragms are sealing materials used to prevent leakage or friction. They are designed to withstand the effects of pressure while preventing any form of liquid from escaping. Rubber diaphragms are a barrier between two enclosures or chambers to prevent contaminants from entering.
@@ -151,7 +151,7 @@ const Industrial = () => {
                     <img src={Img5} alt="" className="w-full" />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl'>Stainless Steel</p>
+                            <p className='font-semibold text-xl'>Brass</p>
                             <p className='my-3'>
                                 Rubber diaphragms are sealing materials used to prevent leakage or friction. They are designed to withstand the effects of pressure while preventing any form of liquid from escaping. Rubber diaphragms are a  pressure ing. Rubber diaphragms are a  p while preventing any form of liquid .
                             </p>

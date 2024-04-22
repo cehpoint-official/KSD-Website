@@ -183,7 +183,7 @@ const Navbar = () => {
                                                         <p className='mt-5 font-bold'><Link to="/manufacturing" className='hover:text-[#ff0000]'>MANUFACTURING</Link></p>
                                                         <p className='text-sm my-4'><Link to="/manufacturing/plastic" className='hover:text-[#ff0000]'>Plastic  Injection Mould</Link></p>
                                                         <p className='text-sm my-4'><Link to="/manufacturing/rubber" className='hover:text-[#ff0000]'>Rubber Mould</Link></p>
-                                                        <p className='text-sm my-4'><Link to="/manufacturing/casting" className='hover:text-[#ff0000]'>Aasting and Froging Tool</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/manufacturing/casting" className='hover:text-[#ff0000]'>Casting and Froging Tool</Link></p>
                                                         <p className='text-sm my-4'><Link to="/manufacturing/jig" className='hover:text-[#ff0000]'>Gig & Fixtures</Link></p>
                                                         <p className='text-sm my-4'><Link to="/manufacturing/injection" className='hover:text-[#ff0000]'>Injection Moulding</Link></p>
                                                         <p className='text-sm my-4'><Link to="/manufacturing/industrial" className='hover:text-[#ff0000]'>Industrial Fabrication</Link></p>
@@ -202,15 +202,15 @@ const Navbar = () => {
                                         <motion.div
                                             whileHover={{ scale: 1.05 }}
                                             transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                                            className='z-10 absolute hidden text-white group-hover:block right-16 top-[4.7rem] cursor-default text-start '>
+                                            className='z-10 absolute hidden text-white group-hover:block right-36 top-[4.7rem] cursor-default text-start '>
 
-                                            <div className='sm:flex bg-gray-900 mx-10 gap-10 p-10'>
+                                            <div className='sm:flex bg-gray-900 mx-10 gap-10 p-10 '>
                                                 <div className='flex-col flex justify-center items-center'>
                                                     <img src={NavImg1} className='sm:w-44 sm:h-24' alt="" />
                                                     <img src={NavImg2} className='sm:w-44 sm:h-24' alt="" />
                                                     <img src={NavImg3} className='sm:w-44 sm:h-24' alt="" />
                                                 </div>
-                                                <div className=''>
+                                                <div className='sm:me-36 me-10'>
                                                     <p className='mt-5 font-bold'>
                                                         <Link to="/industry" className='hover:text-[#ff0000]'>INDUSTRIES</Link>
                                                     </p>
@@ -220,9 +220,9 @@ const Navbar = () => {
                                                     <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/consumer">Consumer Goods</Link>
                                                     </p>
-                                                    <p className='text-sm my-4 hover:text-[#ff0000]'>
+                                                    {/* <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/house" >House Hold</Link>
-                                                    </p>
+                                                    </p> */}
                                                     <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/toys" >Toys</Link>
                                                     </p>
@@ -232,17 +232,20 @@ const Navbar = () => {
                                                     <p className='text-sm my-4 hover:text-[#ff0000]'>
                                                         <Link to="/industry/transportation" >Transportation</Link>
                                                     </p>
+                                                    <p className='text-sm my-4 hover:text-[#ff0000]'>
+                                                        <Link to="/industry/medical">Medical Technology</Link>
+                                                    </p>
 
                                                 </div>
-                                                <div className='me-5'>
+                                                {/* <div className='me-5'>
                                                     <p className='text-sm my-4 mt-16 hover:text-[#ff0000]'>
-                                                        <Link to="/industry/medical">Medical Technology</Link>
+                                                       
                                                     </p>
                                                     <p className='text-sm my-4'>Sheet Metal Forming</p>
                                                     <p className='text-sm my-4'>Casting Foundry</p>
                                                     <p className='text-sm my-4'>Injection Moulding</p>
                                                     <p className='text-sm my-4'>Tool & Die Manufacturer</p>
-                                                </div>
+                                                </div> */}
 
                                             </div>
                                         </motion.div>
@@ -442,9 +445,9 @@ const Navbar = () => {
                         <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/consumer" >Consumer Goods</Link>
                         </p>
-                        <p className='text-sm my-4 hover:text-[#ff0000]'>
+                        {/* <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/house" >House Hold</Link>
-                        </p>
+                        </p> */}
                         <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/toys" >Toys</Link>
                         </p>
@@ -454,16 +457,19 @@ const Navbar = () => {
                         <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/transportation" >Transportation</Link>
                         </p>
-                    </div>
-                    <div className='col-span-12 lg:col-span-2 md:col-span-4'>
-                        <p className='text-sm my-4 mt-10 hover:text-[#ff0000]'>
+                        <p className='text-sm my-4 hover:text-[#ff0000]'>
                             <Link to="/industry/medical">Medical Technology</Link>
+                        </p>
+                    </div>
+                    {/* <div className='col-span-12 lg:col-span-2 md:col-span-4'>
+                        <p className='text-sm my-4 mt-10 hover:text-[#ff0000]'>
+
                         </p>
                         <p className='text-sm my-4'>Sheet Metal Forming</p>
                         <p className='text-sm my-4'>Casting Foundry</p>
                         <p className='text-sm my-4'>Injection Moulding</p>
                         <p className='text-sm my-4'>Tool & Die Manufacturer</p>
-                    </div>
+                    </div> */}
 
                 </div>
 

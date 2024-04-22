@@ -19,7 +19,7 @@ const Injection = () => {
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
                     <div className="text-4xl font-bold">Injection Moulding</div>
                     <div className=" text-base font-light pt-6">
-                        With two horizontal injection molding machines from Toshiba and 1 vertical injection molding machine, we provide injection molding service for various quantities and for different kinds of materials.
+                        Injection molding is a method to obtain molded products by injecting plastic materials molten by heat into a mold, and then cooling and solidifying them. The method is suitable for the mass production of products with complicated shapes, and takes a large part in the area of plastic processing.
                     </div>
                     <button className='hover:border-pink-700 hover:bg-pink-600  border-pink-500 border-2 hover:text-white text-pink-400 focus:border-2 font-bold px-10 py-2 rounded-lg md:mb-0 md:mr-2'>
                         Get a Quote
@@ -92,17 +92,13 @@ const Injection = () => {
 
 
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
-                <div className="md:text-4xl text-3xl font-bold ">Our Injection Moulding Manufacturing</div>
+                <div className="md:text-4xl text-3xl font-bold ">Our Injection Moulding Services</div>
                 <div className='border-b-4 w-48 mt-3 border-pink-600 rounded-xl'></div>
 
                 <div className=" pt-6">
                     <p>
-                        We have mold design and manufacturing,injection molding, precision machining core technology, as well as the industry's advanced testing equipment.With the advancement of in-house technologies, we now offer the core injection molding service,which guarantees that we do it all from prototyping to parts through production.
+                        KSD provider of advanced plastic injection molding services. We offer a complete manufacturing solution that covers every aspect of raw material verification, tool making, part fabrication, finishing, and final inspection. Our international team of manufacturing experts is committed to providing you with the highest level of professional support for plastic injection molding services of any size or complexity
                     </p>
-                    <p className='mt-3'>
-                        We give the quality assured products.
-                    </p>
-
                 </div>
 
             </div>
@@ -110,7 +106,7 @@ const Injection = () => {
                 <img src={Img2} alt="" className=" object-cover w-full h-[30rem]" />
             </div>
         </div>
-        <div className='bg-black text-white p-10 pt-24  '>
+        {/* <div className='bg-black text-white p-10 pt-24  '>
 
             <div className='text-center flex-col flex items-center '>
                 <div className='text-2xl font-bold '>
@@ -160,9 +156,9 @@ const Injection = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
-        <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
+        {/* <div class="grid grid-cols-12 gap-6 mt-20 py-10 px-10 lg:px-12 ">
             <div class=" lg:col-span-4 md:col-span-6 col-span-12 ...">
                 <img src={Img6} alt="" className="w-full" />
                 <div class='text-start '>
@@ -200,7 +196,7 @@ const Injection = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
 
     </div >

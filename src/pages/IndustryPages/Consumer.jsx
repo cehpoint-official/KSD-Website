@@ -2,7 +2,7 @@ import React from 'react'
 import Img1 from "../../asset/industries-img/Consumer/img-1.png"
 import Img2 from "../../asset/industries-img/Consumer/img-2.png"
 import Img3 from "../../asset/industries-img/Consumer/img-3.png"
-import Img4 from "../../asset/industries-img/Consumer/img-4.png"
+import Img4 from "../../asset/Website-Picture-gallery/unnamed-1.webp"
 import Img5 from "../../asset/industries-img/Consumer/img-5.png"
 import Img6 from "../../asset/industries-img/Consumer/img-6.png"
 import Img7 from "../../asset/industries-img/Consumer/img-7.png"
@@ -84,12 +84,12 @@ const Consumer = () => {
                     </div>
                 </div>
                 <div class="lg:col-span-4 md:col-span-6 col-span-12 bg-white ...">
-                    <img src={Img3} alt="" className="w-full " />
+                    <img src={Img4} alt="" className="w-full " />
                     <div class='text-start '>
                         <div className='border-slate-500 bg-white  text-black p-5'>
-                            <p className='font-semibold text-xl'>Footwear</p>
+                            <p className='font-semibold text-xl'>Household</p>
                             <p className='my-3'>
-                                In the footwear industry, 3D scanning enables the creation of accurate digital models for shoes. This technology facilitates customized fittings, enhances design innovation, and streamlines the production of diverse footwear styles.
+                                We are offering here the plastic household products of various types that include a number of items which are needed in every common household.
                             </p>
 
                         </div>
