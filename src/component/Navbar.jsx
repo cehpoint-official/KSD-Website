@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { delay, motion } from "framer-motion";
-import NavbarImg from "../asset/nav-logo.png";
+import NavbarLogo from "../asset/logo.jpg";
 import Img1 from "../asset/services-img/nav-ser-img-1.png";
 import Img2 from "../asset/services-img/nav-ser-img-2.png";
 import Img3 from "../asset/services-img/nav-ser-img-3.png";
@@ -89,10 +89,10 @@ const Navbar = () => {
             <div className="">
                 <div className=''>
                     <div className='w-full  z-10 bg-white px-10 '>
-                        <div className=' py-2 '>
+                        <div className=' pt-1 '>
                             <div className='flex items-center justify-between'>
                                 <Link to="/">
-                                    <img className='pe-4 lg:h-14 md:h-12 h-12 ' src={NavbarImg} alt="" />
+                                    <img className='pe-4 lg:h-20 md:h-16 h-14 ' src={NavbarLogo} alt="" />
                                 </Link>
                                 <div className='text-[1.1rem] hidden lg:block space-x-3'>
 
@@ -184,7 +184,7 @@ const Navbar = () => {
                                                         <p className='text-sm my-4'><Link to="/manufacturing/plastic" className='hover:text-[#ff0000]'>Plastic  Injection Mould</Link></p>
                                                         <p className='text-sm my-4'><Link to="/manufacturing/rubber" className='hover:text-[#ff0000]'>Rubber Mould</Link></p>
                                                         <p className='text-sm my-4'><Link to="/manufacturing/casting" className='hover:text-[#ff0000]'>Casting and Froging Tool</Link></p>
-                                                        <p className='text-sm my-4'><Link to="/manufacturing/jig" className='hover:text-[#ff0000]'>Gig & Fixtures</Link></p>
+                                                        <p className='text-sm my-4'><Link to="/manufacturing/jig" className='hover:text-[#ff0000]'>Jig & Fixtures</Link></p>
                                                         <p className='text-sm my-4'><Link to="/manufacturing/injection" className='hover:text-[#ff0000]'>Injection Moulding</Link></p>
                                                         <p className='text-sm my-4'><Link to="/manufacturing/industrial" className='hover:text-[#ff0000]'>Industrial Fabrication</Link></p>
                                                     </div>
@@ -411,7 +411,7 @@ const Navbar = () => {
                         <p className='text-sm my-4'><Link to="/manufacturing/plastic" className='hover:text-[#ff0000]'>Plastic  Injection Mould</Link></p>
                         <p className='text-sm my-4'><Link to="/manufacturing/rubber" className='hover:text-[#ff0000]'>Rubber Mould</Link></p>
                         <p className='text-sm my-4'><Link to="/manufacturing/casting" className='hover:text-[#ff0000]'>Casting and Froging Tool</Link></p>
-                        <p className='text-sm my-4'><Link to="/manufacturing/jig" className='hover:text-[#ff0000]'>Gig & Fixtures</Link></p>
+                        <p className='text-sm my-4'><Link to="/manufacturing/jig" className='hover:text-[#ff0000]'>Jig & Fixtures</Link></p>
                         <p className='text-sm my-4'><Link to="/manufacturing/injection" className='hover:text-[#ff0000]'>Injection Moulding</Link></p>
                         <p className='text-sm my-4'><Link to="/manufacturing/industrial" className='hover:text-[#ff0000]'>Industrial Fabrication</Link></p>
                     </div>

@@ -15,7 +15,7 @@ const QualityControl = () => {
         <div className='bg-black text-white py-10'>
             <div className=" grid grid-cols-12  gap-4 px-8">
                 <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
-                    <img src={Img1} alt="" className=" object-fill md:h-[23rem] w-full " />
+                    <img src={Img1} alt="" className=" object-fill" />
                 </div>
 
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 lg:mt-8">

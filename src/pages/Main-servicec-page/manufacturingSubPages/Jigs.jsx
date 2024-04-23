@@ -20,7 +20,7 @@ const Jigs = () => {
                 </div>
 
                 <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 space-y-5 ">
-                    <div className="text-4xl font-bold">Jigs & Fixtures</div>
+                    <div className="text-4xl font-bold">Jig & Fixtures</div>
                     <div className=" text-base font-light pt-6">
                         We support different drill jigs, VMC system fixtures, testing attachments run out. These jigs & attachments are built on specific machines such as VMC, CNC, and Cylindrical Grinding & Surface Grinding. Jigs and fixtures are two distinct terms.
                     </div>
@@ -34,7 +34,7 @@ const Jigs = () => {
 
             <div className='text-center flex-col flex items-center mt-28'>
                 <div className='text-2xl font-bold '>
-                    Why Jigs & Fixtures?
+                    Why Jig & Fixtures?
                 </div>
                 <div className='bg-pink-600 w-48 mt-3 h-[3px] rounded-xl'></div>
             </div>
@@ -95,7 +95,7 @@ const Jigs = () => {
 
 
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
-                <div className="md:text-4xl text-3xl font-bold ">Our Jigs & Fixtures Manufacturing</div>
+                <div className="md:text-4xl text-3xl font-bold ">Our Jig & Fixtures Manufacturing</div>
                 <div className='border-b-4 w-48 mt-3 border-pink-600 rounded-xl'></div>
 
                 <div className=" pt-6">

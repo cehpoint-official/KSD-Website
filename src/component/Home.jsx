@@ -29,12 +29,12 @@ const Home = () => {
                     initial={{ x: -1400 }}
                     animate={{ x: 0 }}
                     transition={{ duration: 1, delay: 1 }}
-                    className='font-semibold lg:text-6xl md:text-4xl mt-12 lg:mt-28 text-2xl mx-auto'>
+                    className='font-semibold lg:text-6xl md:text-4xl md:mt-12 sm:mt-8 mt-4 lg:mt-28 text-2xl mx-auto'>
                     {/* <p className='mt-12 lg:mt-20 mb-4 md:mb-10'>LEADERS IN</p> */}
-                    <p><span className='text-yellow-400'>URGENT</span> 3D CAD DESIGNING</p>
-                    <p><span className='text-yellow-400'>QUALITY</span> 3D PRINTING</p>
-                    <p><span className='text-yellow-400'>PRECISION</span> PROTOTYPING</p>
-                    <p><span className='text-yellow-400'>PRECISION</span> MANUFACTURING</p>
+                    <p className=''><span className='text-yellow-400'>URGENT</span> 3D CAD DESIGNING</p>
+                    <p className='my-4'><span className='text-yellow-400'>QUALITY</span> 3D PRINTING</p>
+                    <p className=''><span className='text-yellow-400'>PRECISION</span> PROTOTYPING</p>
+                    <p className='my-4 pb-10'><span className='text-yellow-400'>PRECISION</span> MANUFACTURING</p>
 
                 </motion.div>
                 {/* <motion.div
@@ -70,29 +70,29 @@ const Home = () => {
         {/* welcome page start */}
         <div className=' bg-cover mb-6 md:mb-8 lg:mb-10'>
             <div className=''>
-                <div className="grid grid-cols-12 ">
+                <div className="grid grid-cols-12 bg-white">
 
-                    <div className="lg:col-span-6 col-span-12 px-10 pt-5  h-full  bg-white">
-                        <div className="lg:text-5xl md:text-4xl text-2xl font-bold ">
-                            <p>WELCOME</p>
-                            <p>TO THE LEALM</p>
-                            <p>OF UNLIMITED</p>
-                            <p>POSSIBILITIES</p>
+                    <div className="lg:col-span-6 col-span-12 px-10 pt-5  h-full  ">
+                        <div className="lg:text-5xl md:text-4xl text-3xl  font-bold ">
+                            <p className='my-2'>WELCOME</p>
+                            <p className='my-2'>TO THE LEALM</p>
+                            <p className='my-2'>OF UNLIMITED</p>
+                            <p className='my-2'>POSSIBILITIES</p>
                         </div>
                         <div className="border-b-[0.4rem] w-36 sm:w-40 mt-2 border-red-500"></div>
-                        <div className="text-gray-900  mt-4  text-xl p-3">
+                        <div className="text-gray-900  mt-8  text-2xl p-3">
                             <p>
                                 KSD Technologies is a leading top-notch 3D modelling, prototyping & manufacturing services with a team of skilled designers & operators, We can create 3D models and manufacturing of parts for a diverse range of projects, from diff industries like Automobile, Defense, household, Buildings.
                             </p>
 
-                            <p className='mt-2'>
+                            <p className='mt-3'>
                                 Our Services are available to a wide range of industries, Including architecture, fashion, Computer manufacturing, Automobile, Highways, railways, Education & Training
                             </p>
 
                         </div>
                     </div>
                     <div class="lg:col-span-6 col-span-12">
-                        <img src={Img} alt="" class="h-full  w-full" />
+                        <img src={Img} alt="" class="" />
                     </div>
 
                 </div>

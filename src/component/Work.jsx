@@ -54,14 +54,14 @@ const Work = () => {
                 <div className='border-b-[0.4rem] border-purple-600 w-64 '></div>
 
             </div>
-            <div className="grid grid-cols-12 lg:mx-36 mx-8 gap-10">
+            <div className="grid grid-cols-12 lg:mx-36 mx-8 gap-10 ">
                 <motion.div
                     data-aos="fade-up"
                     data-aos-duration="800"
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
-                    className="col-span-12 md:col-span-8 md:mx-0 overflow-hidden  group relative">
-                    <img className=" " src={Work1} alt="" />
+                    className="col-span-12 md:col-span-8 md:mx-0 overflow-hidden bg-red-500 group relative">
+                    <img className="object-cover h-full w-full" src={Work1} alt="" />
                     {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
@@ -86,7 +86,7 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group relative">
-                    <img className=" " src={Work7} alt="" />
+                    <img className="object-cover h-full w-full" src={Work7} alt="" />
                     {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
@@ -110,8 +110,8 @@ const Work = () => {
                     data-aos-duration="8000"
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
-                    className="col-span-12 md:col-span-8 relative group">
-                    <img className="" src={Work3} alt="" />
+                    className="col-span-12 md:col-span-8 relative group bg-red-500">
+                    <img className="object-cover h-full w-full" src={Work3} alt="" />
                     {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
@@ -136,8 +136,8 @@ const Work = () => {
                     data-aos-duration="8000"
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
-                    className="col-span-12 md:col-span-4 group relative">
-                    <img className="  " src={Work10} alt="" />
+                    className="col-span-12 md:col-span-4 group relative bg-red-500">
+                    <img className=" object-cover h-full w-full " src={Work10} alt="" />
                     {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
@@ -162,7 +162,7 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group  relative">
-                    <img className=" " src={Work5} alt="" />
+                    <img className="object-cover h-full w-full " src={Work5} alt="" />
                     {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
@@ -186,8 +186,8 @@ const Work = () => {
                     data-aos-duration="8000"
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
-                    className="col-span-12 md:col-span-4 relative group">
-                    <img className=" " src={Work9} alt="" />
+                    className="col-span-12 md:col-span-4 relative bg-red-500 group">
+                    <img className=" object-cover h-full w-full" src={Work9} alt="" />
                     {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
@@ -212,7 +212,7 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
-                    <img className="" src={Work8} alt="" />
+                    <img className="object-cover h-full w-full" src={Work8} alt="" />
                     {/* <motion.div className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button
@@ -236,7 +236,7 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 group  relative">
-                    <img className="" src={Work6} alt="" />
+                    <img className="object-cover h-full w-full" src={Work6} alt="" />
                     {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
@@ -261,7 +261,7 @@ const Work = () => {
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
                     className="col-span-12 md:col-span-4 relative group">
-                    <img className="" src={Work4} alt="" />
+                    <img className="object-cover h-full w-full" src={Work4} alt="" />
                     {/* <motion.div
                         className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
@@ -285,8 +285,8 @@ const Work = () => {
                     data-aos-duration="8000"
                     // whileHover={{ scale: 1.04 }}
                     // transition={{ type: "spring", stiffness: 80, damping: 50 }}
-                    className="col-span-12 md:col-span-4 relative group">
-                    <img className="" src={Work2} alt="" />
+                    className="col-span-12 md:col-span-4 relative group bg-red-600">
+                    <img className="object-cover h-full w-full" src={Work2} alt="" />
                     {/* <motion.div className='absolute top-0 h-full w-full transition duration-700 ease-in-out group-hover:bg-opacity-65 group-hover:bg-slate-300'>
 
                         <button

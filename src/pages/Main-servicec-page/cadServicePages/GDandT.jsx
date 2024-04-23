@@ -16,7 +16,7 @@ const GDandT = () => {
     <div className='bg-black text-white py-10 px-10 '>
       <div className=" grid grid-cols-12  gap-4 ">
         <div className=" col-span-12 md:col-span-6 lg:col-span-6  p-4">
-          <img src={Img1} alt="" className=" object-fill w-full h-[25rem]" />
+          <img src={Img1} alt="" className=" object-fill " />
         </div>
 
         <div className="col-span-12 md:col-span-6 lg:col-span-6 p-4 lg:mt-14 space-y-5 ">

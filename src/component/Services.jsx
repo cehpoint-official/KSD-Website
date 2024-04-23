@@ -40,11 +40,11 @@ const Services = () => {
                     whileHover={{ scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 100, damping: 50 }}
                     class='col-span-12 sm:col-span-6  md:col-span-4 lg:col-span-4 group bg-white'>
-                    <img src={Img1} alt="" className="w-full lg:h-[389px] md:h-[250px]" />
+                    <img src={Img1} alt="" className="w-full  lg:h-[389px] md:h-[250px]" />
                     <div class=''>
                         <div className='border-slate-500 bg-white p-5'>
                             <Link to="/cadServise">
-                                <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>3D model to 3D CAD Designing</p>
+                                <p className='font-semibold text-slate-700 hover:text-red-500 lg:text-3xl text-2xl'>3D CAD Designing</p>
                             </Link>
                             <p className='my-5 text-slate-800 text-xl'>
                                 we design precise 2D/3D models and seamlessly translate them into manufacturing instructions.
