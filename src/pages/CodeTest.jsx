@@ -1,12 +1,9 @@
 import React from 'react'
-import Navbar from '../component/Navbar'
 import ImgBg from "../asset/home-bg-img.png"
 import { motion } from "framer-motion"
-import { Link } from 'react-router-dom'
 
 const CodeTest = () => {
     return <>
-        {/* <Navbar /> */}
         <div className='relative'>
             <img src={ImgBg} alt="" className='object-fill h-80 w-full' />
             <motion.div
