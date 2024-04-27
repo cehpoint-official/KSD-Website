@@ -16,7 +16,7 @@ const Services = () => {
     }, []);
 
     return <>
-        <div className=' text-center flex-col  flex items-center bg-white mb-5'>
+        <div className=' text-center flex-col  flex items-center bg-white mb-6'>
 
             <div className='text-center flex-col flex items-center lg:pb-5 pt-12 '>
                 <div className='text-2xl lg:text-6xl md:text-4xl font-bold text-slate-800 pb-3'>

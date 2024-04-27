@@ -272,11 +272,11 @@ const Navbar = () => {
                                                 <div className='sm:me-36 me-10 text-start'>
                                                     <p className='mt-5 font-bold'>COMPANY</p>
                                                     <p className='text-sm my-4'>About Us</p>
-                                                    <p className='text-sm my-4'>FAQs</p>
+                                                    {/* <p className='text-sm my-4'>FAQs</p> */}
                                                     <p className='text-sm my-4'>
                                                         <Link to="/company/blog" className='hover:text-[#ff0000]'>Blogs</Link>
                                                     </p>
-                                                    <p className='text-sm my-4'>Request a Quote</p>
+                                                    {/* <p className='text-sm my-4'>Request a Quote</p> */}
                                                 </div>
                                             </div>
                                         </motion.div>
@@ -301,7 +301,7 @@ const Navbar = () => {
                                         </p>
                                     </motion.button>
                                     <Link to="/contactUs" >
-                                        <button className='bg-yellow-400 hover:bg-yellow-300 focus:ring-2 focus:ring-red-300 text-white font-semibold rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800'>
+                                        <button className='bg-[#b11f1f] hover:bg-[#fa3b3b] focus:ring-2 focus:ring-red-300 text-white font-semibold rounded-lg px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800'>
                                             Contact
                                         </button>
                                     </Link>
@@ -493,9 +493,9 @@ const Navbar = () => {
                     <div className=' col-span-12 lg:col-span-3 md:col-span-4'>
                         <p className='mt-5 font-bold'>COMPANY</p>
                         <p className='text-sm my-4'>About Us</p>
-                        <p className='text-sm my-4'>FAQs</p>
+                        {/* <p className='text-sm my-4'>FAQs</p> */}
                         <p className='text-sm my-4'>Blogs</p>
-                        <p className='text-sm my-4'>Request a Quote</p>
+                        {/* <p className='text-sm my-4'>Request a Quote</p> */}
                     </div>
                 </div>
             </motion.div>

@@ -13,8 +13,8 @@ const Contact = () => {
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8'>
                 <div className=''>
                     <div className='text-xl font-bold my-5'>CALL</div>
-                    <div>+8989898989</div>
-                    <div>+9183590239</div>
+                    <div>+919354589432</div>
+                    {/* <div>+9183590239</div> */}
                     <div className='text-xl font-bold my-5'>Mail</div>
                     <div>info@gmail.com</div>
                     <div>john@gmail.com</div>

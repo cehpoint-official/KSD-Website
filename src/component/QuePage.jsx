@@ -33,7 +33,7 @@ const QuePage = () => {
     return <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className='mt-4 py-6 px-10 bg-white '>
+        className='mt-6 py-6 px-10 bg-white '>
         <div className='flex-col text-center items-center flex  mt-6 mb-10'>
             <i className='text-xl text-slate-600 '>Just Find Your Answers Below ----</i>
             <p className='text-2xl lg:text-6xl md:text-4xl font-bold mt-4 pb-3'>

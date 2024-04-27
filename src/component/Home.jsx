@@ -31,7 +31,7 @@ const Home = () => {
                     transition={{ duration: 1, delay: 1 }}
                     className='font-semibold lg:text-6xl md:text-4xl md:mt-12 sm:mt-8 mt-4 lg:mt-28 text-2xl mx-auto'>
                     {/* <p className='mt-12 lg:mt-20 mb-4 md:mb-10'>LEADERS IN</p> */}
-                    <p className=''><span className='text-yellow-400'>URGENT</span> 3D CAD DESIGNING</p>
+                    <p className=''><span className='text-yellow-400'>3D CAD</span>  DESIGNING</p>
                     <p className='my-4'><span className='text-yellow-400'>QUALITY</span> 3D PRINTING</p>
                     <p className=''><span className='text-yellow-400'>PRECISION</span> PROTOTYPING</p>
                     <p className='my-4 pb-10'><span className='text-yellow-400'>PRECISION</span> MANUFACTURING</p>
@@ -68,14 +68,14 @@ const Home = () => {
         <Services />
 
         {/* welcome page start */}
-        <div className=' bg-cover mb-6 md:mb-8 lg:mb-10'>
+        <div className=' bg-cover '>
             <div className=''>
-                <div className="grid grid-cols-12 bg-white">
+                <div className="grid grid-cols-12 bg-white py-8">
 
-                    <div className="lg:col-span-6 col-span-12 px-10 pt-5  h-full  ">
+                    <div className="lg:col-span-6 col-span-12 px-10   h-full  ">
                         <div className="lg:text-5xl md:text-4xl text-3xl  font-bold ">
                             <p className='my-2'>WELCOME</p>
-                            <p className='my-2'>TO THE LEALM</p>
+                            <p className='my-2'>TO THE REALM</p>
                             <p className='my-2'>OF UNLIMITED</p>
                             <p className='my-2'>POSSIBILITIES</p>
                         </div>

@@ -21,14 +21,14 @@ const ContactUs = () => {
                     <p className='text-pink-600 text-2xl'>LET'S TALK</p>
                     <div className='text-xl font-bold my-5'>KSD TECHNOLOGIES</div>
                     <div className='text-xl font-bold my-2 mt-8'>CALL</div>
-                    <div>+8989898989</div>
-                    <div>+9183590239</div>
+                    <div>+919354589432</div>
+                    {/* <div>+9183590239</div> */}
                     <div className='text-xl font-bold my-2 mt-8'>Mail</div>
-                    <div>info@gmail.com</div>
-                    <div>john@gmail.com</div>
+                    <div>admin@ksdtech.in</div>
+                    <div>simran@ksdtech.in</div>
                     <div className='text-xl font-bold my-2 mt-8'>Location</div>
-                    <div>16/A, Romadan House City Tower</div>
-                    <div>New York, United States</div>
+                    <div>202-119 plot no. 147, Vishnu garden</div>
+                    <div>New Delhi - 110018</div>
                 </div>
 
                 {/* Right column */}

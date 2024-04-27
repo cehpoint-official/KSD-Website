@@ -31,7 +31,7 @@ const Work = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCount(prevCount => (prevCount >= 1800 ? 1700 : prevCount + 20));
-            setCountTwo(prevCount => (prevCount >= 80 ? 5 : prevCount + 5));
+            setCountTwo(prevCount => (prevCount >= 50 ? 5 : prevCount + 5));
             setCountThree(prevCount => (prevCount >= 50 ? 5 : prevCount + 5));
             setCountFour(prevCount => (prevCount >= 40 ? 5 : prevCount + 5));
         }, 500);
@@ -46,7 +46,7 @@ const Work = () => {
 
         <div
 
-            className='text-center  items-center mt-4 bg-white py-10'>
+            className='text-center  items-center mt-6 bg-white py-10'>
             <div className='text-center flex-col flex items-center pb-10 lg:pb-12'>
                 <div className='text-2xl lg:text-6xl md:text-4xl font-bold pb-3'>
                     SEE OUR LATEST WORK GALLERY
@@ -320,7 +320,7 @@ const Work = () => {
                 <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white   md:col-span-3 sm:col-span-6 flex justify-center items-center text-slate-500'>
                     <div className=''>
                         <p className="text-5xl flex font-bold  ms-6 my-4">
-                            {count}+
+                            117+
                         </p>
                         <p className="text-2xl  font-semibold ">Total Projects</p>
                     </div>
@@ -336,7 +336,7 @@ const Work = () => {
                 <div className='col-span-12 lg:col-span-3 hover:shadow-2xl duration-500 hover:shadow-white md:col-span-3 sm:col-span-6 flex justify-center items-center text-slate-500'>
                     <div>
                         <p className="text-5xl flex font-bold  ms-9 my-4">
-                            {countThree}+
+                            30+
                         </p>
                         <p className="text-2xl  font-semibold ">Team Support</p>
                     </div>

@@ -10,7 +10,7 @@ const Custemer = () => {
     return <div
         data-aos="fade-up"
         data-aos-duration="900"
-        className='mt-8 bg-white py-6'>
+        className='mt-6 bg-white py-6'>
         <div className='text-center flex-col flex items-center'>
             <p className='text-gray-600 text-xl font-semibold my-4'><i>Testimonials  ---</i></p>
             <div className='text-2xl lg:text-6xl md:text-4xl  font-bold    pb-3'>
