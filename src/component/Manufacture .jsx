@@ -15,7 +15,7 @@ const Manufacture = () => {
         <div
             // data-aos="fade-up"
             // data-aos-duration="1500"
-            className=' bg-slate-50  py-16 '>
+            className=' bg-slate-50 py-16 mt-6'>
 
             <div className='text-center flex-col flex items-center'>
                 <div className='text-2xl lg:text-6xl md:text-4xl font-bold  pb-3 '>
