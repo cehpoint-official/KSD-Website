@@ -149,7 +149,7 @@ const Navbar = () => {
                                                             <Link to="/cad/classSurface" className='hover:text-[#ff0000]'>Class A Surfacing</Link>
                                                         </p>
                                                         <p className='text-sm my-4'>
-                                                            <Link to="/cad/productDesign" className='hover:text-[#ff0000]'>  Product Design Service</Link>
+                                                            <Link to="/cad/productDesign" className='hover:text-[#ff0000]'>Product Design Service</Link>
                                                         </p>
                                                         <p className='text-sm my-4'>
                                                             <Link to="/cad/drafting" className='hover:text-[#ff0000]'>2D Drafting</Link>

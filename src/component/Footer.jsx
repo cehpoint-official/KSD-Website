@@ -5,6 +5,7 @@ import LinkedinIcon from "../asset/linkedin-icon.png"
 import WhatsappIcon from "../asset/whatsapp-icon.png"
 import Aos from 'aos'
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     useEffect(() => {
@@ -31,33 +32,33 @@ const Footer = () => {
 
                 <div className='col-span-12  md:col-span-3 lg:col-span-2  border-b md:border-b-0 lg:border-b-0'>
                     <p className='text-2xl font-semibold'>Links</p>
-                    <p className='text-lg mt-6 lg:mt-10 my-3'>Home</p>
-                    <p className='text-lg my-3 '>Contact Us</p>
-                    <p className='text-lg my-3'>FAQ</p>
+                    <p className='text-lg mt-6 lg:mt-10 my-3 hover:text-[#ff0000]'><Link to="/">Home</Link></p>
+                    <Link to="/contactUs" className='text-lg my-3 hover:text-[#ff0000] '>Contact Us</Link>
+                    <p className='text-lg my-3 hover:text-[#ff0000]'>FAQ</p>
                 </div>
 
                 <div className='col-span-12  md:col-span-3 lg:col-span-3  border-b md:border-b-0 lg:border-b-0'>
                     <p className='text-2xl font-semibold'>Services</p>
-                    <p className='text-lg mt-6 lg:mt-10 my-3'>3D CAD/ CAM</p>
-                    <p className='text-lg my-3'>Prototype</p>
-                    <p className='text-lg my-3'>Manufacturing</p>
-                    <p className='text-lg my-3'>CAM</p>
-                    <p className='text-lg my-3 mb-6'>Class a surfacing</p>
+                    <p className='text-lg hover:text-[#ff0000] mt-6 lg:mt-10 my-3'><Link to="/cadServise">3D CAD/ CAM</Link></p>
+                    <p className='text-lg hover:text-[#ff0000] my-3'><Link to="/prototype">Prototype</Link></p>
+                    <p className='text-lg hover:text-[#ff0000] my-3'><Link to="/manufacturing">Manufacturing</Link></p>
+                    {/* <p className='text-lg hover:text-[#ff0000] my-3'>CAM</p> */}
+                    <p className='text-lg hover:text-[#ff0000] my-3 mb-6'><Link to="/cad/classSurface">Class a surfacing</Link></p>
                 </div>
                 <div className='col-span-12  md:col-span-3 lg:col-span-3 '>
                     <p className='text-2xl font-semibold'>Industries</p>
 
-                    <p className='my-1 text-lg mt-6 lg:mt-10'>Automotive</p>
-                    <p className='my-1 text-lg'>Consumer Goods</p>
-                    <p className='my-1 text-lg'>House Hold</p>
-                    <p className='my-1 text-lg'>Toys</p>
-                    <p className='my-1 text-lg'>Defense</p>
-                    <p className='my-1 text-lg'>Transportation</p>
-                    <p className='my-1 text-lg'>Medical Technology</p>
-                    <p className='my-1 text-lg'>Sheet Metal Forming</p>
-                    <p className='my-1 text-lg'>Casting Foundry</p>
-                    <p className='my-1 text-lg'>Injection Moulding</p>
-                    <p className='my-1 text-lg'>Tool & die Manufacturer</p>
+                    <p className='my-1 text-lg hover:text-[#ff0000] mt-6 lg:mt-10'><Link to="/industry/automotive">Automotive</Link></p>
+                    {/* <p className='my-1 text-lg'><Link>House Hold</Link></p> */}
+                    <p className='my-1 text-lg hover:text-[#ff0000]'><Link to="/industry/consumer">Consumer Goods</Link></p>
+                    <p className='my-1 text-lg hover:text-[#ff0000]'><Link to="/industry/toys">Toys</Link></p>
+                    <p className='my-1 text-lg hover:text-[#ff0000]'><Link to="/industry/defence">Defense</Link></p>
+                    <p className='my-1 text-lg hover:text-[#ff0000]'><Link to="/industry/transportation">Transportation</Link></p>
+                    <p className='my-1 text-lg hover:text-[#ff0000]'><Link to="/industry/medical">Medical Technology</Link></p>
+                    {/* <p className='my-1 text-lg'>Sheet Metal Forming</p> */}
+                    {/* <p className='my-1 text-lg'>Casting Foundry</p> */}
+                    {/* <p className='my-1 text-lg'>Injection Moulding</p> */}
+                    {/* <p className='my-1 text-lg'>Tool & die Manufacturer</p> */}
 
 
 
