@@ -40,6 +40,7 @@ import Medical from './pages/IndustryPages/Medical';
 import KSDCourses from './pages/CoursesPages/KSDCourses';
 import PayNow from './pages/Main-servicec-page/PayNow';
 import Blog from './pages/companyPages/Blog';
+import AboutUs from './pages/companyPages/AboutUs';
 
 const App = () => {
   return (
@@ -95,6 +96,7 @@ const App = () => {
 
         < Route path="/contactUs" element={<ContactUs />} />
         <Route path="/company/quote" element={<Quote />} />
+        <Route path="/company/aboutUs" element={<AboutUs />} />
         <Route path="/company/blog" element={<Blog />} />
 
         {/* Navbar Page Route */}
@@ -105,7 +107,7 @@ const App = () => {
         < Route path="/payNow" element={<PayNow />} />
 
 
-        <Route path="*" element={<h1>Page Not Found</h1>} />
+        <Route path="*" element={<h1 className='text-2xl text-center h-[80vh]'>Page Not Found</h1>} />
       </Routes>
       <Footer />
     </BrowserRouter>

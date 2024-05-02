@@ -32,6 +32,18 @@ html {
 
 }
 
+.aboutBgImg {
+    background-image: url("asset/about/about-bg.png");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
+.aboutBgImgTwo {
+    background-image: url("asset/about/about-bg-2.png");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
 .circular-container {
     position: relative;
     width: 50%;

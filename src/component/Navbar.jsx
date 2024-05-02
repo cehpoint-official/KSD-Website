@@ -271,7 +271,9 @@ const Navbar = () => {
                                                 </div>
                                                 <div className='sm:me-36 me-10 text-start'>
                                                     <p className='mt-5 font-bold'>COMPANY</p>
-                                                    <p className='text-sm my-4'>About Us</p>
+                                                    <p className='text-sm my-4'>
+                                                        <Link to="/company/aboutUs" className='hover:text-[#ff0000]'>About Us</Link>
+                                                    </p>
                                                     {/* <p className='text-sm my-4'>FAQs</p> */}
                                                     <p className='text-sm my-4'>
                                                         <Link to="/company/blog" className='hover:text-[#ff0000]'>Blogs</Link>

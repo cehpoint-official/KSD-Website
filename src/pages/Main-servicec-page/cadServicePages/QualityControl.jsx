@@ -120,19 +120,19 @@ const QualityControl = () => {
 
         </div>
 
-        <div className=" grid grid-cols-12 bg-black  text-black mx-8">
+        <div className=" grid grid-cols-12 bg-white  text-black ">
 
             <div className="col-span-12 bg-white md:col-span-6 lg:col-span-6 p-10 ps-14">
                 <div className="md:text-4xl text-3xl font-bold ">Tested Solution, Trusted Quality</div>
                 <div className='border-b-4 w-60 mt-3 border-pink-600 rounded-xl'></div>
 
-                <div className=" pt-6">
+                <div className=" pt-6 text-xl">
                     Inspection, a process to ensure that products are free from defects, is essential for manufacturing, especially for high-precision parts. The requirements for inspection are increasing as the manufacturing technology improves. Traditional methods are time-consuming and not efficient to inspect due to their limited uses and troublesome operations. It is hard for them to obtain complete data on complex parts, and they fail to measure ductile parts or parts with curved surfaces. The advent of 3D scanning technology has greatly alleviated these pain points.
                 </div>
 
             </div>
-            <div className=" col-span-12 md:col-span-6 lg:col-span-6 bg-black">
-                <img src={Img2} alt="" className=" object-cover h-[30rem]" />
+            <div className=" col-span-12 md:col-span-6 lg:col-span-6 ">
+                <img src={Img2} alt="" className=" object-cover w-full h-[30rem]" />
             </div>
         </div>
         {/* <div className='bg-black text-white p-10 pt-24  '>
