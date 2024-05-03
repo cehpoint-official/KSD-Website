@@ -44,6 +44,12 @@ html {
     /* background-size: contain; */
 }
 
+.quoteBgImg {
+    background-image: url("asset/about/quote-bg.png");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
 .circular-container {
     position: relative;
     width: 50%;
