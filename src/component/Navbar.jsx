@@ -21,44 +21,9 @@ const Navbar = () => {
     const [isIndustriesOpen, setIsIndustriesOpen] = useState(false);
     const [isCompanyOpen, setIsCompanyOpen] = useState(false);
 
-    const toggleDropdown = () => {
-        setIsOpen(!isOpen);
-        setIsServices(false);
-        setIsContactOpen(false);
-        setIsIndustriesOpen(false);
-        setIsCompanyOpen(false);
-    };
 
-    const toggleServicesPage = () => {
-        setIsServices(!isServices);
-        setIsOpen(false);
-        setIsIndustriesOpen(false);
-        setIsCompanyOpen(false);
-        setIsContactOpen(!isContactOpen);
-    };
-    const toggleContactPage = () => {
-        setIsContactOpen(!isContactOpen);
-        setIsOpen(false);
-        setIsServices(false);
-        setIsIndustriesOpen(false);
-        setIsCompanyOpen(false);
-    };
 
-    const toggleIndustriesPage = () => {
-        setIsIndustriesOpen(!isIndustriesOpen);
-        setIsOpen(false);
-        setIsServices(false);
-        setIsContactOpen(false);
-        setIsCompanyOpen(false);
-    };
 
-    const toggleCompanyPage = () => {
-        setIsCompanyOpen(!isCompanyOpen);
-        setIsOpen(false);
-        setIsServices(false);
-        setIsContactOpen(false);
-        setIsIndustriesOpen(false);
-    };
 
     useEffect(() => {
         window.scroll(0, 0)
@@ -155,7 +120,7 @@ const Navbar = () => {
                                                             <Link to="/cad/drafting" className='hover:text-[#ff0000]'>2D Drafting</Link>
                                                         </p>
                                                         <p className='text-sm my-4'>
-                                                            <Link to="/cad/conversion" className='hover:text-[#ff0000]'>Donversion Of 2d To 3d</Link>
+                                                            <Link to="/cad/conversion" className='hover:text-[#ff0000]'>Conversion Of 2d To 3d</Link>
                                                         </p>
                                                     </div>
 
